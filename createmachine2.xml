@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<machine>
+    <datastores>
+        <datastore>
+            <datastoreUUID>998b1841-7a03-4fb3-96f1-b9d2503b1ba3</datastoreUUID>
+            <directory></directory>
+            <enabled>true</enabled>
+            <id>1</id>
+            <name>Abiquo</name>
+            <rootPath>72e3b281-2cf3-6685-590c-bbaa0e34aa0c</rootPath>
+            <size>7856958996480</size>
+            <usedSize>3362720317440</usedSize>
+        </datastore>
+        <datastore>
+            <datastoreUUID>3be47e57-0980-45e3-a7a2-d843b03cb54f</datastoreUUID>
+            <directory></directory>
+            <enabled>false</enabled>
+            <id>2</id>
+            <name>Local storage</name>
+            <rootPath>79df6203-7595-f67a-7c44-db96bb7daa36</rootPath>
+            <size>241394778112</size>
+            <usedSize>19813892096</usedSize>
+        </datastore>
+    </datastores>
+    <description></description>
+    <id>3</id>
+    <ip>10.60.20.230</ip>
+    <ipService>10.60.20.230</ipService>
+    <ipmiPassword></ipmiPassword>
+    <ipmiPort>0</ipmiPort>
+    <ipmiUser></ipmiUser>
+    <name>xenserver</name>
+    <password>ddd</password>
+    <port>9363</port>
+    <state>MANAGED</state>
+    <type>HYPERV_301</type>
+    <user></user>
+    <cpu>4</cpu>
+    <cpuRatio>1</cpuRatio>
+    <cpuUsed>0</cpuUsed>
+    <ram>4086</ram>
+    <ramUsed>0</ramUsed>
+    <virtualSwitch>eth0</virtualSwitch>
+</machine>

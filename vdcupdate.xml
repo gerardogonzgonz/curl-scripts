@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<virtualDatacenter>
+<cpuHard>20</cpuHard>
+<cpuSoft>18</cpuSoft>
+<hdHard>32212254720</hdHard>
+<hdSoft>27917287424</hdSoft>
+<publicIpsHard>2</publicIpsHard>
+<publicIpsSoft>2</publicIpsSoft>
+<ramHard>20480</ramHard>
+<ramSoft>19456</ramSoft>
+<storageHard>32212254720</storageHard>
+<storageSoft>28991029248</storageSoft>
+<vlansHard>2</vlansHard>
+<vlansSoft>1</vlansSoft>
+<hypervisorType>VMX_04</hypervisorType>
+<id>8</id>
+<networkConfiguration>
+	<networkName>defaultNetwork</networkName>
+	<gateway>192.168.1.1</gateway>
+	<address>192.168.1.0</address>
+	<mask>22</mask>
+	<netMask>255.255.255.0</netMask>
+	<defaultNetwork>true</defaultNetwork>
+	</networkConfiguration>
+</virtualDatacenter>

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+curl --verbose -X POST 'http://10.60.11.10/api/cloud/virtualdatacenters/7/virtualappliances/15/virtualmachines/52/action/deploy' \
+ -u admin:xabiquo \
+ -H 'Content-type:application/vnd.abiquo.virtualmachinetask+xml; version=2.0;' \
+ -H 'Accept:application/vnd.abiquo.acceptedrequest+xml; version=2.0;' \
+ -d '<virtualmachinetask><forceEnterpriseSoftLimits>OFF</forceEnterpriseSoftLimits></virtualmachinetask>' | xmlindent -nbe -f

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<storagePool>
+<idStorage>9eb74b78-68a2-4271-a429-0d9f395a0adc</idStorage>
+<availableSizeInMb>6121</availableSizeInMb>
+<enabled>true</enabled>
+<name></name>
+<totalSizeInMb>10178</totalSizeInMb>
+<usedSizeInMb>4057</usedSizeInMb>
+<link href="http://10.60.21.33/api/admin/datacenters/710/storage/tiers/2838" rel="tier"/>
+</storagePool>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<remoteService>
+	<status>0</status>
+  	<type>VIRTUAL_FACTORY</type>
+  	<uri>http:///virtualfactory</uri>
+	</remoteService>

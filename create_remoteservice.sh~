@@ -1,0 +1,11 @@
+#!/bin/bash
+
+curl --verbose -X POST "http://10.60.21.187/api/admin/datacenters/232/remoteservices" \
+       -H "Accept: application/vnd.abiquo.remoteservice+xml;version=2.0" \
+      -H "Content-Type: application/vnd.abiquo.remoteservice+xml;version=2.0" \
+      -u admin:xabiquo \
+      -d '<remoteService>
+  <status>0</status>
+  <type>APPLIANCE_MANAGER</type>
+  <uri>http://:80/am</uri>
+</remoteService>' | xmlindent-nbe -f

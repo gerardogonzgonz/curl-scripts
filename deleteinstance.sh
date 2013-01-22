@@ -1,0 +1,5 @@
+#!/bin/bash
+
+curl --verbose -X DELETE 'http://10.60.21.187/api/admin/enterprises/1/datacenterrepositories/1/virtualmachinetemplates/5' \
+      -H "Content-Type: application/vnd.abiquo.virtualmachinetemplate+xml; version=2.0;" \
+      -u admin:xabiquo | xmlindent -nbe -f

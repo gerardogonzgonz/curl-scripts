@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+    <machineLoadRule>
+        <link rel="rack" type="application/vnd.abiquo.rack+xml" href="http://10.60.21.187:80/api/admin/datacenters/1/racks/1"/>
+        <cpuLoadPercentage>725</cpuLoadPercentage>
+        <ramLoadPercentage>725</ramLoadPercentage>
+    </machineLoadRule>
+

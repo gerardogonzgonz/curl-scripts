@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<virtualMachine>
+<link href="http://10.60.21.187:80/api/admin/enterprises/1/datacenterrepositories/64/virtualmachinetemplates/32" rel="virtualmachinetemplate"/>
+    <cpu>1
+    </cpu>
+    <description>m0n0wall
+    </description>
+    <hdInBytes>27262976
+    </hdInBytes>
+    <highDisponibility>0
+    </highDisponibility>
+    <id>2
+    </id>
+    <idState>0
+    </idState>
+    <idType>1
+    </idType>
+    <name>ABQ_f8e100d0-4686-4baf-b84f-b77df7c25617
+    </name>
+    <password>
+    </password>
+    <ram>128
+    </ram>
+    <state>2
+    </state>
+    <uuid>f8e100d0-4686-4baf-b84f-b77df7c25617
+    </uuid>
+    <vdrpIP>10.60.1.75
+    </vdrpIP>
+    <vdrpPort>5901
+    </vdrpPort>
+</virtualMachine>
+

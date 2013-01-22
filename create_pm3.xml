@@ -1,0 +1,47 @@
+<machine>
+    <datastores>
+        <datastore>
+            <datastoreUUID>6c76c08e-fd6e-4fb1-bcc1-9b4168689811</datastoreUUID>
+            <directory></directory>
+            <enabled>false</enabled>
+            <name>/dev/mapper/VolGroup00-LogVol00</name>
+            <rootPath>/</rootPath>
+            <size>4030406656</size>
+            <usedSize>1041526784</usedSize>
+        </datastore>
+        <datastore>
+            <datastoreUUID></datastoreUUID>
+            <directory></directory>
+            <enabled>true</enabled>
+            <name>10.60.1.72:/opt/vm_repository</name>
+            <rootPath>/opt/vm_repository/</rootPath>
+            <size>241013719040</size>
+            <usedSize>201526181888</usedSize>
+        </datastore>
+        <datastore>
+            <datastoreUUID>a0f55924-d13a-4f5a-a493-1c7e4320ce4f</datastoreUUID>
+            <directory></directory>
+            <enabled>false</enabled>
+            <name>10.60.1.104:/volume1/nfs-devel</name>
+            <rootPath>/opt/nfs-devel/</rootPath>
+            <size>7856958996480</size>
+            <usedSize>2664091877376</usedSize>
+        </datastore>
+    </datastores>
+    <description>localhost.localdomain</description>
+    <initiatorIQN>iqn.1994-05.com.redhat:9653e5154f16</initiatorIQN>
+    <ip>10.60.12.249</ip>
+    <ipService>10.60.12.249</ipService>
+    <name>localhost.localdomain</name>
+    <port>8889</port>
+    <state>MANAGED</state>
+    <type>KVM</type>
+    <cpu>1</cpu>
+    <cpuUsed>0</cpuUsed>
+    <ram>497</ram>
+    <ramUsed>0</ramUsed>
+    <virtualSwitch>eth0</virtualSwitch>
+    <user>u</user>
+    <password>u</password>
+</machine>
+

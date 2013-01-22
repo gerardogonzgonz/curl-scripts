@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<machine>
+    <link rel="checkipmi" href="http://10.60.20.245:80/api/admin/datacenters/1/racks/2/machines/9/action/checkipmi"/>
+    <link rel="checkipmistate" type="application/vnd.abiquo.machineipmistate+xml" href="http://10.60.20.245:80/api/admin/datacenters/1/racks/2/machines/9/action/checkipmistate"/>
+    <link rel="checkstate" type="application/vnd.abiquo.machinestate+xml" href="http://10.60.20.245:80/api/admin/datacenters/1/racks/2/machines/9/action/checkstate"/>
+    <link rel="datastores" type="application/vnd.abiquo.datastores+xml" href="http://10.60.20.245:80/api/admin/datacenters/1/racks/2/machines/9/datastores"/>
+    <link rel="edit" type="application/vnd.abiquo.machine+xml" href="http://10.60.20.245:80/api/admin/datacenters/1/racks/2/machines/9"/>
+    <link rel="rack" type="application/vnd.abiquo.rack+xml" href="http://10.60.20.245:80/api/admin/datacenters/1/racks/2"/>
+    <link rel="reenableafterha" type="application/vnd.abiquo.machine+xml" href="http://10.60.20.245:80/api/admin/datacenters/1/racks/2/machines/9/action/reenableafterha"/>
+    <link rel="virtualmachines" type="application/vnd.abiquo.virtualmachines+xml" href="http://10.60.20.245:80/api/admin/datacenters/1/racks/2/machines/9/virtualmachines"/>
+    <datastores>
+        <datastore>
+            <datastoreUUID>32f6ad97-f005-4c55-a0fa-04fab999a77b</datastoreUUID>
+            <directory></directory>
+            <enabled>true</enabled>
+            <id>16</id>
+            <name>Local storage</name>
+            <rootPath>2f2fc529-ea92-2068-c173-dbbefd18a5c4</rootPath>
+            <size>237606281216</size>
+            <usedSize>223735808</usedSize>
+        </datastore>
+    </datastores>
+    <description>xenserver</description>
+    <id>9</id>
+    <initiatorIQN>iqn.2012-09.com.example:8726aa11</initiatorIQN>
+    <ip>10.60.1.79</ip>
+    <ipService>10.60.1.79</ipService>
+    <ipmiIP></ipmiIP>
+    <ipmiPassword></ipmiPassword>
+    <ipmiPort>0</ipmiPort>
+    <ipmiUser></ipmiUser>
+<user>root</user>
+<password>temporal</password>
+    <name>xenserver</name>
+    <port>9363</port>
+    <state>MANAGED</state>
+    <type>XENSERVER</type>
+    <cpu>4</cpu>
+    <cpuUsed>0</cpuUsed>
+    <ram>4086</ram>
+    <ramUsed>0</ramUsed>
+<virtualSwitch>eth1</virtualSwitch>
+</machine>
+

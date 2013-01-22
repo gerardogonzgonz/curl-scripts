@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<costeCodeCurrency>
+<link href="http://localhost:80/api/config/currencies/5" rel="currency"/>
+<price>1000</price>
+</costeCodeCurrency>

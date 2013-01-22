@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--<costCode>
+	<name>Test2443</name>
+	<description>example of cost code (256 characters)<description>
+</costCode>-->
+
+<!--<currency>
+	<symbol>EUROO243</symbol>
+	<name>Euro-prueba243</name>
+	<digits>222</digits>
+</currency>-->
+
+
+<costCode>
+<name>prueba2458&amp;prueba</name>
+<description>example of cost code!!!</description>
+</costCode>

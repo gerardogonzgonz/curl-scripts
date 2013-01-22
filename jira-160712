@@ -1,0 +1,63 @@
+13:24:24.314 INFO  c.a.t.eventing.SQLTracerListener - Received message: Severity[INFO], Event[VAPP_POWERON], Component[VIRTUAL_APPLIANCE], Timestamp[1342437864314], Description[Virtual appliance 'vapp_XEN' is being deployed.], User[admin]
+libvir: Xen error : Domain not found: xenUnifiedDomainLookupByName
+13:24:24.430 INFO  c.a.tarantino.logs.CommonStepLog - [ABQ_d0ea9b89-2a9e-4daa-91be-c0de9acf2bf7] disk copied [standard: 1/abiquo-repository.abiquo.com/m0n0wall/m0n0wall-1.3b18-i386-flat.vmdk]
+13:24:24.489 INFO  c.a.tarantino.logs.CommonStepLog - [ABQ_d0ea9b89-2a9e-4daa-91be-c0de9acf2bf7] lun attached [ip-10.60.11.7:3260-iscsi-iqn.1992-08.com.netapp:sn.99929383-lun-2]
+13:24:24.562 INFO  c.a.t.eventing.SQLTracerListener - Received message: Severity[INFO], Event[VM_DEPLOY], Component[VIRTUAL_MACHINE], Timestamp[1342437864562], Description[Task enqueued successfully in the virtual factory.], User[admin]
+13:24:24.983 INFO  c.a.tarantino.logs.CommonStepLog - [ABQ_d0ea9b89-2a9e-4daa-91be-c0de9acf2bf7] nic attached [192.168.0.2]
+13:24:24.984 INFO  c.a.tarantino.logs.CommonStepLog - [ABQ_d0ea9b89-2a9e-4daa-91be-c0de9acf2bf7] vlan created [2]
+13:24:25.096 INFO  c.a.abicloud.omapilib.Connection - Connecting to... "10.60.1.11:7911".
+13:24:28.097 ERROR c.a.abicloud.omapilib.Connection - Connection error:No route to host
+13:24:28.097 WARN  c.a.t.hypervisor.HypervisorSandwich - Could not configure DHCP server com.abiquo.tarantino.errors.VirtualFactoryException: Could not connect to DHCP server
+To 10.60.1.11:7911
+13:24:28.099 INFO  c.a.tarantino.actors.SessionActor - RESPONSE to : done	b8beffe1-34c5-4dfd-a8bc-5a671cae187e.03b1e90f-a039-45eb-8dda-a2bf6064721c
+libvir: Xen Daemon error : POST operation failed: xend_post: error from xen daemon: (xend.err 'Device 832 (vbd) could not be connected. /dev/disk/by-path/ip-10.60.11.7:3260-iscsi-iqn.1992-08.com.netapp:sn.99929383-lun-2 does not exist.')
+13:24:29.650 ERROR c.a.t.p.libvirt.xen.XenHypervisor - Unable to POWER ON ABQ_d0ea9b89-2a9e-4daa-91be-c0de9acf2bf7 org.libvirt.LibvirtException: POST operation failed: xend_post: error from xen daemon: (xend.err 'Device 832 (vbd) could not be connected. /dev/disk/by-path/ip-10.60.11.7:3260-iscsi-iqn.1992-08.com.netapp:sn.99929383-lun-2 does not exist.')
+13:24:29.651 ERROR c.a.tarantino.actors.SessionActor - DatacenterJob b8beffe1-34c5-4dfd-a8bc-5a671cae187e.f50e256a-863c-4f24-b1be-694c3fd4b240 fail for virtual machine ABQ_d0ea9b89-2a9e-4daa-91be-c0de9acf2bf7 in hypervisor xen+tcp://10.60.1.80/?no_tty=1
+com.abiquo.tarantino.errors.VirtualFactoryException: Generic error performing an action on VM
+	at com.abiquo.tarantino.plugins.libvirt.LibvirtHypervisor.powerOn(LibvirtHypervisor.java:406) ~[LibvirtHypervisor.class:na]
+	at com.abiquo.tarantino.plugins.libvirt.LibvirtHypervisor.powerOn(LibvirtHypervisor.java:61) ~[LibvirtHypervisor.class:na]
+	at com.abiquo.tarantino.hypervisor.HypervisorSandwich.powerOn(HypervisorSandwich.java:175) ~[HypervisorSandwich.class:na]
+	at com.abiquo.tarantino.actors.SessionActor.executeOp(SessionActor.java:272) ~[SessionActor.class:na]
+	at com.abiquo.tarantino.actors.SessionActor.onReceive(SessionActor.java:141) ~[SessionActor.class:na]
+	at akka.actor.UntypedActor$$anonfun$receive$1.apply(UntypedActor.scala:125) [akka-actor-1.3.jar:na]
+	at akka.actor.UntypedActor$$anonfun$receive$1.apply(UntypedActor.scala:124) [akka-actor-1.3.jar:na]
+	at akka.actor.Actor$class.apply(Actor.scala:545) [akka-actor-1.3.jar:na]
+	at akka.actor.UntypedActor.apply(UntypedActor.scala:57) [akka-actor-1.3.jar:na]
+	at akka.actor.LocalActorRef.invoke(ActorRef.scala:910) [akka-actor-1.3.jar:na]
+	at akka.dispatch.MessageInvocation.invoke(MessageHandling.scala:25) [akka-actor-1.3.jar:na]
+	at akka.dispatch.ExecutableMailbox$class.processMailbox(ExecutorBasedEventDrivenDispatcher.scala:223) [akka-actor-1.3.jar:na]
+	at akka.dispatch.PriorityMailbox$$anon$2.processMailbox(ExecutorBasedEventDrivenDispatcher.scala:303) [akka-actor-1.3.jar:na]
+	at akka.dispatch.ExecutableMailbox$class.run(ExecutorBasedEventDrivenDispatcher.scala:195) [akka-actor-1.3.jar:na]
+	at akka.dispatch.PriorityMailbox$$anon$2.run(ExecutorBasedEventDrivenDispatcher.scala:303) [akka-actor-1.3.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_26]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_26]
+	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_26]
+	at akka.dispatch.MonitorableThread.run(ThreadPoolBuilder.scala:192) [akka-actor-1.3.jar:na]
+13:24:29.653 INFO  c.a.tarantino.actors.SessionActor - RESPONSE to : error	b8beffe1-34c5-4dfd-a8bc-5a671cae187e.f50e256a-863c-4f24-b1be-694c3fd4b240
+13:24:29.664 INFO  c.a.t.actors.TaskOrchestratorActor - done b8beffe1-34c5-4dfd-a8bc-5a671cae187e
+13:24:29.668 INFO  com.abiquo.api.tracer.TracerLogger - Severity: CRITICAL Component: VIRTUAL_MACHINE Event: VM_JOB Hierarchy: null Performed by SYSTEM from enterprise Abiquo System Message: VirtualFactory job 'POWER_ON' with ID 'b8beffe1-34c5-4dfd-a8bc-5a671cae187e.f50e256a-863c-4f24-b1be-694c3fd4b240' in task 'b8beffe1-34c5-4dfd-a8bc-5a671cae187e' for virtual machine '13' failed.
+ Reason: '[EXECUTING_ACTION] : Generic error performing an action on VM'. 
+13:24:29.685 ERROR c.a.t.actors.TaskOrchestratorActor - *** START ROLLBACK ***
+13:24:29.693 INFO  com.abiquo.api.tracer.TracerLogger - Severity: MINOR Component: VIRTUAL_MACHINE Event: VM_JOB Hierarchy:  Performed by admin from enterprise Abiquo Message: Job failed. Please try again in a few minutes or contact your system administrator
+13:24:29.708 INFO  com.abiquo.api.tracer.TracerLogger - Severity: CRITICAL Component: VIRTUAL_MACHINE Event: VM_DEPLOY Hierarchy: null Performed by SYSTEM from enterprise Abiquo System Message: '[EXECUTING_ACTION] : Generic error performing an action on VM'.
+13:24:29.728 INFO  c.a.t.actors.TaskOrchestratorActor - start rollback task b8beffe1-34c5-4dfd-a8bc-5a671cae187e
+13:24:29.786 INFO  c.a.abicloud.omapilib.Connection - Connecting to... "10.60.1.11:7911".
+13:24:30.141 INFO  c.a.t.eventing.SQLTracerListener - Received message: Severity[CRITICAL], Event[VM_JOB], Component[VIRTUAL_MACHINE], Timestamp[1342437870141], Description[VirtualFactory job 'POWER_ON' with ID 'b8beffe1-34c5-4dfd-a8bc-5a671cae187e.f50e256a-863c-4f24-b1be-694c3fd4b240' in task 'b8beffe1-34c5-4dfd-a8bc-5a671cae187e' for virtual machine '13' failed.
+ Reason: '[EXECUTING_ACTION] : Generic error performing an action on VM'.], User[SYSTEM]
+13:24:30.402 INFO  c.a.t.eventing.SQLTracerListener - Received message: Severity[MINOR], Event[VM_JOB], Component[VIRTUAL_MACHINE], Timestamp[1342437870402], Description[Job failed. Please try again in a few minutes or contact your system administrator], User[admin]
+13:24:30.661 INFO  c.a.t.eventing.SQLTracerListener - Received message: Severity[CRITICAL], Event[VM_DEPLOY], Component[VIRTUAL_MACHINE], Timestamp[1342437870661], Description['[EXECUTING_ACTION] : Generic error performing an action on VM'.], User[SYSTEM]
+13:24:32.787 ERROR c.a.abicloud.omapilib.Connection - Connection error:No route to host
+13:24:32.788 WARN  c.a.t.hypervisor.HypervisorSandwich - Could not deconfigure DHCP server com.abiquo.tarantino.errors.VirtualFactoryException: Could not connect to DHCP server
+To 10.60.1.11:7911
+13:24:33.563 INFO  c.a.tarantino.logs.CommonStepLog - [ABQ_d0ea9b89-2a9e-4daa-91be-c0de9acf2bf7] nic detached [192.168.0.2]
+13:24:33.564 INFO  c.a.tarantino.logs.CommonStepLog - [ABQ_d0ea9b89-2a9e-4daa-91be-c0de9acf2bf7] vlan destroyed [2]
+13:24:33.564 INFO  c.a.tarantino.logs.CommonStepLog - [ABQ_d0ea9b89-2a9e-4daa-91be-c0de9acf2bf7] lun detached [ip-10.60.11.7:3260-iscsi-iqn.1992-08.com.netapp:sn.99929383-lun-2]
+13:24:33.594 INFO  c.a.tarantino.logs.CommonStepLog - [ABQ_d0ea9b89-2a9e-4daa-91be-c0de9acf2bf7] disk destroyed [standard: 1/abiquo-repository.abiquo.com/m0n0wall/m0n0wall-1.3b18-i386-flat.vmdk]
+13:24:33.596 INFO  c.a.tarantino.actors.SessionActor - RESPONSE to : rollback	b8beffe1-34c5-4dfd-a8bc-5a671cae187e.03b1e90f-a039-45eb-8dda-a2bf6064721c
+13:24:33.601 INFO  c.a.t.actors.TaskOrchestratorActor - done rollback b8beffe1-34c5-4dfd-a8bc-5a671cae187e
+13:24:33.607 INFO  c.a.t.a.DatacenterTaskConsumerActor - Message 29 consumed from the queue
+13:24:33.611 ERROR c.a.a.a.l.t.VirtualFactoryNotificationsProcessor - Unable to find the job with id b8beffe1-34c5-4dfd-a8bc-5a671cae187e
+13:24:33.637 INFO  com.abiquo.api.tracer.TracerLogger - Severity: WARNING Component: VIRTUAL_MACHINE Event: VM_DEPLOY Hierarchy:  Performed by admin from enterprise Abiquo Message: Deploy on virtual machine 'ABQ_d0ea9b89-2a9e-4daa-91be-c0de9acf2bf7' failed
+13:24:33.648 INFO  com.abiquo.api.tracer.TracerLogger - Severity: WARNING Component: VIRTUAL_MACHINE Event: VM_DEPLOY Hierarchy: null Performed by SYSTEM from enterprise Abiquo System Message: Deploy (task ID 'b8beffe1-34c5-4dfd-a8bc-5a671cae187e') on virtual machine 'ABQ_d0ea9b89-2a9e-4daa-91be-c0de9acf2bf7' failed. The virtual machine is in state NOT_ALLOCATED
+13:24:33.794 INFO  c.a.t.eventing.SQLTracerListener - Received message: Severity[WARNING], Event[VM_DEPLOY], Component[VIRTUAL_MACHINE], Timestamp[1342437873794], Description[Deploy on virtual machine 'ABQ_d0ea9b89-2a9e-4daa-91be-c0de9acf2bf7' failed], User[admin]
+13:24:34.004 INFO  c.a.t.eventing.SQLTracerListener - Received message: Severity[WARNING], Event[VM_DEPLOY], Component[VIRTUAL_MACHINE], Timestamp[1342437874004], Description[Deploy (task ID 'b8beffe1-34c5-4dfd-a8bc-5a671cae187e') on virtual machine 'ABQ_d0ea9b89-2a9e-4daa-91be-c0de9acf2bf7' failed. The virtual machine is in state NOT_ALLOCATED], User[SYSTEM]

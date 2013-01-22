@@ -1,0 +1,18 @@
+#!/bin/bash
+
+curl --verbose -X POST 'http://10.60.11.10/api/cloud/virtualdatacenters/7/virtualappliances/15/virtualmachines' \
+      -H "Accept: application/vnd.abiquo.virtualmachine+xml;version=2.0" \
+      -H "Content-Type: application/vnd.abiquo.virtualmachine+xml;version=2.0" \
+      -u admin:xabiquo \
+      -d '<virtualMachine>
+  <link href="http://10.60.21.187:80/api/admin/enterprises/1/datacenterrepositories/1/virtualmachinetemplates/14" rel="virtualmachinetemplate"/>
+  <link href="http://10.60.11.10:80/api/admin/enterprises/2" type="application/vnd.abiquo.enterprise+xml" rel="enterprise"/>
+  <cpu>1</cpu>
+  <hdInBytes>27262976</hdInBytes>
+  <highDisponibility>0</highDisponibility>
+  <idState>0</idState>
+  <idType>0</idType>
+  <name>nostalgia</name>
+  <ram>128</ram>
+  <vdrpPort>0</vdrpPort>
+</virtualMachine>' | xmlindent -nbe -f

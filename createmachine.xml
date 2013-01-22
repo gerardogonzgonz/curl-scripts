@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<machine>
+    <link rel="checkipmi" href="http://10.60.21.187:80/api/admin/datacenters/141/racks/79/machines/56/action/checkipmi"/>
+    <link rel="checkstate" type="application/vnd.abiquo.machinestate+xml" href="http://10.60.21.187:80/api/admin/datacenters/141/racks/79/machines/56/action/checkstate"/>
+    <link rel="datastores" type="application/vnd.abiquo.datastores+xml" href="http://10.60.21.187:80/api/admin/datacenters/141/racks/79/machines/56/datastores"/>
+    <link rel="edit" type="application/vnd.abiquo.machine+xml" href="http://10.60.21.187:80/api/admin/datacenters/141/racks/79/machines/56"/>
+    <link rel="rack" type="application/vnd.abiquo.rack+xml" href="http://10.60.21.187:80/api/admin/datacenters/141/racks/79"/>
+    <link rel="reenableafterha" type="application/vnd.abiquo.machine+xml" href="http://10.60.21.187:80/api/admin/datacenters/141/racks/79/machines/56/action/reenableafterha"/>
+    <link rel="virtualmachines" type="application/vnd.abiquo.virtualmachines+xml" href="http://10.60.21.187:80/api/admin/datacenters/141/racks/79/machines/56/virtualmachines"/>
+    <datastores>
+        <datastore>
+            <datastoreUUID>b25ca3a8-ff66-429e-b6a2-442f093a2769</datastoreUUID>
+            <directory></directory>
+            <enabled>false</enabled>
+            <id>117</id>
+            <name>10.60.1.72:/opt/vm_repository2</name>
+            <rootPath>/opt/vm_repository</rootPath>
+            <size>241013719040</size>
+            <usedSize>231710949376</usedSize>
+        </datastore>
+        <datastore>
+            <datastoreUUID>ec9ccebc-01e5-464c-9f86-e3db9a41abee</datastoreUUID>
+            <directory></directory>
+            <enabled>true</enabled>
+            <id>118</id>
+            <name>/dev/mapper/VolGroup00-LogVol00</name>
+            <rootPath>/</rootPath>
+            <size>10401144832</size>
+            <usedSize>1653776384</usedSize>
+        </datastore>
+    </datastores>
+    <description>abiquo-kvm</description>
+    <id>56</id>
+    <initiatorIQN>iqn.1994-05.com.redhat:bdffd371bf87</initiatorIQN>
+    <ip>10.60.1.24</ip>
+    <ipService>10.60.1.24</ipService>
+    <ipmiIP></ipmiIP>
+    <ipmiPassword></ipmiPassword>
+    <ipmiPort>0</ipmiPort>
+    <ipmiUser></ipmiUser>
+    <name>abiquo-kvm</name>
+    <port>8889</port>
+    <state>MANAGED</state>
+    <type>KVM</type>
+    <cpu>1</cpu>
+    <cpuUsed>0</cpuUsed>
+    <ram>1962</ram>
+    <ramUsed>0</ramUsed>
+    <virtualSwitch>eth1</virtualSwitch>
+    <user>root</user>
+    <password>temporal</password>
+</machine>

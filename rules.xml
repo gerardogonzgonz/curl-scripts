@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+    <machineLoadRule>
+        <link rel="datacenter" type="application/vnd.abiquo.datacenter+xml" href="http://localhost:80/api/admin/datacenters/2"/>
+        <cpuLoadPercentage>75</cpuLoadPercentage>
+        <ramLoadPercentage>75</ramLoadPercentage>
+    </machineLoadRule>
+

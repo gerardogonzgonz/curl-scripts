@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vdcsresources>
+    <vdcresources>
+        <extStorageReserved>4294967296</extStorageReserved>
+        <extStorageUsed>3064</extStorageUsed>
+        <id>2</id>
+        <idEnterprise>1</idEnterprise>
+        <localStorageReserved>4294967296</localStorageReserved>
+        <localStorageUsed>314572800</localStorageUsed>
+        <memoryReserved>4096</memoryReserved>
+        <memoryUsed>768</memoryUsed>
+        <publicIPsReserved>4</publicIPsReserved>
+        <publicIPsUsed>0</publicIPsUsed>
+        <vdcName>vdc_ESXI</vdcName>
+        <virtualCpuReserved>6</virtualCpuReserved>
+        <virtualCpuUsed>5</virtualCpuUsed>
+        <vlanReserved>4</vlanReserved>
+        <vlanUsed>1</vlanUsed>
+        <vmActive>5</vmActive>
+        <vmCreated>5</vmCreated>
+        <volAttached>8</volAttached>
+        <volCreated>13</volCreated>
+    </vdcresources>
+    <vdcresources>
+        <extStorageReserved>4294967296</extStorageReserved>
+        <extStorageUsed>1758</extStorageUsed>
+        <id>1</id>
+        <idEnterprise>1</idEnterprise>
+        <localStorageReserved>4294967296</localStorageReserved>
+        <localStorageUsed>314572800</localStorageUsed>
+        <memoryReserved>4096</memoryReserved>
+        <memoryUsed>384</memoryUsed>
+        <publicIPsReserved>2</publicIPsReserved>
+        <publicIPsUsed>2</publicIPsUsed>
+        <vdcName>vdc_KVM</vdcName>
+        <virtualCpuReserved>6</virtualCpuReserved>
+        <virtualCpuUsed>5</virtualCpuUsed>
+        <vlanReserved>4</vlanReserved>
+        <vlanUsed>1</vlanUsed>
+        <vmActive>5</vmActive>
+        <vmCreated>5</vmCreated>
+        <volAttached>13</volAttached>
+        <volCreated>14</volCreated>
+    </vdcresources>
+</vdcsresources>

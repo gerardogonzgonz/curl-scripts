@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<device>
+<name>NEW NETAPP</name>
+<managementIp>10.60.21.186</managementIp>
+<managementPort>8180</managementPort>
+<iscsiIp>10.60.21.186</iscsiIp>
+<iscsiPort>3260</iscsiPort>
+<storageTechnology>LVM</storageTechnology>
+</device>

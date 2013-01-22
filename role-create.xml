@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<roleLdap>
+    <link rel="edit" type="application/vnd.abiquo.roleldap+xml" href="http://10.60.21.187:80/api/admin/rolesldap/2"/>
+    <link rel="role" type="application/vnd.abiquo.role+xml" href="http://10.60.21.187:80/api/admin/roles/5"/>
+    <id>2</id>
+    <roleLdap>new_value</roleLdap>
+</roleLdap>
+

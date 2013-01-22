@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<datacenter>
+<name>datacenter_2</name>
+<location>Redwood</location>
+<ramSoft>0</ramSoft>
+<cpuSoft>0</cpuSoft>
+<vlanSoft>0</vlanSoft>
+<remoteServices>
+<remoteService>
+<type>VIRTUAL_FACTORYYYYY</type>
+<uri>http://10.60.11.185/virtualfactory</uri>
+</remoteService>
+<remoteService>
+<type>VIRTUAL_SYSTEM_MONITOR</type>
+<uri>http://10.60.11.185/vsm</uri>
+</remoteService>
+</remoteServices>
+</datacenter>

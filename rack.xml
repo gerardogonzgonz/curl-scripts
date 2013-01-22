@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rack>
+<name>api_rack_updated</name>
+<shortDescription>This rack is an example</shortDescription>
+<haEnabled>false</haEnabled>
+<vlanIdMin>3</vlanIdMin>
+<vlanIdMax>2</vlanIdMax>
+<vlanPerVdcExpected>-3</vlanPerVdcExpected>
+<nrsq>100</nrsq>
+</rack>

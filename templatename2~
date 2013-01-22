@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<virtualMachineTemplate>
+    <id>15</id>
+    <name>Updated name nostalgia_instance</name>
+    <description>Nostalgia</description>
+    <path>1/rs.bcn.abiquo.com/nostalgia/f31c0ff8-81d2-4861-ad3b-425a7e243a97-snapshot-Nostalgia-flat.vmdk</path>
+    <diskFormatType>VMDK_FLAT</diskFormatType>
+    <diskFileSize>107373568</diskFileSize>
+    <cpuRequired>1</cpuRequired>
+    <ramRequired>256</ramRequired>
+    <hdRequired>107373568</hdRequired>
+    <shared>false</shared>
+    <costCode>0</costCode>
+    <creationDate>2012-06-28T19:35:43+02:00</creationDate>
+    <creationUser>admin</creationUser>
+    <chefEnabled>false</chefEnabled>
+</virtualMachineTemplate>

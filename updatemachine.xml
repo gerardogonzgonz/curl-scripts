@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<machine>
+<name>machine_3</name>
+<cpu>5</cpu>
+<description>machine VBOX</description>
+<hd>1000000</hd>
+<ram>512</ram>
+<state>MANAGED</state>
+<virtualSwitch>192.168.1.10</virtualSwitch>
+<type>VBOX</type>
+<ip>10.60.1.77</ip>
+<ipService>10.60.1.77</ipService>
+<port>5000</port>
+<user>admin</user>
+<password>xabiquo</password>
+</machine>

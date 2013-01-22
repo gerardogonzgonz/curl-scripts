@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<virtualMachineTemplate>
+    <link title="Others" rel="category" type="application/vnd.abiquo.category+xml" href="http://10.60.21.187:80/api/config/categories/1"/>
+    <link rel="conversions" type="application/vnd.abiquo.conversions+xml" href="http://10.60.21.187:80/api/admin/enterprises/1/datacenterrepositories/1/virtualmachinetemplates/19/conversions"/>
+    <link rel="datacenter" type="application/vnd.abiquo.datacenter+xml" href="http://10.60.21.187:80/api/admin/datacenters/1"/>
+    <link rel="datacenterrepository" type="application/vnd.abiquo.datacenterrepository+xml" href="http://10.60.21.187:80/api/admin/enterprises/1/datacenterrepositories/1"/>
+    <link rel="diskfile" href="http://10.60.21.187:80/am/erepos/1/templates/rs.bcn.abiquo.com%252Fm0n0wall%252Ff56e5b70-69d9-4b22-9a09-bb1a5c848c7a-snapshot-description.ovf?format=diskFile"/>
+    <link title="m0n0wall2" rel="edit" type="application/vnd.abiquo.virtualmachinetemplate+xml" href="http://10.60.21.187:80/api/admin/enterprises/1/datacenterrepositories/1/virtualmachinetemplates/19"/>
+    <link rel="enterprise" type="application/vnd.abiquo.enterprise+xml" href="http://10.60.21.187:80/api/admin/enterprises/1"/>
+    <link title="m0n0wall" rel="master" href="http://10.60.21.187:80/api/admin/enterprises/1/datacenterrepositories/1/virtualmachinetemplates/3"/>
+    <link rel="ovfdocument" href="http://10.60.21.187:80/am/erepos/1/templates/rs.bcn.abiquo.com%252Fm0n0wall%252Ff56e5b70-69d9-4b22-9a09-bb1a5c848c7a-snapshot-description.ovf?format=envelope"/>
+    <link rel="template" href="http://10.60.21.187:80/am/erepos/1/templates/rs.bcn.abiquo.com%252Fm0n0wall%252Ff56e5b70-69d9-4b22-9a09-bb1a5c848c7a-snapshot-description.ovf"/>
+    <link rel="templatedefinition" href="http://rs.bcn.abiquo.com/m0n0wall/f56e5b70-69d9-4b22-9a09-bb1a5c848c7a-snapshot-description.ovf"/>
+    <link rel="templatestatus" href="http://10.60.21.187:80/am/erepos/1/templates/rs.bcn.abiquo.com%252Fm0n0wall%252Ff56e5b70-69d9-4b22-9a09-bb1a5c848c7a-snapshot-description.ovf?format=status"/>
+    <id>19</id>
+    <name>m0n0wall2</name>
+    <description>m0n0wall</description>
+    <path>1/rs.bcn.abiquo.com/m0n0wall/f56e5b70-69d9-4b22-9a09-bb1a5c848c7a-snapshot-m0n0wall-1.3b18-i386-flat.vmdk</path>
+    <diskFormatType>VMDK_FLAT</diskFormatType>
+    <diskFileSize>27262976</diskFileSize>
+    <cpuRequired>1</cpuRequired>
+    <ramRequired>128</ramRequired>
+    <hdRequired>27262976</hdRequired>
+    <shared>false</shared>
+    <costCode>0</costCode>
+    <creationDate>2012-06-28T20:29:12+02:00</creationDate>
+    <creationUser>admin</creationUser>
+    <chefEnabled>false</chefEnabled>
+    <iconUrl></iconUrl>
+</virtualMachineTemplate>

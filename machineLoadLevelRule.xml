@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<machineLoadRule>
+<link href="http://10.60.11.186/api/admin/datacenters/1/racks/4" rel="rack"/>
+<ramLoadPercentage></ramLoadPercentage>
+<cpuLoadPercentage></cpuLoadPercentage>
+</machineLoadRule>

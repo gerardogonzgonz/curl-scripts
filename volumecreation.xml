@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<volume>
+<link href="http://10.60.21.187/api/cloud/virtualdatacenters/197/tiers/693" rel="tier"/>
+<name>API Volume</name>
+<sizeInMB>20</sizeInMB>
+</volume>

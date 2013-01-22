@@ -1,0 +1,17 @@
+#!/bin/bash
+
+curl --verbose -X PUT 'http://10.60.21.187/api/config/properties/173' \
+      -H "Accept: application/vnd.abiquo.systemproperty+xml;version=2.0" \
+      -H "Content-Type: application/vnd.abiquo.systemproperty+xml;version=2.0" \
+      -u admin:xabiquo \
+      -d '<enterpriseProperties>
+    <link href="http://10.60.21.187:80/api/admin/enterprises/173/properties" type="application/vnd.abiquo.enterpriseproperties+xml" rel="edit"/>
+    <link href="http://10.60.21.187:80/api/admin/enterprises/173" type="application/vnd.abiquo.enterprise+xml" rel="enterprise"/>
+    <id>174</id>
+    <properties>
+        <entry>
+            <key> </key>
+            <value> </value>
+        </entry>
+    </properties>
+</enterpriseProperties>' | xmlindent -nbe -f

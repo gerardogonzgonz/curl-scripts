@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<pricingTemplate>
+<name>º12"!·!"$%·$/=1</name>
+<hdGB>123456789012345</hdGB>
+<standingChargePeriod>123456789012345</standingChargePeriod>
+<vlan>123456789012345</vlan>
+<chargingPeriod>4</chargingPeriod>
+<minimumChargePeriod>123456789012345</minimumChargePeriod>
+<minimumCharge>7</minimumCharge>
+<publicIp>123456789012345</publicIp>
+<vcpu>123456789012345</vcpu>
+<memoryMB>123456789012345</memoryMB>
+<link href="http://10.60.11.186:80/api/config/currencies/1" rel="currency"/>
+</pricingTemplate>

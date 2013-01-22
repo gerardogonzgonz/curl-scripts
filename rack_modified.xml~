@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rack>
+    <link rel="datacenter" type="application/vnd.abiquo.datacenter+xml" href="http://10.60.1.41:80/api/admin/datacenters/1"/>
+    <link rel="edit" type="application/vnd.abiquo.rack+xml" href="http://10.60.1.41:80/api/admin/datacenters/1/racks/1"/>
+    <link rel="machines" type="application/vnd.abiquo.machines+xml" href="http://10.60.1.41:80/api/admin/datacenters/1/racks/1/machines"/>
+    <haEnabled>false</haEnabled>
+    <id>1</id>
+    <longDescription></longDescription>
+    <name>RickRack</name>
+    <nrsq>10</nrsq>
+    <shortDescription></shortDescription>
+    <vlanIdMax>4094</vlanIdMax>
+    <vlanIdMin>2</vlanIdMin>
+    <vlanPerVdcReserved>4</vlanPerVdcReserved>
+    <vlansIdAvoided></vlansIdAvoided>
+</rack>
