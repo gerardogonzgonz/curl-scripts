@@ -8,4 +8,4 @@ idAllowedZone={$3}
 
 container={$4}
 
-curl --verbose 'http://localhost/api/admin/enterprises/'$idEnterprise'/blobstorages/'$idBlobStorage'/blobstoragezones/'$idAllowedZone'/blobstoragecontainers/'$container'/blobs' -u user2:xabiquo | xmlindent -nbe -f
+curl --verbose 'http://localhost/api/admin/enterprises/'$idEnterprise'/blobstorages/'$idBlobStorage'/blobstoragezones/'$idAllowedZone'/blobstoragecontainers/'$container'/blobs' -u enteradmin2:xabiquo | xmlindent -nbe -f
