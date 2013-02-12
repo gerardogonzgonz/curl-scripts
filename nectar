@@ -1,5 +1,5 @@
 mvn clean install -pl platform/jclouds/apis/swift/ -am  -->  remedio cuando no pilla el provider "swift"
 
-find . -name *.war -exec scp {} ubuntu@10.60.11.187:~ \;
+find . -name *.war -exec scp {} ubuntu@10.60.11.187:~ \; --> cremaza!!!
 
 
