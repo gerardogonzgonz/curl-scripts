@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <user>
-        <link rel="enterprise" type="application/vnd.abiquo.enterprise+xml" href="http://localhost:80/api/admin/enterprises/2"/>
+        <link rel="enterprise" type="application/vnd.abiquo.enterprise+xml" href="http://localhost:80/api/admin/enterprises/1"/>
         <link rel="role" type="application/vnd.abiquo.role+xml" href="http://localhost:80/api/admin/roles/1"/>
         <active>true</active>
         <authType>ABIQUO</authType>

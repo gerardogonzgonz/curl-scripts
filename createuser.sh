@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#identerprise={$1}
+
 user={$1}
 
 curl --verbose -X POST "http://localhost/api/admin/enterprises/2/users" \
