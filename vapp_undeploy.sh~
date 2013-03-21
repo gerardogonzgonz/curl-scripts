@@ -1,9 +1,8 @@
 #!/bin/bash
 
-curl --verbose -X POST 'http://10.60.21.187/api/cloud/virtualdatacenters/16/virtualappliances/12/action/undeploy' \
+curl --verbose -X POST 'http://10.60.1.224/api/cloud/virtualdatacenters/4/virtualappliances/3/action/deploy' \
  -u admin:xabiquo \
  -H 'Content-type:application/vnd.abiquo.virtualmachinetask+xml; version=2.0;' \
- -H 'Accept:application/vnd.abiquo.iscsivolumes+xml; version=2.0;' \
  -d '<virtualmachinetask><forceEnterpriseSoftLimits>OFF</forceEnterpriseSoftLimits></virtualmachinetask>' | xmlindent -nbe -f
 
 

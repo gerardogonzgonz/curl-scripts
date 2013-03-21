@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user>
+        <link rel="enterprise" type="application/vnd.abiquo.enterprise+xml" href="http://localhost:80/api/admin/enterprises/3"/>
+        <link rel="role" type="application/vnd.abiquo.role+xml" href="http://localhost:80/api/admin/roles/2"/>
+        <active>true</active>
+        <authType>ABIQUO</authType>
+        <description>user5</description>
+        <email></email>
+        <locale>en_US</locale>
+        <name>user5</name>
+        <nick>user5</nick>
+        <password>xabiquo</password>
+        <surname>user5</surname>
+</user>
+

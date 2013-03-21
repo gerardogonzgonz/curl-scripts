@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<users>
+<user>
+        <link rel="enterprise" type="application/vnd.abiquo.enterprise+xml" href="http://localhost:80/api/admin/enterprises/3"/>
+        <link rel="role" type="application/vnd.abiquo.role+xml" href="http://localhost:80/api/admin/roles/2"/>
+        <active>true</active>
+        <authType>ABIQUO</authType>
+        <description>user1</description>
+        <email></email>
+        <locale>en_US</locale>
+        <name>user1</name>
+        <nick>user1</nick>
+        <password>xabiquo</password>
+        <surname>user1</surname>
+</user>
+<user>
+        <link rel="enterprise" type="application/vnd.abiquo.enterprise+xml" href="http://localhost:80/api/admin/enterprises/3"/>
+        <link rel="role" type="application/vnd.abiquo.role+xml" href="http://localhost:80/api/admin/roles/2"/>
+        <active>true</active>
+        <authType>ABIQUO</authType>
+        <description>user2</description>
+        <email></email>
+        <locale>en_US</locale>
+        <name>user2</name>
+        <nick>user2</nick>
+        <password>xabiquo</password>
+        <surname>user2</surname>
+</user>
+<user>
+        <link rel="enterprise" type="application/vnd.abiquo.enterprise+xml" href="http://localhost:80/api/admin/enterprises/3"/>
+        <link rel="role" type="application/vnd.abiquo.role+xml" href="http://localhost:80/api/admin/roles/2"/>
+        <active>true</active>
+        <authType>ABIQUO</authType>
+        <description>user3</description>
+        <email></email>
+        <locale>en_US</locale>
+        <name>user3</name>
+        <nick>user3</nick>
+        <password>xabiquo</password>
+        <surname>user3</surname>
+</user>
+<user>
+        <link rel="enterprise" type="application/vnd.abiquo.enterprise+xml" href="http://localhost:80/api/admin/enterprises/3"/>
+        <link rel="role" type="application/vnd.abiquo.role+xml" href="http://localhost:80/api/admin/roles/2"/>
+        <active>true</active>
+        <authType>ABIQUO</authType>
+        <description>user4</description>
+        <email></email>
+        <locale>en_US</locale>
+        <name>user4</name>
+        <nick>user4</nick>
+        <password>xabiquo</password>
+        <surname>user4</surname>
+</user>
+<user>
+        <link rel="enterprise" type="application/vnd.abiquo.enterprise+xml" href="http://localhost:80/api/admin/enterprises/3"/>
+        <link rel="role" type="application/vnd.abiquo.role+xml" href="http://localhost:80/api/admin/roles/2"/>
+        <active>true</active>
+        <authType>ABIQUO</authType>
+        <description>user5</description>
+        <email></email>
+        <locale>en_US</locale>
+        <name>user5</name>
+        <nick>user5</nick>
+        <password>xabiquo</password>
+        <surname>user5</surname>
+</user>
+</users>

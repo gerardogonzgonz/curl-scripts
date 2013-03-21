@@ -14,4 +14,4 @@ curl --verbose 'http://localhost/api/admin/enterprises/'$idEnterprise'/blobstora
         -X "GET" \
         -H "Accept: application/vnd.abiquo.blob.download+xml" \
         -H "Content-Type: application/vnd.abiquo.blob+xml" \
-        -u enteradmin2:xabiquo | xmlindent -nbe -f
+        -u enteradmin3:xabiquo | xmlindent -nbe -f
