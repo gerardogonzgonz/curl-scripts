@@ -8,7 +8,7 @@ curl --verbose 'http://localhost/api/admin/enterprises/'$idEnterprise'/blobstora
         -X "POST" \
         -H "Accept: application/vnd.abiquo.blobstoragezone+xml;version=2.4" \
         -H "Content-Type: application/vnd.abiquo.blobstoragezone+xml;version=2.4" \
-        -u admin3:xabiquo \
+        -u admin:xabiquo \
         -d '<blobstoragezone>
             <name>DEFAULT</name>
     	    </blobstoragezone>' | xmlindent -nbe -f

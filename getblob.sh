@@ -12,6 +12,5 @@ blobname={$5}
 
 curl --verbose 'http://localhost/api/admin/enterprises/'$idEnterprise'/blobstorages/'$idBlobStorage'/blobstoragezones/'$idAllowedZone'/blobstoragecontainers/'$container'/blobs/'$blobname'' \
         -X "GET" \
-        -H "Accept: application/vnd.abiquo.blob.download+xml" \
         -H "Content-Type: application/vnd.abiquo.blob+xml" \
-        -u enteradmin3:xabiquo | xmlindent -nbe -f
+        -u user1:passuser1 | xmlindent -nbe -f

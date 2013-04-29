@@ -4,12 +4,12 @@
         <link rel="role" type="application/vnd.abiquo.role+xml" href="http://localhost:80/api/admin/roles/2"/>
         <active>true</active>
         <authType>ABIQUO</authType>
-        <description>user4</description>
+        <description>user1</description>
         <email></email>
         <locale>en_US</locale>
-        <name>user4</name>
-        <nick>user4</nick>
-        <password>passuser4</password>
-        <surname>user4</surname>
+        <name>user1</name>
+        <nick>user1</nick>
+        <password>passuser1</password>
+        <surname>user1</surname>
 </user>
 

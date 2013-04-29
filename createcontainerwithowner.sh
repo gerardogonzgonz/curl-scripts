@@ -14,7 +14,7 @@ curl --verbose 'http://localhost/api/admin/enterprises/'$idEnterprise'/blobstora
         -X "POST" \
         -H "Accept: application/vnd.abiquo.blobstoragecontainer+xml;version=2.4" \
         -H "Content-Type: application/vnd.abiquo.blobstoragecontainer+xml;version=2.4" \
-        -u enteradmin3:xabiquo \
+        -u enteradmin:passenteradmin \
         -d '<blobstoragecontainer>
             <link rel="owner" type="application/vnd.abiquo.user+xml" href="http://localhost/api/admin/enterprises/'$idEnterprise'/users/'$idUser'"/>
             <name>'$containerName'</name>

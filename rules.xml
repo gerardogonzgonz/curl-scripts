@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-    <machineLoadRule>
-        <link rel="datacenter" type="application/vnd.abiquo.datacenter+xml" href="http://localhost:80/api/admin/datacenters/2"/>
-        <cpuLoadPercentage>75</cpuLoadPercentage>
-        <ramLoadPercentage>75</ramLoadPercentage>
-    </machineLoadRule>
-
+<rules>
+    <enterpriseExclusionRules/>
+        <fitPolicyRules>
+            <fitPolicyRule>
+              <fitPolicy>PROGRESSIVE</fitPolicy>
+            </fitPolicyRule>
+        </fitPolicyRules>
+    <machineLoadRules>
+        <machineLoadRule>
+            <link rel="datacenter" href="http://10.60.11.187:80/api/admin/datacenters/266"/>
+            <cpuLoadPercentage>10000</cpuLoadPercentage>
+            <ramLoadPercentage>10000</ramLoadPercentage>
+        </machineLoadRule>
+    </machineLoadRules>
+</rules>

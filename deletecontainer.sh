@@ -11,4 +11,4 @@ curl --verbose 'http://localhost/api/admin/enterprises/'$idEnterprise'/blobstora
         -X "DELETE" \
         -H "Accept: application/vnd.abiquo.blobstoragecontainer+xml;version=2.4" \
         -H "Content-Type: application/vnd.abiquo.blobstoragecontainer+xml;version=2.4" \
-        -u enteradmin3:xabiquo | xmlindent -nbe -f
+        -u enteradmin:passenteradmin | xmlindent -nbe -f
