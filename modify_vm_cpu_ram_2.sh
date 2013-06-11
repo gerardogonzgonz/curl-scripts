@@ -1,38 +1,38 @@
 #!/bin/bash
 
-curl --verbose 'http://10.60.21.187/api/cloud/virtualdatacenters/53/virtualappliances/38/virtualmachines/17' \
+curl --verbose 'http://10.60.11.15/api/cloud/virtualdatacenters/34/virtualappliances/52/virtualmachines/43' \
 	-X PUT \
-	-H "Accept:application/vnd.abiquo.acceptedrequest+xml; version=2.0;" \
-	-H "Content-Type: application/vnd.abiquo.virtualmachine+xml;version=2.0" \
+	-H "Accept:application/vnd.abiquo.acceptedrequest+xml; version=2.4;" \
+	-H "Content-Type: application/vnd.abiquo.virtualmachine+xml;version=2.4" \
 	-u admin:xabiquo \
 	-d '<virtualMachine>
-<link href="http://10.60.21.187:80/api/admin/enterprises/1" type="application/vnd.abiquo.enterprise+xml" rel="enterprise"/>
-    <link href="http://10.60.21.187:80/api/admin/enterprises/1/users/1" type="application/vnd.abiquo.user+xml" rel="user"/>
-    <link href="http://10.60.21.187:80/api/cloud/virtualdatacenters/53" type="application/vnd.abiquo.virtualdatacenter+xml" rel="virtualdatacenter" title="VMX_04"/>
-    <link href="http://10.60.21.187:80/api/cloud/virtualdatacenters/53/virtualappliances/38" type="application/vnd.abiquo.virtualappliance+xml; version=2.0" rel="virtualappliance"/>
-    <link href="http://10.60.21.187:80/api/cloud/virtualdatacenters/53/virtualappliances/38/virtualmachines/17/network/configurations" type="application/vnd.abiquo.virtualmachinenetworkconfigurations+xml" rel="configurations"/>
-    <link href="http://10.60.21.187:80/api/cloud/virtualdatacenters/53/virtualappliances/38/virtualmachines/17/network/configurations/53" type="application/vnd.abiquo.virtualmachinenetworkconfiguration+xml" rel="network_configuration"/>
-    <link href="http://10.60.21.187:80/api/cloud/virtualdatacenters/53/virtualappliances/38/virtualmachines/17/network/nics" type="application/vnd.abiquo.nics+xml" rel="nics"/>
-    <link href="http://10.60.21.187:80/api/cloud/virtualdatacenters/53/virtualappliances/38/virtualmachines/17/storage/disks" type="application/vnd.abiquo.harddisks+xml" rel="disks"/>
-    <link href="http://10.60.21.187:80/api/cloud/virtualdatacenters/53/virtualappliances/38/virtualmachines/17/action/ips" type="application/vnd.abiquo.ips+xml" rel="ips"/>
-    <link href="http://10.60.21.187:80/api/cloud/virtualdatacenters/53/virtualappliances/38/virtualmachines/17/state" type="application/vnd.abiquo.virtualmachinestate+xml" rel="state"/>
-    <link href="http://10.60.21.187:80/api/cloud/virtualdatacenters/53/virtualappliances/38/virtualmachines/17/action/undeploy" type="application/vnd.abiquo.acceptedrequest+xml" rel="undeploy"/>
-    <link href="http://10.60.21.187:80/api/cloud/virtualdatacenters/53/virtualappliances/38/virtualmachines/17/action/deploy" type="application/vnd.abiquo.acceptedrequest+xml" rel="deploy"/>
-    <link href="http://10.60.21.187:80/api/cloud/virtualdatacenters/53/virtualappliances/38/virtualmachines/17/action/reset" type="application/vnd.abiquo.acceptedrequest+xml" rel="reset"/>
-    <link href="http://10.60.21.187:80/api/cloud/virtualdatacenters/53/virtualappliances/38/virtualmachines/17/action/instance" type="application/vnd.abiquo.acceptedrequest+xml" rel="instance"/>
-    <link href="http://10.60.21.187:80/api/cloud/virtualdatacenters/53/virtualappliances/38/virtualmachines/17/tasks" type="application/vnd.abiquo.tasks+xml" rel="tasks"/>
-    <link href="http://10.60.21.187:80/api/cloud/virtualdatacenters/53/virtualappliances/38/virtualmachines/17" type="application/vnd.abiquo.virtualmachine+xml" rel="edit"/>
-    <link href="http://10.60.21.187:80/api/cloud/virtualdatacenters/53/virtualappliances/38/virtualmachines/17/storage/volumes" type="application/vnd.abiquo.iscsivolumes+xml" rel="volumes"/>
-    <link href="http://10.60.21.187:80/api/admin/enterprises/1/datacenterrepositories/181/virtualmachinetemplates/82" type="application/vnd.abiquo.virtualmachinetemplate+xml" rel="virtualmachinetemplate"/>
-    <cpu>4</cpu>
-    <hdInBytes>27262976</hdInBytes>
-    <highDisponibility>0</highDisponibility>
-    <id>17</id>
-    <idState>1</idState>
-    <idType>1</idType>
-    <name>ABQ_f3f150e2-1a67-4f39-882b-d82557ca8fa2</name>
-    <ram>512</ram>
-    <state>NOT_ALLOCATED</state>
-    <uuid>f3f150e2-1a67-4f39-882b-d82557ca8fa2</uuid>
-    <vdrpPort>0</vdrpPort>
+    <link rel="configurations" type="application/vnd.abiquo.virtualmachinenetworkconfigurations+xml" href="http://10.60.11.15:80/api/cloud/virtualdatacenters/34/virtualappliances/52/virtualmachines/43/network/configurations"/>
+        <link rel="deploy" type="application/vnd.abiquo.acceptedrequest+xml" href="http://10.60.11.15:80/api/cloud/virtualdatacenters/34/virtualappliances/52/virtualmachines/43/action/deploy"/>
+            <link rel="edit" type="application/vnd.abiquo.virtualmachine+xml" href="http://10.60.11.15:80/api/cloud/virtualdatacenters/34/virtualappliances/52/virtualmachines/43"/>
+                <link rel="enterprise" type="application/vnd.abiquo.enterprise+xml" href="http://10.60.11.15:80/api/admin/enterprises/1"/>
+                    <link rel="harddisks" type="application/vnd.abiquo.harddisks+xml" href="http://10.60.11.15:80/api/cloud/virtualdatacenters/34/virtualappliances/52/virtualmachines/43/storage/disks"/>
+                        <link rel="instance" type="application/vnd.abiquo.acceptedrequest+xml" href="http://10.60.11.15:80/api/cloud/virtualdatacenters/34/virtualappliances/52/virtualmachines/43/action/instance"/>
+                            <link rel="nics" type="application/vnd.abiquo.nics+xml" href="http://10.60.11.15:80/api/cloud/virtualdatacenters/34/virtualappliances/52/virtualmachines/43/network/nics"/>
+                                <link rel="reset" type="application/vnd.abiquo.acceptedrequest+xml" href="http://10.60.11.15:80/api/cloud/virtualdatacenters/34/virtualappliances/52/virtualmachines/43/action/reset"/>
+                                    <link rel="state" type="application/vnd.abiquo.virtualmachinestate+xml" href="http://10.60.11.15:80/api/cloud/virtualdatacenters/34/virtualappliances/52/virtualmachines/43/state"/>
+                                        <link rel="tasks" type="application/vnd.abiquo.tasks+xml" href="http://10.60.11.15:80/api/cloud/virtualdatacenters/34/virtualappliances/52/virtualmachines/43/tasks"/>
+                                            <link rel="undeploy" type="application/vnd.abiquo.acceptedrequest+xml" href="http://10.60.11.15:80/api/cloud/virtualdatacenters/34/virtualappliances/52/virtualmachines/43/action/undeploy"/>
+                                                <link rel="user" type="application/vnd.abiquo.user+xml" href="http://10.60.11.15:80/api/admin/enterprises/1/users/1"/>
+                                                    <link rel="virtualappliance" type="application/vnd.abiquo.virtualappliance+xml; version=2.4" href="http://10.60.11.15:80/api/cloud/virtualdatacenters/34/virtualappliances/52"/>
+                                                        <link title="VMX_04" rel="virtualdatacenter" type="application/vnd.abiquo.virtualdatacenter+xml" href="http://10.60.11.15:80/api/cloud/virtualdatacenters/34"/>
+                                                            <link rel="virtualmachinetemplate" type="application/vnd.abiquo.virtualmachinetemplate+xml" href="http://10.60.11.15:80/api/admin/enterprises/1/datacenterrepositories/36/virtualmachinetemplates/295"/>
+                                                                <link rel="volumes" type="application/vnd.abiquo.iscsivolumes+xml" href="http://10.60.11.15:80/api/cloud/virtualdatacenters/34/virtualappliances/52/virtualmachines/43/storage/volumes"/>
+                                                                    <id>43</id>
+                                                                        <uuid>4f699bf9-57c6-4b9a-a83d-d3aa08822b01</uuid>
+                                                                            <name>ABQ_4f699bf9-57c6-4b9a-a83d-d3aa08822b01</name>
+                                                                                <description>m0n0wall</description>
+                                                                                    <cpu>1</cpu>
+                                                                                        <ram>128</ram>
+                                                                                            <hdInBytes>27262976</hdInBytes>
+                                                                                                <vdrpPort>0</vdrpPort>
+                                                                                                    <idState>1</idState>
+                                                                                                        <state>NOT_ALLOCATED</state>
+                                                                                                            <idType>1</idType>
+                                                                                                                <highDisponibility>0</highDisponibility>
+                                                                                                                    <password>egld6Lx9</password>
 	</virtualMachine>' | xmlindent -nbe -f

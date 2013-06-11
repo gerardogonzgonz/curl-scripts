@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<virtualmachinetemplatepersistent>
+    <link rel="virtualmachinetemplate" href="http://10.60.11.20/api/admin/enterprises/40/datacenterrepositories/49/virtualmachinetemplates/1378"/>
+    <link rel="virtualdatacenter" href="http://10.60.11.20/api/cloud/virtualdatacenters/53"/>
+    <link rel="tier" href="http://10.60.11.20/api/cloud/virtualdatacenters/53/tiers/193"/>
+    <persistentTemplateName>persistent_testing</persistentTemplateName>
+    <persistentVolumeName></persistentVolumeName>
+</virtualmachinetemplatepersistent>

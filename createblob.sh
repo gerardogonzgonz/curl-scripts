@@ -12,4 +12,4 @@ curl --verbose 'http://localhost/api/admin/enterprises/'$idEnterprise'/blobstora
         -X "POST" \
         -H "Accept: application/vnd.abiquo.temporaryredirect+xml" \
         -H "Content-Type: multipart/form-data" \
-        -u user1:passuser1 | xmlindent -nbe -f
+        -u user2:passuser2 | xmlindent -nbe -f

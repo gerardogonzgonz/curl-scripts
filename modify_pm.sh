@@ -1,8 +1,8 @@
 #!/bin/bash
 
-curl --verbose 'http://10.60.21.187/api/admin/datacenters/149/racks/103/machines/86' \
+curl --verbose 'http://10.60.11.25/api/admin/datacenters/2/racks/2/machines/4' \
         -X PUT \
-	-H "Content-type: application/vnd.abiquo.machine+xml; version=2.0;" \
-        -H "Accept: application/vnd.abiquo.machine+xml; version=2.0;" \
-        -d @modifymachine.xml \
+	-H "Content-type: application/vnd.abiquo.machine+xml; version=2.6;" \
+        -H "Accept: application/vnd.abiquo.machine+xml; version=2.6;" \
+        -d @updatemachine2.6.xml \
         -u admin:xabiquo | xmlindent -nbe -f

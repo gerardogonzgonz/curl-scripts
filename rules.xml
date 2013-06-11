@@ -8,7 +8,7 @@
         </fitPolicyRules>
     <machineLoadRules>
         <machineLoadRule>
-            <link rel="datacenter" href="http://10.60.11.187:80/api/admin/datacenters/266"/>
+            <link rel="datacenter" href="http://10.60.11.187:80/api/admin/datacenters/17"/>
             <cpuLoadPercentage>10000</cpuLoadPercentage>
             <ramLoadPercentage>10000</ramLoadPercentage>
         </machineLoadRule>
