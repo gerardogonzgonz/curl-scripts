@@ -1,0 +1,23 @@
+#!/bin/bash
+
+curl --verbose -X POST 'http://10.60.11.20:80/api/admin/enterprises/75/datacenterrepositories/54/virtualmachinetemplates' \
+      -H "Accept: application/vnd.abiquo.acceptedrequest+xml; version=2.6;" \
+      -H "Content-Type: application/vnd.abiquo.virtualmachinetemplatepersistent+xml; version=2.6;" \
+      -u admin:xabiquo \
+      -d '<virtualmachinetemplatepersistent>
+<link href="http://10.60.11.20:80/api/cloud/virtualdatacenters/280" rel="virtualdatacenter"/>
+<link href="http://10.60.11.20:80/api/admin/datacenters/54/storage/tiers/215" type="application/vnd.abiquo.tier+xml" rel="tier"/>
+<link href="http://10.60.11.20:80/api/admin/enterprises/1/datacenterrepositories/54/virtualmachinetemplates/1902" rel="virtualmachinetemplate"/>
+<persistentTemplateName>aaaaaaaaaaaaaa</persistentTemplateName>
+<persistentVolumeName></persistentVolumeName>
+</virtualmachinetemplatepersistent>' | xmlindent -nbe -f
+
+
+
+
+
+
+
+<link href="http://10.60.11.20:80/api/cloud/virtualdatacenters/280" rel="virtualdatacenter"/>[\n]"
+2013-07-11 12:12:08,854 DEBUG [jclouds.wire] (main) >> "    <link href="http://10.60.11.20:80/api/admin/datacenters/54/storage/tiers/215" type="application/vnd.abiquo.tier+xml" rel="tier"/>[\n]"
+2013-07-11 12:12:08,855 DEBUG [jclouds.wire] (main) >> "    <link href="http://10.60.11.20:80/api/admin/enterprises/1/datacenterrepositories/54/virtualmachinetemplates/1902" rel="virtualmachinetemplate"/>[\n]"

@@ -1,13 +1,13 @@
 #!/bin/bash
 
-curl --verbose 'http://10.60.1.41/api/cloud/virtualdatacenters?datacenter=1' \
+curl --verbose 'http://10.60.11.30/api/cloud/virtualdatacenters?datacenter=14' \
       -X "POST" \
-      -H "Accept: application/vnd.abiquo.virtualdatacenter+xml;version=2.2" \
-      -H "Content-Type: application/vnd.abiquo.virtualdatacenter+xml;version=2.2" \
+      -H "Accept: application/vnd.abiquo.virtualdatacenter+xml;version=2.6" \
+      -H "Content-Type: application/vnd.abiquo.virtualdatacenter+xml;version=2.6" \
       -u admin:xabiquo \
       -d '<virtualDatacenter> 
-<link rel="datacenter" type="application/vnd.abiquo.datacenter+xml" href="http://10.60.1.41:80/api/admin/datacenters/1"/>    
-<link href="http://10.60.1.41/api/admin/enterprises/1" rel="enterprise" />
+<link rel="datacenter" type="application/vnd.abiquo.datacenter+xml" href="http://10.60.11.30:80/api/admin/datacenters/14"/>    
+<link href="http://10.60.11.30/api/admin/enterprises/1" rel="enterprise" />
 <cpuHard>0</cpuHard>
     <cpuSoft>0</cpuSoft>
     <hdHard>0</hdHard>
@@ -20,12 +20,12 @@ curl --verbose 'http://10.60.1.41/api/cloud/virtualdatacenters?datacenter=1' \
     <storageSoft>0</storageSoft>
     <vlansHard>0</vlansHard>
     <vlansSoft>0</vlansSoft>
-    <hypervisorType>VMX_04</hypervisorType>
+    <hypervisorType>HYPERV_301</hypervisorType>
     <name>NEWVDC</name>
     <network>
-        <address>192.168.0.0</address>
+        <address>192.170.0.0</address>
         <dhcpOptions/>
-        <gateway>192.168.0.1</gateway>
+        <gateway>192.170.0.1</gateway>
         <mask>24</mask>
         <name>default_private_network</name>
         <primaryDNS></primaryDNS>

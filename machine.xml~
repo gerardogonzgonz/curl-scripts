@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<machine>
+    <link rel="rack" type="application/vnd.abiquo.rack+xml" href="http://10.60.11.20:80/api/admin/datacenters/3/racks/2"/>
+    <link rel="edit" type="application/vnd.abiquo.machine+xml" href="http://10.60.11.20:80/api/admin/datacenters/3/racks/2/machines/1"/>
+    <link rel="datastores" type="application/vnd.abiquo.datastores+xml" href="http://10.60.11.20:80/api/admin/datacenters/3/racks/2/machines/1/datastores"/>
+    <link rel="virtualmachines" type="application/vnd.abiquo.virtualmachines+xml" href="http://10.60.11.20:80/api/admin/datacenters/3/racks/2/machines/1/virtualmachines"/>
+    <link rel="checkstate" type="application/vnd.abiquo.machinestate+xml" href="http://10.60.11.20:80/api/admin/datacenters/3/racks/2/machines/1/action/checkstate"/>
+    <link rel="reenableafterha" type="application/vnd.abiquo.machine+xml" href="http://10.60.11.20:80/api/admin/datacenters/3/racks/2/machines/1/action/reenableafterha"/>
+    <link rel="checkipmi" href="http://10.60.11.20:80/api/admin/datacenters/3/racks/2/machines/1/action/checkipmi"/>
+    <link rel="checkipmistate" type="application/vnd.abiquo.machineipmistate+xml" href="http://10.60.11.20:80/api/admin/datacenters/3/racks/2/machines/1/action/checkipmistate"/>
+    <link rel="refreshnics" type="application/vnd.abiquo.machine+xml" href="http://10.60.11.20:80/api/admin/datacenters/3/racks/2/machines/1/action/nics/refresh"/>
+    <link rel="sendmail" type="application/vnd.abiquo.mail+xml" href="http://10.60.11.20:80/api/admin/datacenters/3/racks/2/machines/1/action/sendmail"/>
+    <id>1</id>
+    <name>thunder05.</name>
+    <description>thunder05.</description>
+    <state>MANAGED</state>
+    <type>VMX_04</type>
+    <ip>10.60.1.74</ip>
+    <ipService>10.60.1.74</ipService>
+    <ram>4086</ram>
+    <ramUsed>0</ramUsed>
+    <cpu>4</cpu>
+    <cpuUsed>0</cpuUsed>
+    <initiatorIQN>iqn.1998-01.com.vmware:thunder05-1d72395a</initiatorIQN>
+    <ipmiIP></ipmiIP>
+    <ipmiPort>0</ipmiPort>
+    <ipmiUser></ipmiUser>
+    <ipmiPassword></ipmiPassword>
+    <datastores>
+        <datastore>
+            <id>1</id>
+            <name>ABQ_e04ec307-c43b-4e47-b775-6444eb350961</name>
+            <rootPath>ABQ_e04ec307-c43b-4e47-b775-6444eb350961</rootPath>
+            <directory></directory>
+            <size>7856958443520</size>
+            <usedSize>3005901148160</usedSize>
+            <enabled>false</enabled>
+            <datastoreUUID>d04745d7-b002-4499-82da-c3aa49d35803</datastoreUUID>
+        </datastore>
+        <datastore>
+            <id>2</id>
+            <name>ABQ_0de8cf6d-65b3-4bed-af3b-92cbabb9fe45</name>
+            <rootPath>ABQ_0de8cf6d-65b3-4bed-af3b-92cbabb9fe45</rootPath>
+            <directory></directory>
+            <size>966687932416</size>
+            <usedSize>329007771648</usedSize>
+            <enabled>false</enabled>
+            <datastoreUUID>662c2be9-ab47-4879-9f8a-63b367869cf9</datastoreUUID>
+        </datastore>
+        <datastore>
+            <id>3</id>
+            <name>datastore1</name>
+            <rootPath>datastore1</rootPath>
+            <directory></directory>
+            <size>494726545408</size>
+            <usedSize>2480930816</usedSize>
+            <enabled>true</enabled>
+            <datastoreUUID>b47c4e50-df4f-4e4d-8ce8-a2fa9deeb7a6</datastoreUUID>
+        </datastore>
+    </datastores>
+    <networkInterfaces>
+        <networkinterface>
+            <name>vSwitch0</name>
+            <mac>00:26:b9:7c:6a:48</mac>
+        </networkinterface>
+        <networkinterface>
+            <link rel="networkservicetype" type="application/vnd.abiquo.networkservicetype+xml" href="http://10.60.11.20:80/api/admin/datacenters/3/networkservicetypes/3"/>
+            <name>vSwitch1</name>
+            <mac>00:26:b9:7c:6a:49</mac>
+        </networkinterface>
+    </networkInterfaces>
+</machine>

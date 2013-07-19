@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<network>
+    <link href="http://10.60.11.20:80/api/admin/datacenters/55/networkservicetypes/55" rel="networkservicetype" />
+    <link href="http://10.60.11.20:80/api/admin/enterprises/54" rel="enterprise" />
+  <address>10.0.0.0</address>
+  <gateway>10.0.0.1</gateway>
+  <mask>24</mask>
+  <name>externalNetwork</name>
+  <tag>7</tag>
+  <primaryDNS></primaryDNS>
+  <secondaryDNS></secondaryDNS>
+  <sufixDNS></sufixDNS>
+  <dhcpOptions/>
+  <type>EXTERNAL</type>
+</network>

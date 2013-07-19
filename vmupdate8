@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<virtualMachine>
+    <link title="VMX_04" rel="machine" type="application/vnd.abiquo.machine+xml" href="http://10.60.11.20:80/api/admin/datacenters/126/racks/126/machines/129"/>
+    <link rel="edit" type="application/vnd.abiquo.virtualmachine+xml" href="http://10.60.11.20:80/api/cloud/virtualdatacenters/214/virtualappliances/76/virtualmachines/104"/>
+    <link rel="sendmail" type="application/vnd.abiquo.mail+xml" href="http://10.60.11.20:80/api/admin/datacenters/126/racks/126/machines/129/virtualmachines/104/action/sendmail"/>
+    <link rel="enterprise" type="application/vnd.abiquo.enterprise+xml" href="http://10.60.11.20:80/api/admin/enterprises/105"/>
+    <link rel="user" type="application/vnd.abiquo.user+xml" href="http://10.60.11.20:80/api/admin/enterprises/105/users/1"/>
+    <link title="VMX_04" rel="virtualdatacenter" type="application/vnd.abiquo.virtualdatacenter+xml" href="http://10.60.11.20:80/api/cloud/virtualdatacenters/214"/>
+    <link title="vapp2" rel="virtualappliance" type="application/vnd.abiquo.virtualappliance+xml; version=2.6" href="http://10.60.11.20:80/api/cloud/virtualdatacenters/214/virtualappliances/76"/>
+    <link rel="configurations" type="application/vnd.abiquo.virtualmachinenetworkconfigurations+xml" href="http://10.60.11.20:80/api/cloud/virtualdatacenters/214/virtualappliances/76/virtualmachines/104/network/configurations"/>
+    <link rel="network_configuration" type="application/vnd.abiquo.virtualmachinenetworkconfiguration+xml" href="http://10.60.11.20:80/api/cloud/virtualdatacenters/214/virtualappliances/76/virtualmachines/104/network/configurations/393"/>
+    <link rel="nics" type="application/vnd.abiquo.nics+xml" href="http://10.60.11.20:80/api/cloud/virtualdatacenters/214/virtualappliances/76/virtualmachines/104/network/nics"/>
+    <link rel="harddisks" type="application/vnd.abiquo.harddisks+xml" href="http://10.60.11.20:80/api/cloud/virtualdatacenters/214/virtualappliances/76/virtualmachines/104/storage/disks"/>
+    <link rel="state" type="application/vnd.abiquo.virtualmachinestate+xml" href="http://10.60.11.20:80/api/cloud/virtualdatacenters/214/virtualappliances/76/virtualmachines/104/state"/>
+    <link rel="undeploy" type="application/vnd.abiquo.acceptedrequest+xml" href="http://10.60.11.20:80/api/cloud/virtualdatacenters/214/virtualappliances/76/virtualmachines/104/action/undeploy"/>
+    <link rel="deploy" type="application/vnd.abiquo.acceptedrequest+xml" href="http://10.60.11.20:80/api/cloud/virtualdatacenters/214/virtualappliances/76/virtualmachines/104/action/deploy"/>
+    <link rel="reset" type="application/vnd.abiquo.acceptedrequest+xml" href="http://10.60.11.20:80/api/cloud/virtualdatacenters/214/virtualappliances/76/virtualmachines/104/action/reset"/>
+    <link rel="instance" type="application/vnd.abiquo.acceptedrequest+xml" href="http://10.60.11.20:80/api/cloud/virtualdatacenters/214/virtualappliances/76/virtualmachines/104/action/instance"/>
+    <link rel="rdpaccess" type="application/vnd.abiquo.remoteaccess+xml" href="http://10.60.11.20:80/api/cloud/virtualdatacenters/214/virtualappliances/76/virtualmachines/104/config/rdpaccess"/>
+    <link rel="tasks" type="application/vnd.abiquo.tasks+xml" href="http://10.60.11.20:80/api/cloud/virtualdatacenters/214/virtualappliances/76/virtualmachines/104/tasks"/>
+    <link rel="volumes" type="application/vnd.abiquo.iscsivolumes+xml" href="http://10.60.11.20:80/api/cloud/virtualdatacenters/214/virtualappliances/76/virtualmachines/104/storage/volumes"/>
+    <link rel="disk0" type="application/vnd.abiquo.harddisk+xml" href="http://10.60.11.20:80/api/cloud/virtualdatacenters/214/disks/97267"/>
+    <link rel="nic0" type="application/vnd.abiquo.privateip+xml" href="http://10.60.11.20:80/api/cloud/virtualdatacenters/214/privatenetworks/393/ips/96997"/>
+    <link rel="virtualmachinetemplate" type="application/vnd.abiquo.virtualmachinetemplate+xml" href="http://10.60.11.20:80/api/admin/enterprises/105/datacenterrepositories/126/virtualmachinetemplates/2797"/>
+    <id>104</id>
+    <uuid>ffd6ad6e-a6f4-460f-92dd-cfefb3db117e</uuid>
+    <name>ABQ_ffd6ad6e-a6f4-460f-92dd-cfefb3db117e</name>
+    <description>m0n0wall is a project aimed at creating a complete, embedded firewall software package that, when used together with an embedded PC, provides all the important features of commercial firewall boxes (including ease of use) at a fraction of the price (fr</description>
+    <cpu>1</cpu>
+    <ram>128</ram>
+    <hdInBytes>27262976</hdInBytes>
+    <vdrpEnabled>true</vdrpEnabled>
+    <vdrpPort>5902</vdrpPort>
+    <vdrpIP>10.60.1.74</vdrpIP>
+    <idState>6</idState>
+    <state>OFF</state>
+    <idType>0</idType>
+    <type>NOT_MANAGED</type>
+    <highDisponibility>0</highDisponibility>
+    <password>LSG1b3kW</password>
+</virtualMachine>

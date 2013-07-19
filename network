@@ -1,0 +1,77 @@
+{
+    "address": "50.50.50.0", 
+    "defaultNetwork": null, 
+    "dhcpOptions": {
+        "collection": [], 
+        "links": [], 
+        "totalSize": null
+    }, 
+    "gateway": "50.50.50.1", 
+    "id": 3, 
+    "links": [
+        {
+            "href": "http://10.60.11.30:80/api/admin/datacenters/1", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "datacenter", 
+            "title": null, 
+            "type": "application/vnd.abiquo.datacenter+json"
+        }, 
+        {
+            "href": "http://10.60.11.30:80/api/admin/datacenters/1/network/3", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "edit", 
+            "title": null, 
+            "type": "application/vnd.abiquo.vlan+json"
+        }, 
+        {
+            "href": "http://10.60.11.30:80/api/admin/datacenters/1/networkservicetypes", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "networkservicetypes", 
+            "title": null, 
+            "type": "application/vnd.abiquo.vlan+json"
+        }, 
+        {
+            "href": "http://10.60.11.30:80/api/admin/datacenters/1/networkservicetypes/1", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "networkservicetype", 
+            "title": null, 
+            "type": "application/vnd.abiquo.vlan+json"
+        }, 
+        {
+            "href": "http://10.60.11.30:80/api/admin/enterprises/1/limits/1/externalnetworks/3/ips", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "ips", 
+            "title": null, 
+            "type": "application/vnd.abiquo.externalips+json"
+        }, 
+        {
+            "href": "http://10.60.11.30:80/api/admin/datacenters/1/network/3/ips", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "infrastructureips", 
+            "title": null, 
+            "type": "application/vnd.abiquo.externalips+json"
+        }, 
+        {
+            "href": "http://10.60.11.30:80/api/admin/enterprises/1", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "enterprise", 
+            "title": "Abiquo", 
+            "type": "application/vnd.abiquo.enterprise+json"
+        }
+    ], 
+    "mask": 24, 
+    "name": "external", 
+    "primaryDNS": "", 
+    "secondaryDNS": "", 
+    "sufixDNS": "", 
+    "tag": 50, 
+    "type": "EXTERNAL", 
+    "unmanaged": null
+}

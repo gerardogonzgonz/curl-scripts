@@ -1,8 +1,14 @@
 #!/bin/bash
 
-curl --verbose -X POST 'http://10.60.21.187/api/admin/datacenters/9/racks/9/machines/9/virtualmachines/18/action/capture' \
-	-H "Content-type:application/vnd.abiquo.links+xml; version=2.0;" \
+curl --verbose -X POST 'http://10.60.11.20/api/cloud/virtualdatacenters/166/virtualappliances/133/virtualmachines' \
+	-H "Content-type:application/vnd.abiquo.virtualmachineflat+xml;version=2.6;" \
 	-u admin:xabiquo \
-	-d '<links>
-	<link rel="virtualappliance" type="application/vnd.abiquo.virtualappliance+xml; version=2.0" href="http://10.60.21.187:80/api/cloud/virtualdatacenters/8/virtualappliances/6"/>
-	</links>' | xmlindent -nbe -f
+	-d '<virtualmachineflat>
+	<link rel="imported" type="application/vnd.abiquo.virtualappliance+xml" href="http://10.60.11.20/api/admin/datacenters/32/racks/32/machines/37/virtualmachines/309"/><link rel="nic" type="application/vnd.abiquo.privateip+xml" href="http://10.60.11.20:80/api/cloud/virtualdatacenters/166/privatenetworks/220/ips/54534"/>
+<nic>
+	<ip>192.168.0.37</ip>
+	<id>54534</id>
+</nic>
+<disk></disk>
+
+</virtualmachineflat>' | xmlindent -nbe -f

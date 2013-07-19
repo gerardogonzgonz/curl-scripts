@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<virtualMachineFlat>
+    <link title="KVM" rel="machine" type="application/vnd.abiquo.machine+xml" href="http://10.60.11.30:80/api/admin/datacenters/1/racks/1/machines/7"/>
+    <link rel="sendmail" type="application/vnd.abiquo.mail+xml" href="http://10.60.11.30:80/api/admin/datacenters/1/racks/1/machines/7/virtualmachines/66/action/sendmail"/>
+    <link rel="enterprise" type="application/vnd.abiquo.enterprise+xml" href="http://10.60.11.30:80/api/admin/enterprises/1"/>
+    <link rel="user" type="application/vnd.abiquo.user+xml" href="http://10.60.11.30:80/api/admin/enterprises/1/users/1"/>
+    <link title="KVM" rel="virtualdatacenter" type="application/vnd.abiquo.virtualdatacenter+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/2"/>
+    <link title="vappKVM" rel="virtualappliance" type="application/vnd.abiquo.virtualappliance+xml; version=2.6" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/2/virtualappliances/5"/>
+    <link rel="configurations" type="application/vnd.abiquo.virtualmachinenetworkconfigurations+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/2/virtualappliances/5/virtualmachines/66/network/configurations"/>
+    <link rel="network_configuration" type="application/vnd.abiquo.virtualmachinenetworkconfiguration+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/2/virtualappliances/5/virtualmachines/66/network/configurations/2"/>
+    <link rel="nics" type="application/vnd.abiquo.nics+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/2/virtualappliances/5/virtualmachines/66/network/nics"/>
+    <link rel="harddisks" type="application/vnd.abiquo.harddisks+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/2/virtualappliances/5/virtualmachines/66/storage/disks"/>
+    <link rel="state" type="application/vnd.abiquo.virtualmachinestate+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/2/virtualappliances/5/virtualmachines/66/state"/>
+    <link rel="undeploy" type="application/vnd.abiquo.acceptedrequest+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/2/virtualappliances/5/virtualmachines/66/action/undeploy"/>
+    <link rel="deploy" type="application/vnd.abiquo.acceptedrequest+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/2/virtualappliances/5/virtualmachines/66/action/deploy"/>
+    <link rel="reset" type="application/vnd.abiquo.acceptedrequest+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/2/virtualappliances/5/virtualmachines/66/action/reset"/>
+    <link rel="instance" type="application/vnd.abiquo.acceptedrequest+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/2/virtualappliances/5/virtualmachines/66/action/instance"/>
+    <link rel="rdpaccess" type="application/vnd.abiquo.remoteaccess+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/2/virtualappliances/5/virtualmachines/66/config/rdpaccess"/>
+    <link rel="tasks" type="application/vnd.abiquo.tasks+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/2/virtualappliances/5/virtualmachines/66/tasks"/>
+    <link rel="volumes" type="application/vnd.abiquo.iscsivolumes+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/2/virtualappliances/5/virtualmachines/66/storage/volumes"/>
+    <link rel="virtualmachinetemplate" type="application/vnd.abiquo.virtualmachinetemplate+xml" href="http://10.60.11.30:80/api/admin/enterprises/1/datacenterrepositories/1/virtualmachinetemplates/6"/>
+    <link title="ABQ_309ed3c1-62ef-4dff-b2f5-3a6f6d6ff20f" rel="edit" type="application/vnd.abiquo.virtualmachine+xml" href="http://10.60.11.30:80/api/admin/datacenters/1/racks/1/machines/7/virtualmachines/66"/>
+    <id>66</id>
+    <uuid>309ed3c1-62ef-4dff-b2f5-3a6f6d6ff20f</uuid>
+    <name>ABQ_309ed3c1-62ef-4dff-b2f5-3a6f6d6ff20f</name>
+    <description>root : abiquo</description>
+    <cpu>1</cpu>
+    <ram>64</ram>
+    <hdInBytes>0</hdInBytes>
+    <vdrpEnabled>true</vdrpEnabled>
+    <vdrpPort>5905</vdrpPort>
+    <vdrpIP>10.60.1.81</vdrpIP>
+    <idState>4</idState>
+    <state>ON</state>
+    <idType>0</idType>
+    <type>MANAGED</type>
+    <highDisponibility>0</highDisponibility>
+    <volumes/>
+    <disks/>
+    <nics>
+        <nic>
+            <link rel="self" type="application/vnd.abiquo.nic+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/2/virtualappliances/5/virtualmachines/66/network/nics/276"/>
+            <link rel="edit" type="application/vnd.abiquo.privateip+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/2/privatenetworks/2/ips/276"/>
+            <link title="default_private_network" rel="privatenetwork" type="application/vnd.abiquo.vlan+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/2/privatenetworks/2"/>
+            <id>276</id>
+            <ip>192.168.0.4</ip>
+            <mac>52:54:00:A9:BC:B4</mac>
+            <sequence>0</sequence>
+        </nic>
+    </nics>
+</virtualMachineFlat>

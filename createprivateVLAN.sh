@@ -1,8 +1,8 @@
 #!/bin/bash
 
-curl --verbose -X POST 'http://10.60.21.187/api/cloud/virtualdatacenters/67/privatenetworks' \
-	-H "Accept: application/vnd.abiquo.vlan+xml;version=2.0;" \
-	-H "Content-type: application/vnd.abiquo.vlan+xml;version=2.0;" \
+curl --verbose -X POST 'http://10.60.11.30/api/cloud/virtualdatacenters/66/privatenetworks' \
+	-H "Accept: application/vnd.abiquo.vlan+xml;version=2.6;" \
+	-H "Content-type: application/vnd.abiquo.vlan+xml;version=2.6;" \
 	-u admin:xabiquo \
 	-d '<network>
     <address>192.168.1.0</address>

@@ -1,0 +1,210 @@
+{
+    "cpu": 2, 
+    "description": "root : abiquo", 
+    "dvd": null, 
+    "hdInBytes": 104857600, 
+    "highDisponibility": 0, 
+    "id": 1, 
+    "idState": 6, 
+    "idType": 0, 
+    "keymap": null, 
+    "layer": null, 
+    "links": [
+        {
+            "href": "http://10.60.1.249:80/api/admin/datacenters/1/racks/1/machines/1", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "machine", 
+            "title": "VMX_04", 
+            "type": "application/vnd.abiquo.machine+json"
+        }, 
+        {
+            "href": "http://10.60.1.249:80/api/cloud/virtualdatacenters/1/virtualappliances/1/virtualmachines/1", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "edit", 
+            "title": null, 
+            "type": "application/vnd.abiquo.virtualmachine+json"
+        }, 
+        {
+            "href": "http://10.60.1.249:80/api/admin/datacenters/1/racks/1/machines/1/virtualmachines/1/action/sendmail", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "sendmail", 
+            "title": null, 
+            "type": "application/vnd.abiquo.mail+json"
+        }, 
+        {
+            "href": "http://10.60.1.249:80/api/admin/enterprises/1", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "enterprise", 
+            "title": null, 
+            "type": "application/vnd.abiquo.enterprise+json"
+        }, 
+        {
+            "href": "http://10.60.1.249:80/api/admin/enterprises/1/users/1", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "user", 
+            "title": null, 
+            "type": "application/vnd.abiquo.user+json"
+        }, 
+        {
+            "href": "http://10.60.1.249:80/api/cloud/virtualdatacenters/1", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "virtualdatacenter", 
+            "title": "VMX_04", 
+            "type": "application/vnd.abiquo.virtualdatacenter+json"
+        }, 
+        {
+            "href": "http://10.60.1.249:80/api/cloud/virtualdatacenters/1/virtualappliances/1", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "virtualappliance", 
+            "title": "vap", 
+            "type": "application/vnd.abiquo.virtualappliance+xml; version=2.6"
+        }, 
+        {
+            "href": "http://10.60.1.249:80/api/cloud/virtualdatacenters/1/virtualappliances/1/virtualmachines/1/network/configurations", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "configurations", 
+            "title": null, 
+            "type": "application/vnd.abiquo.virtualmachinenetworkconfigurations+json"
+        }, 
+        {
+            "href": "http://10.60.1.249:80/api/cloud/virtualdatacenters/1/virtualappliances/1/virtualmachines/1/network/configurations/1", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "network_configuration", 
+            "title": null, 
+            "type": "application/vnd.abiquo.virtualmachinenetworkconfiguration+json"
+        }, 
+        {
+            "href": "http://10.60.1.249:80/api/cloud/virtualdatacenters/1/virtualappliances/1/virtualmachines/1/network/nics", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "nics", 
+            "title": null, 
+            "type": "application/vnd.abiquo.nics+json"
+        }, 
+        {
+            "href": "http://10.60.1.249:80/api/cloud/virtualdatacenters/1/virtualappliances/1/virtualmachines/1/storage/disks", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "harddisks", 
+            "title": null, 
+            "type": "application/vnd.abiquo.harddisks+json"
+        }, 
+        {
+            "href": "http://10.60.1.249:80/api/cloud/virtualdatacenters/1/virtualappliances/1/virtualmachines/1/state", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "state", 
+            "title": null, 
+            "type": "application/vnd.abiquo.virtualmachinestate+json"
+        }, 
+        {
+            "href": "http://10.60.1.249:80/api/cloud/virtualdatacenters/1/virtualappliances/1/virtualmachines/1/action/undeploy", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "undeploy", 
+            "title": null, 
+            "type": "application/vnd.abiquo.acceptedrequest+json"
+        }, 
+        {
+            "href": "http://10.60.1.249:80/api/cloud/virtualdatacenters/1/virtualappliances/1/virtualmachines/1/action/deploy", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "deploy", 
+            "title": null, 
+            "type": "application/vnd.abiquo.acceptedrequest+json"
+        }, 
+        {
+            "href": "http://10.60.1.249:80/api/cloud/virtualdatacenters/1/virtualappliances/1/virtualmachines/1/action/reset", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "reset", 
+            "title": null, 
+            "type": "application/vnd.abiquo.acceptedrequest+json"
+        }, 
+        {
+            "href": "http://10.60.1.249:80/api/cloud/virtualdatacenters/1/virtualappliances/1/virtualmachines/1/action/instance", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "instance", 
+            "title": null, 
+            "type": "application/vnd.abiquo.acceptedrequest+json"
+        }, 
+        {
+            "href": "http://10.60.1.249:80/api/cloud/virtualdatacenters/1/virtualappliances/1/virtualmachines/1/config/rdpaccess", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "rdpaccess", 
+            "title": null, 
+            "type": "application/vnd.abiquo.remoteaccess+json"
+        }, 
+        {
+            "href": "http://10.60.1.249:80/api/cloud/virtualdatacenters/1/virtualappliances/1/virtualmachines/1/tasks", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "tasks", 
+            "title": null, 
+            "type": "application/vnd.abiquo.tasks+json"
+        }, 
+        {
+            "href": "http://10.60.1.249:80/api/cloud/virtualdatacenters/1/virtualappliances/1/virtualmachines/1/storage/volumes", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "volumes", 
+            "title": null, 
+            "type": "application/vnd.abiquo.iscsivolumes+json"
+        }, 
+        {
+            "href": "http://10.60.1.249:80/api/cloud/virtualdatacenters/1/disks/257", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "disk20", 
+            "title": null, 
+            "type": "application/vnd.abiquo.harddisk+json"
+        }, 
+        {
+            "href": "http://10.60.1.249:80/api/cloud/virtualdatacenters/1/privatenetworks/1/ips/7", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "nic0", 
+            "title": null, 
+            "type": "application/vnd.abiquo.privateip+json"
+        }, 
+        {
+            "href": "http://10.60.1.249:80/api/admin/enterprises/1/datacenterrepositories/1/virtualmachinetemplates/23", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "virtualmachinetemplate", 
+            "title": null, 
+            "type": "application/vnd.abiquo.virtualmachinetemplate+json"
+        }, 
+        {
+            "href": "http://10.60.1.249:80/api/admin/enterprises/1/datacenterrepositories/1/virtualmachinetemplates/23/conversions/VMDK_FLAT", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "conversion", 
+            "title": null, 
+            "type": "application/vnd.abiquo.conversion+json"
+        }
+    ], 
+    "metadata": null, 
+    "name": "ABQ_9a0a9bca-68de-4412-847b-4fefcae46e20", 
+    "password": "GKuzG5F8", 
+    "ram": 32, 
+    "runlist": null, 
+    "runlistElements": null, 
+    "state": "OFF", 
+    "type": "MANAGED", 
+    "uuid": "9a0a9bca-68de-4412-847b-4fefcae46e20", 
+    "vdrpEnabled": true, 
+    "vdrpIP": "10.60.1.74", 
+    "vdrpPort": 5901
+}

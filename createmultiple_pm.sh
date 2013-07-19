@@ -1,9 +1,9 @@
 #!/bin/bash
 
-curl --verbose "http://10.60.11.15/api/admin/datacenters/34/racks/34/machines" \
+curl --verbose "http://10.60.11.30/api/admin/datacenters/14/racks/10/machines" \
         -X POST \
-        -H "Accept:application/vnd.abiquo.machines+xml;version=2.4" \
-        -H "Content-type:application/vnd.abiquo.multiplemachines+xml;version=2.4" \
+        -H "Accept:application/vnd.abiquo.machines+xml;version=2.6" \
+        -H "Content-type:application/vnd.abiquo.multiplemachines+xml;version=2.6" \
         -u admin:xabiquo \
         -d '<machinesToCreate>
             <ipFrom>10.60.1.74</ipFrom>

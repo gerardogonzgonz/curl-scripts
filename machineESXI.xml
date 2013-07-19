@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<hypervisorDiscoveryList>
+    <hypervisorDiscoveries>
+        <hypervisorDefinition>
+            <name>thunder05.bcn.abiquo.com.</name>
+            <status>MANAGED</status>
+            <hardwareConfiguration>
+                <numVirtualCpus>4</numVirtualCpus>
+                <ramInMb>4086</ramInMb>
+            </hardwareConfiguration>
+            <remoteManagementIp>10.60.11.250</remoteManagementIp>
+            <networkInterfaces>
+                <deviceName>vSwitch0</deviceName>
+                <macAddress>00:26:b9:7c:6a:48</macAddress>
+            </networkInterfaces>
+            <networkInterfaces>
+                <deviceName>dvSwitchQA</deviceName>
+                <macAddress>00:26:b9:7c:6a:49</macAddress>
+            </networkInterfaces>
+            <datastores>
+                <deviceName>datastore1</deviceName>
+                <uuid>d9636288-4e55-46f7-b9cb-8cc112301ac4</uuid>
+                <path>datastore1</path>
+                <sizeTotalInKb>483131392</sizeTotalInKb>
+                <sizeAvailableInKb>434829312</sizeAvailableInKb>
+            </datastores>
+            <datastores>
+                <deviceName>ABQ_b95fb0a7-fcc9-4649-8ee4-c4dbbd9aae88</deviceName>
+                <uuid>d04745d7-b002-4499-82da-c3aa49d35803</uuid>
+                <path>ABQ_b95fb0a7-fcc9-4649-8ee4-c4dbbd9aae88</path>
+                <sizeTotalInKb>7672810980</sizeTotalInKb>
+                <sizeAvailableInKb>4719795128</sizeAvailableInKb>
+            </datastores>
+            <initiatorIQN>iqn.1998-01.com.vmware:thunder05-4b6d136b</initiatorIQN>
+            <vncIp>10.60.1.74</vncIp>
+        </hypervisorDefinition>
+        <hypervisorLocator>
+            <ip>10.60.1.74</ip>
+        </hypervisorLocator>
+    </hypervisorDiscoveries>
+</hypervisorDiscoveryList>
