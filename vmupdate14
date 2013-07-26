@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<virtualMachine>
+    <link rel="configurations" type="application/vnd.abiquo.virtualmachinenetworkconfigurations+xml" href="http://10.60.11.18:80/api/cloud/virtualdatacenters/19/virtualappliances/19/virtualmachines/34/network/configurations"/>
+    <link rel="deploy" type="application/vnd.abiquo.acceptedrequest+xml" href="http://10.60.11.18:80/api/cloud/virtualdatacenters/19/virtualappliances/19/virtualmachines/34/action/deploy"/>
+    <link rel="disk0" type="application/vnd.abiquo.volume+xml" href="http://10.60.11.18:80/api/cloud/virtualdatacenters/19/volumes/10427"/>
+    <link rel="edit" type="application/vnd.abiquo.virtualmachine+xml" href="http://10.60.11.18:80/api/cloud/virtualdatacenters/19/virtualappliances/19/virtualmachines/34"/>
+    <link rel="enterprise" type="application/vnd.abiquo.enterprise+xml" href="http://10.60.11.18:80/api/admin/enterprises/12"/>
+    <link rel="harddisks" type="application/vnd.abiquo.harddisks+xml" href="http://10.60.11.18:80/api/cloud/virtualdatacenters/19/virtualappliances/19/virtualmachines/34/storage/disks"/>
+    <link rel="instance" type="application/vnd.abiquo.acceptedrequest+xml" href="http://10.60.11.18:80/api/cloud/virtualdatacenters/19/virtualappliances/19/virtualmachines/34/action/instance"/>
+    <link title="KVM" rel="machine" type="application/vnd.abiquo.machine+xml" href="http://10.60.11.18:80/api/admin/datacenters/12/racks/12/machines/12"/>
+    <link rel="network_configuration" type="application/vnd.abiquo.virtualmachinenetworkconfiguration+xml" href="http://10.60.11.18:80/api/cloud/virtualdatacenters/19/virtualappliances/19/virtualmachines/34/network/configurations/40"/>
+    <link rel="nic0" type="application/vnd.abiquo.publicip+xml" href="http://10.60.11.18:80/api/cloud/virtualdatacenters/19/publicips/purchased/9919"/>
+    <link rel="nic1" type="application/vnd.abiquo.privateip+xml" href="http://10.60.11.18:80/api/cloud/virtualdatacenters/19/privatenetworks/41/ips/10173"/>
+    <link rel="nic2" type="application/vnd.abiquo.externalip+xml" href="http://10.60.11.18:80/api/admin/enterprises/12/limits/23/externalnetworks/39/ips/9665"/>
+    <link rel="nics" type="application/vnd.abiquo.nics+xml" href="http://10.60.11.18:80/api/cloud/virtualdatacenters/19/virtualappliances/19/virtualmachines/34/network/nics"/>
+    <link rel="reset" type="application/vnd.abiquo.acceptedrequest+xml" href="http://10.60.11.18:80/api/cloud/virtualdatacenters/19/virtualappliances/19/virtualmachines/34/action/reset"/>
+    <link rel="sendmail" type="application/vnd.abiquo.mail+xml" href="http://10.60.11.18:80/api/admin/datacenters/12/racks/12/machines/12/virtualmachines/34/action/sendmail"/>
+    <link rel="state" type="application/vnd.abiquo.virtualmachinestate+xml" href="http://10.60.11.18:80/api/cloud/virtualdatacenters/19/virtualappliances/19/virtualmachines/34/state"/>
+    <link rel="tasks" type="application/vnd.abiquo.tasks+xml" href="http://10.60.11.18:80/api/cloud/virtualdatacenters/19/virtualappliances/19/virtualmachines/34/tasks"/>
+    <link rel="undeploy" type="application/vnd.abiquo.acceptedrequest+xml" href="http://10.60.11.18:80/api/cloud/virtualdatacenters/19/virtualappliances/19/virtualmachines/34/action/undeploy"/>
+    <link rel="user" type="application/vnd.abiquo.user+xml" href="http://10.60.11.18:80/api/admin/enterprises/12/users/57"/>
+    <link rel="virtualappliance" type="application/vnd.abiquo.virtualappliance+xml; version=2.4" href="http://10.60.11.18:80/api/cloud/virtualdatacenters/19/virtualappliances/19"/>
+    <link title="KVM" rel="virtualdatacenter" type="application/vnd.abiquo.virtualdatacenter+xml" href="http://10.60.11.18:80/api/cloud/virtualdatacenters/19"/>
+    <link rel="virtualmachinetemplate" type="application/vnd.abiquo.virtualmachinetemplate+xml" href="http://10.60.11.18:80/api/admin/enterprises/12/datacenterrepositories/12/virtualmachinetemplates/424"/>
+    <link rel="volumes" type="application/vnd.abiquo.iscsivolumes+xml" href="http://10.60.11.18:80/api/cloud/virtualdatacenters/19/virtualappliances/19/virtualmachines/34/storage/volumes"/>
+    <id>34</id>
+    <uuid>89e855a2-f71b-48a1-a2f1-8e6e569a2eba</uuid>
+    <name>ABQ_89e855a2-f71b-48a1-a2f1-8e6e569a2eba</name>
+    <cpu>2</cpu>
+    <ram>128</ram>
+    <hdInBytes>104857600</hdInBytes>
+    <vdrpPort>5901</vdrpPort>
+    <vdrpIP>10.60.1.24</vdrpIP>
+    <idState>6</idState>
+    <state>OFF</state>
+    <idType>1</idType>
+    <highDisponibility>0</highDisponibility>
+    <password>fGlHYFw8</password>
+</virtualMachine>

@@ -1,0 +1,138 @@
+{
+    "chefEnabled": false, 
+    "costCode": null, 
+    "cpuRequired": 1, 
+    "creationDate": 1373820957000, 
+    "creationUser": "SYSTEM", 
+    "description": "root : abiquo", 
+    "diskControllerType": "SCSI", 
+    "diskFileSize": 12976128, 
+    "diskFormatType": "QCOW2_SPARSE", 
+    "ethernetDriverType": "E1000", 
+    "hdRequired": 104857600, 
+    "iconUrl": "http://rs.bcn.abiquo.com:9000/public/icons/tinycore.png", 
+    "id": 6, 
+    "links": [
+        {
+            "href": "http://10.60.11.30:80/api/admin/datacenters/1", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "datacenter", 
+            "title": null, 
+            "type": "application/vnd.abiquo.datacenter+json"
+        }, 
+        {
+            "href": "http://10.60.11.30:80/api/admin/enterprises/1", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "enterprise", 
+            "title": null, 
+            "type": "application/vnd.abiquo.enterprise+json"
+        }, 
+        {
+            "href": "http://10.60.11.30:80/api/config/categories/1", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "category", 
+            "title": "Others", 
+            "type": "application/vnd.abiquo.category+json"
+        }, 
+        {
+            "href": "http://10.60.11.30:80/api/admin/enterprises/1/datacenterrepositories/1/virtualmachinetemplates/6", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "edit", 
+            "title": "Core", 
+            "type": "application/vnd.abiquo.virtualmachinetemplate+json"
+        }, 
+        {
+            "href": "http://10.60.11.30:80/api/admin/enterprises/1/datacenterrepositories/1/virtualmachinetemplates/6/tasks", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "tasks", 
+            "title": null, 
+            "type": "application/vnd.abiquo.tasks+json"
+        }, 
+        {
+            "href": "http://10.60.11.30:80/api/admin/enterprises/1/datacenterrepositories/1", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "datacenterrepository", 
+            "title": null, 
+            "type": "application/vnd.abiquo.datacenterrepository+json"
+        }, 
+        {
+            "href": "http://10.60.11.30:80/api/admin/enterprises/1/datacenterrepositories/1/virtualmachinetemplates/6/conversions", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "conversions", 
+            "title": null, 
+            "type": "application/vnd.abiquo.conversions+json"
+        }, 
+        {
+            "href": "http://10.60.11.30:80/api/admin/enterprises/1/datacenterrepositories/1/virtualmachinetemplates/6/action/virtualmachines", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "virtualmachines", 
+            "title": null, 
+            "type": "application/vnd.abiquo.virtualmachines+json"
+        }, 
+        {
+            "href": "http://10.60.11.30:80/api/admin/enterprises/1/datacenterrepositories/1/virtualmachinetemplates/6/action/instances", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "instances", 
+            "title": null, 
+            "type": "application/vnd.abiquo.virtualmachinetemplates+json"
+        }, 
+        {
+            "href": "http://10.60.11.30:80/am/erepos/1/templates/1/rs.bcn.abiquo.com/abiport9000/ovf/305/Core.qcow2", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "template", 
+            "title": null, 
+            "type": null
+        }, 
+        {
+            "href": "http://10.60.11.30:80/am/files/1/rs.bcn.abiquo.com/abiport9000/ovf/305/Core.qcow2", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "diskfile", 
+            "title": null, 
+            "type": null
+        }, 
+        {
+            "href": "http://rs.bcn.abiquo.com:9000/ovf/305/desc.ovf", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "templatedefinition", 
+            "title": null, 
+            "type": null
+        }, 
+        {
+            "href": "http://10.60.11.30:80/am/erepos/1/templates/http:/rs.bcn.abiquo.com:9000/ovf/305/desc.ovf", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "template", 
+            "title": null, 
+            "type": null
+        }, 
+        {
+            "href": "http://10.60.11.30:80/am/files/http:/rs.bcn.abiquo.com:9000/ovf/305/desc.ovf", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "diskfile", 
+            "title": null, 
+            "type": null
+        }
+    ], 
+    "loginPassword": "password", 
+    "loginUser": "user", 
+    "name": "Core", 
+    "osType": "UNRECOGNIZED", 
+    "osVersion": "", 
+    "path": "1/rs.bcn.abiquo.com/abiport9000/ovf/305/Core.qcow2", 
+    "ramRequired": 64, 
+    "shared": true, 
+    "state": "DONE"
+}

@@ -1,99 +1,576 @@
 Abiquo ISO Preview (2013-07-12), master branch
 
-08:53:21.218 INFO  c.a.m.listener.SQLTracerListener - GET Uri: /admin/enterprises/215  MT: application/vnd.abiquo.limit+xml
-08:53:21.228 ERROR c.a.m.listener.SQLTracerListener - It is not possible to retrieve DTO at: /admin/enterprises/215 MT: application/vnd.abiquo.limit+xml
-java.lang.Exception: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/enterprises/215 returned a response status of 406 Not Acceptable
-        at com.abiquo.m.client.MClient.getEntity(MClient.java:65) ~[MClient.class:na]
-        at com.abiquo.m.listener.SQLTracerListener.getDto(SQLTracerListener.java:192) [SQLTracerListener.class:na]
-        at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:85) [SQLTracerListener.class:na]
-        at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:43) [SQLTracerListener.class:na]
+Adding a physical machine which finally was properly added:
+----------------------------------------------------------------
+15:38:19.860 ERROR com.abiquo.vsm.MonitorManagerService  - Monitor with url 10.60.1.81 not found
+15:38:19.861 WARN  c.a.v.e.mapper.RESTExceptionMapper  - not found - Monitor with url 10.60.1.81 not found
+15:38:20.126 INFO  com.abiquo.vsm.MonitorManagerService  - Hypervisor 10.60.1.81 (KVM) created
+15:38:20.209 INFO  com.abiquo.api.tracer.impl.ApiTracer - Tracing event: MACHINE - CREATE at level INFO for entity '/admin/datacenters/1/racks/2/machines/20'
+15:38:20.223 INFO  c.a.m.listener.SQLTracerListener - Event: MACHINE Action: CREATE Level: INFO
+
+
+Creating a networkservicetype
+------------------------------
+15:53:45.392 INFO  com.abiquo.api.tracer.impl.ApiTracer - Tracing event: NETWORK_SERVICE_TYPE - CREATE at level INFO for entity '/admin/datacenters/1/networkservicetypes/2'
+15:53:45.400 INFO  c.a.m.listener.SQLTracerListener - Event: NETWORK_SERVICE_TYPE Action: CREATE Level: INFO 
+15:53:45.401 ERROR c.a.m.listener.SQLTracerListener - It is not possible to retrieve MediaType for class: null
+java.lang.NullPointerException: null
+	at com.abiquo.m.listener.SQLTracerListener.getDtoMediaType(SQLTracerListener.java:206) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.getDto(SQLTracerListener.java:188) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:85) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:43) [SQLTracerListener.class:na]
+	at com.abiquo.m.callback.processor.AMQPCallbackProcessor.run(AMQPCallbackProcessor.java:50) [AMQPCallbackProcessor.class:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_21]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+15:53:45.401 INFO  c.a.m.listener.SQLTracerListener - GET Uri: /admin/datacenters/1/networkservicetypes/2  MT: null
+15:53:45.449 ERROR c.a.m.listener.SQLTracerListener - It is not possible to retrieve DTO at: /admin/datacenters/1/networkservicetypes/2 MT: null
+java.lang.Exception: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/datacenters/1/networkservicetypes/2 returned a response status of 404 Not Found
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:65) ~[MClient.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.getDto(SQLTracerListener.java:192) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:85) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:43) [SQLTracerListener.class:na]
+	at com.abiquo.m.callback.processor.AMQPCallbackProcessor.run(AMQPCallbackProcessor.java:50) [AMQPCallbackProcessor.class:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_21]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+Caused by: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/datacenters/1/networkservicetypes/2 returned a response status of 404 Not Found
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:686) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:507) ~[jersey-client-1.12.jar:1.12]
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:61) ~[MClient.class:na]
+	... 10 common frames omitted
+15:53:45.625 INFO  com.abiquo.api.tracer.impl.ApiTracer - Tracing event: NETWORK_SERVICE_TYPE - CREATE at level INFO for entity '/admin/datacenters/1/networkservicetypes/2'
+15:53:45.625 INFO  com.abiquo.api.tracer.impl.ApiTracer - Tracing event: NETWORK_SERVICE_TYPE - CREATE at level INFO for entity '/admin/datacenters/1/networkservicetypes/2'
+15:53:45.643 INFO  c.a.m.listener.SQLTracerListener - Event: NETWORK_SERVICE_TYPE Action: CREATE Level: INFO 
+15:53:45.644 ERROR c.a.m.listener.SQLTracerListener - It is not possible to retrieve MediaType for class: null
+java.lang.NullPointerException: null
+	at com.abiquo.m.listener.SQLTracerListener.getDtoMediaType(SQLTracerListener.java:206) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.getDto(SQLTracerListener.java:188) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:85) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:43) [SQLTracerListener.class:na]
+	at com.abiquo.m.callback.processor.AMQPCallbackProcessor.run(AMQPCallbackProcessor.java:50) [AMQPCallbackProcessor.class:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_21]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+15:53:45.644 INFO  c.a.m.listener.SQLTracerListener - GET Uri: /admin/datacenters/1/networkservicetypes/2  MT: null
+15:53:45.668 ERROR c.a.m.listener.SQLTracerListener - It is not possible to retrieve DTO at: /admin/datacenters/1/networkservicetypes/2 MT: null
+java.lang.Exception: java.lang.NullPointerException
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:65) ~[MClient.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.getDto(SQLTracerListener.java:192) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:85) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:43) [SQLTracerListener.class:na]
+	at com.abiquo.m.callback.processor.AMQPCallbackProcessor.run(AMQPCallbackProcessor.java:50) [AMQPCallbackProcessor.class:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_21]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+Caused by: java.lang.NullPointerException: null
+	at com.sun.jersey.core.provider.jaxb.AbstractRootElementProvider.isReadable(AbstractRootElementProvider.java:92) ~[jersey-core-1.12.jar:1.12]
+	at com.sun.jersey.core.spi.factory.MessageBodyFactory._getMessageBodyReader(MessageBodyFactory.java:345) ~[jersey-core-1.12.jar:1.12]
+	at com.sun.jersey.core.spi.factory.MessageBodyFactory._getMessageBodyReader(MessageBodyFactory.java:315) ~[jersey-core-1.12.jar:1.12]
+	at com.sun.jersey.core.spi.factory.MessageBodyFactory.getMessageBodyReader(MessageBodyFactory.java:298) ~[jersey-core-1.12.jar:1.12]
+	at com.sun.jersey.api.client.ClientResponse.getEntity(ClientResponse.java:537) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.ClientResponse.getEntity(ClientResponse.java:506) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:684) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:507) ~[jersey-client-1.12.jar:1.12]
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:61) ~[MClient.class:na]
+	... 10 common frames omitted
 
 
 
-08:53:27.897 INFO  com.abiquo.api.tracer.impl.ApiTracer - Tracing event: TEMPLATE_DEFINITION - CREATE at level WARN for entity '/admin/enterprises/215/appslib/templateDefinitionLists/95'
-08:53:28.176 INFO  c.a.m.listener.SQLTracerListener - Event: TEMPLATE_DEFINITION Action: CREATE Level: WARN 
-08:53:28.177 INFO  c.a.m.listener.SQLTracerListener - GET Uri: /admin/enterprises/215/appslib/templateDefinitionLists/95  MT: application/vnd.abiquo.templatedefinition+xml
-08:53:28.187 ERROR c.a.m.listener.SQLTracerListener - It is not possible to retrieve DTO at: /admin/enterprises/215/appslib/templateDefinitionLists/95 MT: application/vnd.abiquo.templatedefinition+xml
-java.lang.Exception: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/enterprises/215/appslib/templateDefinitionLists/95 returned a response status of 406 Not Acceptable
-        at com.abiquo.m.client.MClient.getEntity(MClient.java:65) ~[MClient.class:na]
-        at com.abiquo.m.listener.SQLTracerListener.getDto(SQLTracerListener.java:192) [SQLTracerListener.class:na]
-        at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:85) [SQLTracerListener.class:na]
-        at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:43) [SQLTracerListener.class:na]
-        at com.abiquo.m.callback.processor.AMQPCallbackProcessor.run(AMQPCallbackProcessor.java:50) [AMQPCallbackProcessor.class:na]
-        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_21]
-
-
-
-08:55:35.673 INFO  c.a.m.listener.SQLTracerListener - Event: REMOTE_SERVICE Action: MODIFY Level: INFO 
-08:55:35.674 INFO  c.a.m.listener.SQLTracerListener - GET Uri: /admin/datacenters/53  MT: application/vnd.abiquo.remoteservice+xml
-08:55:35.683 ERROR c.a.m.listener.SQLTracerListener - It is not possible to retrieve DTO at: /admin/datacenters/53 MT: application/vnd.abiquo.remoteservice+xml
-java.lang.Exception: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/datacenters/53 returned a response status of 406 Not Acceptable
-        at com.abiquo.m.client.MClient.getEntity(MClient.java:65) ~[MClient.class:na]
-        at com.abiquo.m.listener.SQLTracerListener.getDto(SQLTracerListener.java:192) [SQLTracerListener.class:na]
-        at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:85) [SQLTracerListener.class:na]
-        at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:43) [SQLTracerListener.class:na]
-        at com.abiquo.m.callback.processor.AMQPCallbackProcessor.run(AMQPCallbackProcessor.java:50) [AMQPCallbackProcessor.class:na]
-        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_21]
-
-
-
-08:55:54.270 INFO  com.abiquo.api.tracer.impl.ApiTracer - Tracing event: VIRTUAL_MACHINE_TEMPLATE - CONVERSION_FINISH at level INFO for entity ''
-08:55:54.276 INFO  c.a.m.listener.SQLTracerListener - Event: VIRTUAL_MACHINE_TEMPLATE Action: CONVERSION_FINISH Level: INFO 
-08:55:54.297 ERROR c.a.m.listener.SQLTracerListener - It is not possible to retrieve Enterprise at: /admin/enterprises/214
-java.lang.Exception: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/enterprises/214 returned a response status of 404 Not Found
-        at com.abiquo.m.client.MClient.getEntity(MClient.java:65) ~[MClient.class:na]
-        at com.abiquo.m.listener.SQLTracerListener.getEnterpriseDto(SQLTracerListener.java:133) [SQLTracerListener.class:na]
-        at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:93) [SQLTracerListener.class:na]
-        at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:43) [SQLTracerListener.class:na]
-        at com.abiquo.m.callback.processor.AMQPCallbackProcessor.run(AMQPCallbackProcessor.java:50) [AMQPCallbackProcessor.class:na]
-
-
-
-
-08:55:54.356 ERROR c.a.m.listener.SQLTracerListener - It is not possible to retrieve User at: /admin/enterprises/214/users/288
-java.lang.Exception: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/enterprises/214/users/288 returned a response status of 404 Not Found
-        at com.abiquo.m.client.MClient.getEntity(MClient.java:65) ~[MClient.class:na]
-        at com.abiquo.m.listener.SQLTracerListener.getUserDto(SQLTracerListener.java:159) [SQLTracerListener.class:na]
-        at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:94) [SQLTracerListener.class:na]
-        at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:43) [SQLTracerListener.class:na]
-        at com.abiquo.m.callback.processor.AMQPCallbackProcessor.run(AMQPCallbackProcessor.java:50) [AMQPCallbackProcessor.class:na]
-        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_21]
-        at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [na:1.7.0_21]
-        at java.util.concurrent.FutureTask.run(FutureTask.java:166) [na:1.7.0_21]
-        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_21]
-        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_21]
-        at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
-Caused by: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/enterprises/214/users/288 returned a response status of 404 Not Found
-        at com.sun.jersey.api.client.WebResource.handle(WebResource.java:686) ~[jersey-client-1.12.jar:1.12]
-        at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.12.jar:1.12]
-        at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:507) ~[jersey-client-1.12.jar:1.12]
-        at com.abiquo.m.client.MClient.getEntity(MClient.java:61) ~[MClient.class:na]
-        ... 10 common frames omitted
+Editing a networkservicetype
+------------------------------
+15:55:40.316 INFO  com.abiquo.api.tracer.impl.ApiTracer - Tracing event: NETWORK_SERVICE_TYPE - MODIFY at level INFO for entity '/admin/datacenters/1/networkservicetypes/2'
+15:55:40.326 INFO  c.a.m.listener.SQLTracerListener - Event: NETWORK_SERVICE_TYPE Action: MODIFY Level: INFO 
+15:55:40.327 ERROR c.a.m.listener.SQLTracerListener - It is not possible to retrieve MediaType for class: null
+java.lang.NullPointerException: null
+	at com.abiquo.m.listener.SQLTracerListener.getDtoMediaType(SQLTracerListener.java:206) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.getDto(SQLTracerListener.java:188) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:85) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:43) [SQLTracerListener.class:na]
+	at com.abiquo.m.callback.processor.AMQPCallbackProcessor.run(AMQPCallbackProcessor.java:50) [AMQPCallbackProcessor.class:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_21]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+15:55:40.327 INFO  c.a.m.listener.SQLTracerListener - GET Uri: /admin/datacenters/1/networkservicetypes/2  MT: null
+15:55:40.357 ERROR c.a.m.listener.SQLTracerListener - It is not possible to retrieve DTO at: /admin/datacenters/1/networkservicetypes/2 MT: null
+java.lang.Exception: java.lang.NullPointerException
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:65) ~[MClient.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.getDto(SQLTracerListener.java:192) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:85) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:43) [SQLTracerListener.class:na]
+	at com.abiquo.m.callback.processor.AMQPCallbackProcessor.run(AMQPCallbackProcessor.java:50) [AMQPCallbackProcessor.class:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_21]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+Caused by: java.lang.NullPointerException: null
+	at com.sun.jersey.core.provider.jaxb.AbstractRootElementProvider.isReadable(AbstractRootElementProvider.java:92) ~[jersey-core-1.12.jar:1.12]
+	at com.sun.jersey.core.spi.factory.MessageBodyFactory._getMessageBodyReader(MessageBodyFactory.java:345) ~[jersey-core-1.12.jar:1.12]
+	at com.sun.jersey.core.spi.factory.MessageBodyFactory._getMessageBodyReader(MessageBodyFactory.java:315) ~[jersey-core-1.12.jar:1.12]
+	at com.sun.jersey.core.spi.factory.MessageBodyFactory.getMessageBodyReader(MessageBodyFactory.java:298) ~[jersey-core-1.12.jar:1.12]
+	at com.sun.jersey.api.client.ClientResponse.getEntity(ClientResponse.java:537) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.ClientResponse.getEntity(ClientResponse.java:506) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:684) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:507) ~[jersey-client-1.12.jar:1.12]
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:61) ~[MClient.class:na]
+	... 10 common frames omitted
 
 
 
 
-09:04:26.402 INFO  c.a.m.listener.SQLTracerListener - Event: VIRTUAL_MACHINE_TEMPLATE Action: CONVERSION_TASK_ENQUEUE Level: INFO 
-09:04:26.403 INFO  c.a.m.listener.SQLTracerListener - GET Uri: /admin/enterprises/215/datacenterrepositories/53  MT: application/vnd.abiquo.virtualmachinetemplate+xml
-09:04:26.415 ERROR c.a.m.listener.SQLTracerListener - It is not possible to retrieve DTO at: /admin/enterprises/215/datacenterrepositories/53 MT: application/vnd.abiquo.virtualmachinetemplate+xml
-java.lang.Exception: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/enterprises/215/datacenterrepositories/53 returned a response status of 406 Not Acceptable
-        at com.abiquo.m.client.MClient.getEntity(MClient.java:65) ~[MClient.class:na]
-        at com.abiquo.m.listener.SQLTracerListener.getDto(SQLTracerListener.java:192) [SQLTracerListener.class:na]
-        at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:85) [SQLTracerListener.class:na]
-        at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:43) [SQLTracerListener.class:na]
-        at com.abiquo.m.callback.processor.AMQPCallbackProcessor.run(AMQPCallbackProcessor.java:50) [AMQPCallbackProcessor.class:na]
-        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_21]
-        at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [na:1.7.0_21]
-        at java.util.concurrent.FutureTask.run(FutureTask.java:166) [na:1.7.0_21]
-        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_21]
-        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_21]
-        at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
-Caused by: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/enterprises/215/datacenterrepositories/53 returned a response status of 406 Not Acceptable
-        at com.sun.jersey.api.client.WebResource.handle(WebResource.java:686) ~[jersey-client-1.12.jar:1.12]
-        at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.12.jar:1.12]
-        at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:507) ~[jersey-client-1.12.jar:1.12]
-        at com.abiquo.m.client.MClient.getEntity(MClient.java:61) ~[MClient.class:na]
-        ... 10 common frames omitted
+Creating a persistent
+------------------------------------
+15:58:23.002 INFO  c.a.api.services.PersistentService - Starting the persistent process of the virtual machine template Core with new name Core_persistent
+15:58:23.007 INFO  c.a.api.services.PersistentService - Correct storage tier found
+15:58:23.008 INFO  c.a.api.services.PersistentService - Creating volume in tier Default Tier 1 of virualdatacenter vdc_KVM
+15:58:23.391 INFO  c.a.s.r.DeviceMetadataResource - Loading supported devices...
+15:58:23.679 INFO  c.a.s.r.DeviceMetadataResource - Loading metadata for device LVM...
+15:58:23.860 INFO  c.abiquo.ssm.resource.VolumeResource - Creating volume bb7beffe-bc60-457e-a49d-04d27c89573e of 100MB in pool VolGroup00 at 10.60.11.5
+15:58:26.607 INFO  com.abiquo.ssm.resource.PoolResource - Getting information of pool VolGroup00 at 10.60.11.5
+15:58:27.062 INFO  com.abiquo.api.tracer.impl.ApiTracer - Tracing event: VIRTUAL_MACHINE_TEMPLATE - PERSISTENT_VOLUME_CREATE at level INFO for entity '/admin/enterprises/1/datacenterrepositories/1'
+15:58:27.370 INFO  c.a.m.listener.SQLTracerListener - Event: VIRTUAL_MACHINE_TEMPLATE Action: PERSISTENT_VOLUME_CREATE Level: INFO 
+15:58:27.370 INFO  c.a.m.listener.SQLTracerListener - GET Uri: /admin/enterprises/1/datacenterrepositories/1  MT: application/vnd.abiquo.virtualmachinetemplate+xml
+15:58:27.384 ERROR c.a.m.listener.SQLTracerListener - It is not possible to retrieve DTO at: /admin/enterprises/1/datacenterrepositories/1 MT: application/vnd.abiquo.virtualmachinetemplate+xml
+java.lang.Exception: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/enterprises/1/datacenterrepositories/1 returned a response status of 406 Not Acceptable
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:65) ~[MClient.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.getDto(SQLTracerListener.java:192) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:85) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:43) [SQLTracerListener.class:na]
+	at com.abiquo.m.callback.processor.AMQPCallbackProcessor.run(AMQPCallbackProcessor.java:50) [AMQPCallbackProcessor.class:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_21]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+Caused by: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/enterprises/1/datacenterrepositories/1 returned a response status of 406 Not Acceptable
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:686) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:507) ~[jersey-client-1.12.jar:1.12]
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:61) ~[MClient.class:na]
+	... 10 common frames omitted
+15:58:27.560 INFO  com.abiquo.bpm.BPMManager - BPM status...Checking
+15:58:27.564 INFO  com.abiquo.bpm.BPMManager - RabbitMQ is running properly
+15:58:27.565 INFO  com.abiquo.bpm.BPMManager - Initiator IQN correctly configured
+15:58:27.565 INFO  com.abiquo.bpm.BPMManager - BPM status...OK
+15:58:27.574 INFO  c.a.bpm.web.servlet.CheckServlet - Returning requested 'initiatoriqn' with value: 'iqn.1994-05.com.redhat:9bb8292c2093'
+15:58:27.577 INFO  c.a.api.services.PersistentService - Initiator mapping not found from iqn.1994-05.com.redhat:9bb8292c2093 to ip-10.60.11.5:3260-iscsi-iqn.2008-03.com.abiquo.localhost.localdomain:bb7beffe-bc60-457e-a49d-04d27c89573e-lun-1
+15:58:27.577 INFO  c.a.api.services.PersistentService - Adding BPM IQN to the Storage Pool...
+15:58:27.773 INFO  c.a.s.r.DeviceMetadataResource - Loading metadata for device LVM...
+15:58:27.984 INFO  c.a.ssm.resource.InitiatorResource - Adding initiator iqn.1994-05.com.redhat:9bb8292c2093 for volume bb7beffe-bc60-457e-a49d-04d27c89573e in pool VolGroup00 at 10.60.11.5
+15:58:28.505 ERROR com.abiquo.api.tracer.impl.ApiTracer - getEntityPath: Error obtaining event entityid resource /admin/enterprises/1/datacenterrepositories/1/virtualmachinetemplates. Returning empty
+15:58:28.505 INFO  com.abiquo.api.tracer.impl.ApiTracer - Tracing event: VIRTUAL_MACHINE_TEMPLATE - PERSISTENT_INITIATOR_ADD at level INFO for entity ''
+15:58:28.514 INFO  c.a.m.listener.SQLTracerListener - Event: VIRTUAL_MACHINE_TEMPLATE Action: PERSISTENT_INITIATOR_ADD Level: INFO 
+15:58:28.572 INFO  c.a.api.services.PersistentService - Added initiator mapping from iqn.1994-05.com.redhat:9bb8292c2093 to iqn.2008-03.com.abiquo.localhost.localdomain:bb7beffe-bc60-457e-a49d-04d27c89573e-lun-1
+15:58:28.600 INFO  com.abiquo.api.tracer.impl.ApiTracer - Tracing event: VIRTUAL_MACHINE_TEMPLATE - PERSISTENT_TASK_ENQUEUE at level INFO for entity '/admin/enterprises/1/datacenterrepositories/1'
+15:58:28.608 INFO  c.a.m.listener.SQLTracerListener - Event: VIRTUAL_MACHINE_TEMPLATE Action: PERSISTENT_TASK_ENQUEUE Level: INFO 
+15:58:28.608 INFO  c.a.m.listener.SQLTracerListener - GET Uri: /admin/enterprises/1/datacenterrepositories/1  MT: application/vnd.abiquo.virtualmachinetemplate+xml
+15:58:28.620 ERROR c.a.m.listener.SQLTracerListener - It is not possible to retrieve DTO at: /admin/enterprises/1/datacenterrepositories/1 MT: application/vnd.abiquo.virtualmachinetemplate+xml
+java.lang.Exception: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/enterprises/1/datacenterrepositories/1 returned a response status of 406 Not Acceptable
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:65) ~[MClient.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.getDto(SQLTracerListener.java:192) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:85) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:43) [SQLTracerListener.class:na]
+	at com.abiquo.m.callback.processor.AMQPCallbackProcessor.run(AMQPCallbackProcessor.java:50) [AMQPCallbackProcessor.class:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_21]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+Caused by: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/enterprises/1/datacenterrepositories/1 returned a response status of 406 Not Acceptable
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:686) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:507) ~[jersey-client-1.12.jar:1.12]
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:61) ~[MClient.class:na]
+	... 10 common frames omitted
+15:58:28.676 ERROR com.abiquo.api.tracer.impl.ApiTracer - getEntityPath: Error obtaining event entityid resource /admin/enterprises/1/datacenterrepositories/1/virtualmachinetemplates. Returning empty
+15:58:28.703 INFO  c.a.bpm.job.impl.PersistentProcessor - Job: 870b64f0-84f6-44f9-99e2-5c3e2088c55b
+15:58:28.703 INFO  c.a.bpm.job.impl.PersistentProcessor - Type: DUMP_DISK_TO_VOLUME
+15:58:28.703 INFO  c.a.bpm.job.impl.PersistentProcessor - StoragePool: ip-10.60.11.5:3260-iscsi-iqn.2008-03.com.abiquo.localhost.localdomain:bb7beffe-bc60-457e-a49d-04d27c89573e-lun-1
+15:58:28.703 INFO  c.a.bpm.job.impl.PersistentProcessor - PathSource: 1/rs.bcn.abiquo.com/abiport9000/ovf/305/formats/Core-RAW.qcow2
+15:58:28.703 INFO  c.a.bpm.job.impl.PersistentProcessor - VolumeSize: null
+15:58:28.708 INFO  com.abiquo.bpm.BPMManager - Process for job '870b64f0-84f6-44f9-99e2-5c3e2088c55b' added to list of running processes
+15:58:28.723 INFO  com.abiquo.api.tracer.impl.ApiTracer - Tracing event: DATACENTER - DELETE at level INFO for entity ''
+15:58:28.732 INFO  c.a.m.listener.SQLTracerListener - Event: DATACENTER Action: DELETE Level: INFO 
+15:58:43.479 INFO  com.abiquo.bpm.BPMManager - Process for job '870b64f0-84f6-44f9-99e2-5c3e2088c55b' removed from list of running processes
+15:58:43.480 INFO  c.a.bpm.job.impl.PersistentProcessor - Status: FINISHED
+15:58:43.496 INFO  com.abiquo.api.tracer.impl.ApiTracer - Tracing event: VIRTUAL_MACHINE_TEMPLATE - PERSISTENT_DUMP_FINISH at level INFO for entity ''
+15:58:43.504 INFO  c.a.m.listener.SQLTracerListener - Event: VIRTUAL_MACHINE_TEMPLATE Action: PERSISTENT_DUMP_FINISH Level: INFO 
+15:58:43.564 INFO  com.abiquo.api.tracer.impl.ApiTracer - Tracing event: VIRTUAL_MACHINE_TEMPLATE - PERSISTENT_FINISH at level INFO for entity ''
+15:58:43.593 INFO  c.a.m.listener.SQLTracerListener - Event: VIRTUAL_MACHINE_TEMPLATE Action: PERSISTENT_FINISH Level: INFO
+
+
+
+Deleting a persistent
+----------------------------
+16:00:23.872 INFO  com.abiquo.api.tracer.impl.ApiTracer - Tracing event: VIRTUAL_MACHINE_TEMPLATE - PERSISTENT_DELETE at level INFO for entity '/admin/enterprises/1/datacenterrepositories/1/virtualmachinetemplates/87'
+16:00:23.881 INFO  c.a.m.listener.SQLTracerListener - Event: VIRTUAL_MACHINE_TEMPLATE Action: PERSISTENT_DELETE Level: INFO 
+16:00:23.882 INFO  c.a.m.listener.SQLTracerListener - GET Uri: /admin/enterprises/1/datacenterrepositories/1/virtualmachinetemplates/87  MT: application/vnd.abiquo.virtualmachinetemplate+xml
+16:00:23.920 ERROR c.a.m.listener.SQLTracerListener - It is not possible to retrieve DTO at: /admin/enterprises/1/datacenterrepositories/1/virtualmachinetemplates/87 MT: application/vnd.abiquo.virtualmachinetemplate+xml
+java.lang.Exception: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/enterprises/1/datacenterrepositories/1/virtualmachinetemplates/87 returned a response status of 404 Not Found
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:65) ~[MClient.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.getDto(SQLTracerListener.java:192) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:85) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:43) [SQLTracerListener.class:na]
+	at com.abiquo.m.callback.processor.AMQPCallbackProcessor.run(AMQPCallbackProcessor.java:50) [AMQPCallbackProcessor.class:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_21]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+Caused by: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/enterprises/1/datacenterrepositories/1/virtualmachinetemplates/87 returned a response status of 404 Not Found
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:686) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:507) ~[jersey-client-1.12.jar:1.12]
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:61) ~[MClient.class:na]
+	... 10 common frames omitted
+16:00:31.999 INFO  com.abiquo.tarantino.TarantinoBoot  - waiting for check 
+16:00:32.000 INFO  com.abiquo.tarantino.TarantinoBoot  - check state is Connected
+16:00:32.211 INFO  com.abiquo.ssm.resource.PoolResource - Getting information of pool aggr1 at 10.60.11.7
+
+
+
+Set a network as default
+-----------------------------------
+ERROR c.a.m.listener.SQLTracerListener - No message found for event: {"timestamp":1374497668184,"user":"/admin/enterprises/3/users/4","enterprise":"/admin/enterprises/3","severity":"INFO","source":"ABIQUO_SERVER","action":"NETWORK_DEFAULT","type":"VIRTUAL_DATACENTER","entityIdentifier":"/cloud/virtualdatacenters/83","details":{"VLAN_NAME":"a","VLAN_TYPE":"INTERNAL","VDC_NAME":"esxi"}}
+
+
+
+Add/remove a worload rule:
+----------------------------------
+16:04:47.877 INFO  c.a.a.r.scheduler.RulesResource - Applying allocation rules
+16:04:47.877 ERROR com.abiquo.api.tracer.impl.ApiTracer - getEntityPath: Error obtaining event entityid resource /admin/rules. Returning empty
+16:04:47.877 INFO  com.abiquo.api.tracer.impl.ApiTracer - Tracing event: RULES - APPLY at level INFO for entity ''
+16:04:47.888 INFO  c.a.m.listener.SQLTracerListener - Event: RULES Action: APPLY Level: INFO 
+16:04:47.948 WARN  com.abiquo.api.handlers.RESTHandler - The object returned by the POST operation does not have an edit link
+
+
+
+Modifying backup rules:
+----------------------------------
+16:14:52.506 INFO  com.abiquo.api.tracer.impl.ApiTracer - Tracing event: DATACENTER_BACKUP - MODIFY at level INFO for entity '/admin/datacenters/70'
+16:14:52.526 INFO  c.a.m.listener.SQLTracerListener - Event: DATACENTER_BACKUP Action: MODIFY Level: INFO 
+16:14:52.527 INFO  c.a.m.listener.SQLTracerListener - GET Uri: /admin/datacenters/70  MT: application/vnd.abiquo.backup+xml
+16:14:52.553 ERROR c.a.m.listener.SQLTracerListener - It is not possible to retrieve DTO at: /admin/datacenters/70 MT: application/vnd.abiquo.backup+xml
+java.lang.Exception: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/datacenters/70 returned a response status of 406 Not Acceptable
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:65) ~[MClient.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.getDto(SQLTracerListener.java:192) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:85) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:43) [SQLTracerListener.class:na]
+	at com.abiquo.m.callback.processor.AMQPCallbackProcessor.run(AMQPCallbackProcessor.java:50) [AMQPCallbackProcessor.class:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_21]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+Caused by: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/datacenters/70 returned a response status of 406 Not Acceptable
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:686) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:507) ~[jersey-client-1.12.jar:1.12]
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:61) ~[MClient.class:na]
+	... 10 common frames omitted
+
+
+
+Adding a new remote template repository
+----------------------------------------
+16:17:09.439 INFO  com.abiquo.api.tracer.impl.ApiTracer - Tracing event: TEMPLATE_DEFINITION - CREATE at level WARN for entity '/admin/enterprises/1'
+16:17:09.459 INFO  c.a.m.listener.SQLTracerListener - Event: TEMPLATE_DEFINITION Action: CREATE Level: WARN 
+16:17:09.460 INFO  c.a.m.listener.SQLTracerListener - GET Uri: /admin/enterprises/1  MT: application/vnd.abiquo.templatedefinition+xml
+16:17:09.475 ERROR c.a.m.listener.SQLTracerListener - It is not possible to retrieve DTO at: /admin/enterprises/1 MT: application/vnd.abiquo.templatedefinition+xml
+java.lang.Exception: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/enterprises/1 returned a response status of 406 Not Acceptable
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:65) ~[MClient.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.getDto(SQLTracerListener.java:192) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:85) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:43) [SQLTracerListener.class:na]
+	at com.abiquo.m.callback.processor.AMQPCallbackProcessor.run(AMQPCallbackProcessor.java:50) [AMQPCallbackProcessor.class:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_21]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+Caused by: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/enterprises/1 returned a response status of 406 Not Acceptable
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:686) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:507) ~[jersey-client-1.12.jar:1.12]
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:61) ~[MClient.class:na]
+	... 10 common frames omitted
+
+
+
+Deploying without resources. Reserve a pm in a enterprise and try to deploy a vm in another enterprise:
+(these messages can be found in Abiquo Event Stream, "Details" column)
+---------------------------------------------------------------------------------------------------------
+{"CODE":"SCH-NOK","MESSAGE":"Scheduling NOK","SCOPE":"VIRTUALDATACENTER","STACKTRACE":"com.abiquo.server.core.infrastructure.MachineDAO.whyNotCandidateMachines(MachineDAO.java:844)com.abiquo.server.core.infrastructure.MachineDAO.findFirstCandidateMachines(MachineDAO.java:501)com.abiquo.server.core.infrastructure.MachineDAO.findCandidateMachines(MachineDAO.java:367)com.abiquo.server.core.infrastructure.InfrastructureRep.findCandidateMachines(InfrastructureRep.java:532)com.abiquo.api.services.scheduler.SchedulerService.findFirstPassCandidates(SchedulerService.java:378)com.abiquo.api.services.scheduler.SchedulerService.findBestTarget(SchedulerService.java:297)com.abiquo.api.services.scheduler.SchedulerService.scheduleVirtualMachine(SchedulerService.java:580)com.abiquo.api.amqp.handler.scheduler.ScheduleDeployHandler.schedule(ScheduleDeployHandler.java:252)com.abiquo.api.amqp.handler.scheduler.ScheduleDeployHandler.process(ScheduleDeployHandler.java:167)com.abiquo.api.amqp.callback.SchedulerRequestCallback.process(SchedulerRequestCallback.java:109)com.abiquo.api.amqp.callback.SchedulerRequestCallback.process(SchedulerRequestCallback.java:38)sun.reflect.GeneratedMethodAccessor372.invoke(Unknown Source)sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.lang.reflect.Method.invoke(Method.java:601)org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:309)org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:183)org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)com.abiquo.api.spring.jpa.OpenEntityManagerInterceptorWithFilters.invoke(OpenEntityManagerInterceptorWithFilters.java:76)org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:202)com.sun.proxy.$Proxy129.process(Unknown Source)com.abiquo.commons.amqp.consumer.AMQPConsumer.consume(AMQPConsumer.java:74)com.abiquo.commons.amqp.consumer.QueueSubscriber.handleDelivery(QueueSubscriber.java:37)com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:265)com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:151)com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:96)com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:441)","ERROR_MESSAGE":"There is no machine on the required rack [70] and virtual datacenter [385]. Please check the racks and hypervisor technology on the infrastructure."}
+
+{"CODE":"SCH-VM","MESSAGE":"ScheduleVirtualMachine: Scheduling gone wrong due to SchedulerException","SCOPE":"VIRTUALDATACENTER","STACKTRACE":"com.abiquo.api.services.scheduler.SchedulerService.findBestTarget(SchedulerService.java:320)com.abiquo.api.services.scheduler.SchedulerService.scheduleVirtualMachine(SchedulerService.java:580)com.abiquo.api.amqp.handler.scheduler.ScheduleDeployHandler.schedule(ScheduleDeployHandler.java:252)com.abiquo.api.amqp.handler.scheduler.ScheduleDeployHandler.process(ScheduleDeployHandler.java:167)com.abiquo.api.amqp.callback.SchedulerRequestCallback.process(SchedulerRequestCallback.java:109)com.abiquo.api.amqp.callback.SchedulerRequestCallback.process(SchedulerRequestCallback.java:38)sun.reflect.GeneratedMethodAccessor372.invoke(Unknown Source)sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.lang.reflect.Method.invoke(Method.java:601)org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:309)org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:183)org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)com.abiquo.api.spring.jpa.OpenEntityManagerInterceptorWithFilters.invoke(OpenEntityManagerInterceptorWithFilters.java:76)org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:202)com.sun.proxy.$Proxy129.process(Unknown Source)com.abiquo.commons.amqp.consumer.AMQPConsumer.consume(AMQPConsumer.java:74)com.abiquo.commons.amqp.consumer.QueueSubscriber.handleDelivery(QueueSubscriber.java:37)com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:265)com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:151)com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:96)com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:441)","ERROR_MESSAGE":"No rack can be selected: There is no physical machine capacity to allocate the virtual appliance"}
+
+
+
+Modifying limits at enterprise (keep an eye on the PRIVATE_NETWORK event)
+-------------------------------------------------------------------------
+16:51:34.287 INFO  com.abiquo.api.tracer.impl.ApiTracer - Tracing event: ENTERPRISE - MODIFY at level INFO for entity '/admin/enterprises/242'
+16:51:34.294 INFO  c.a.m.listener.SQLTracerListener - Event: ENTERPRISE Action: MODIFY Level: INFO 
+16:51:34.294 INFO  c.a.m.listener.SQLTracerListener - GET Uri: /admin/enterprises/242  MT: application/vnd.abiquo.enterprise+xml
+16:51:34.530 INFO  com.abiquo.api.tracer.impl.ApiTracer - Tracing event: PRIVATE_NETWORK - DEFAULT at level INFO for entity '/admin/enterprises/242/limits/277'
+16:51:34.537 INFO  c.a.m.listener.SQLTracerListener - Event: PRIVATE_NETWORK Action: DEFAULT Level: INFO 
+16:51:34.537 INFO  c.a.m.listener.SQLTracerListener - GET Uri: /admin/enterprises/242/limits/277  MT: application/vnd.abiquo.vlan+xml
+16:51:34.549 ERROR c.a.m.listener.SQLTracerListener - It is not possible to retrieve DTO at: /admin/enterprises/242/limits/277 MT: application/vnd.abiquo.vlan+xml
+java.lang.Exception: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/enterprises/242/limits/277 returned a response status of 406 Not Acceptable
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:65) ~[MClient.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.getDto(SQLTracerListener.java:192) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:85) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:43) [SQLTracerListener.class:na]
+	at com.abiquo.m.callback.processor.AMQPCallbackProcessor.run(AMQPCallbackProcessor.java:50) [AMQPCallbackProcessor.class:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_21]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+Caused by: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/enterprises/242/limits/277 returned a response status of 406 Not Acceptable
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:686) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:507) ~[jersey-client-1.12.jar:1.12]
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:61) ~[MClient.class:na]
+	... 10 common frames omitted
+16:51:34.894 INFO  c.a.a.r.config.CurrenciesResource - Getting currencies
+
+
+
+Moving a volume to another virtual datacenter
+---------------------------------------------------------
+18:22:21.215 INFO  c.a.m.listener.SQLTracerListener - Event: VOLUME Action: MOVE Level: INFO 
+18:22:21.215 INFO  c.a.m.listener.SQLTracerListener - GET Uri: http://127.0.0.1:80/api/cloud/virtualdatacenters/381/volumes/381  MT: application/vnd.abiquo.volume+xml
+18:22:21.251 ERROR o.j.h.h.RedirectionRetryHandler - Cannot retry after redirect, command exceeded retry limit 0: [method=public abstract com.abiquo.server.core.infrastructure.storage.VolumeManagementDto org.jclouds.abiquo.features.CloudApi.moveVolume(com.abiquo.server.core.infrastructure.storage.VolumeManagementDto,com.abiquo.server.core.cloud.VirtualDatacenterDto)[com.abiquo.server.core.infrastructure.storage.VolumeManagementDto@742b198, com.abiquo.server.core.cloud.VirtualDatacenterDto@2b9975e1], request=POST http://127.0.0.1:80/api/cloud/virtualdatacenters/378/volumes/172563/action/move HTTP/1.1]
+18:22:21.277 ERROR c.a.m.listener.SQLTracerListener - It is not possible to retrieve DTO at: http://127.0.0.1:80/api/cloud/virtualdatacenters/381/volumes/381 MT: application/vnd.abiquo.volume+xml
+java.lang.Exception: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1:80/api/cloud/virtualdatacenters/381/volumes/381 returned a response status of 404 Not Found
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:65) ~[MClient.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.getDto(SQLTracerListener.java:192) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:85) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:43) [SQLTracerListener.class:na]
+	at com.abiquo.m.callback.processor.AMQPCallbackProcessor.run(AMQPCallbackProcessor.java:50) [AMQPCallbackProcessor.class:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_21]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+Caused by: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1:80/api/cloud/virtualdatacenters/381/volumes/381 returned a response status of 404 Not Found
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:686) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:507) ~[jersey-client-1.12.jar:1.12]
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:61) ~[MClient.class:na]
+	... 10 common frames omitted
+
+
+
+
+Restrict Tier access to all enterprises:
+-----------------------------------------------------
+
+21:05:05.651 INFO  com.abiquo.api.tracer.impl.ApiTracer - Tracing event: DATACENTER_LIMIT - TIER_RESTRICT at level INFO for entity '/admin/datacenters/1/storage/tiers/4'
+21:05:05.661 INFO  c.a.m.listener.SQLTracerListener - Event: DATACENTER_LIMIT Action: TIER_RESTRICT Level: INFO 
+21:05:05.661 INFO  c.a.m.listener.SQLTracerListener - GET Uri: /admin/datacenters/1/storage/tiers/4  MT: application/vnd.abiquo.limit+xml
+21:05:05.675 ERROR c.a.m.listener.SQLTracerListener - It is not possible to retrieve DTO at: /admin/datacenters/1/storage/tiers/4 MT: application/vnd.abiquo.limit+xml
+java.lang.Exception: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/datacenters/1/storage/tiers/4 returned a response status of 406 Not Acceptable
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:65) ~[MClient.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.getDto(SQLTracerListener.java:192) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:85) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:43) [SQLTracerListener.class:na]
+	at com.abiquo.m.callback.processor.AMQPCallbackProcessor.run(AMQPCallbackProcessor.java:50) [AMQPCallbackProcessor.class:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_21]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+Caused by: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/datacenters/1/storage/tiers/4 returned a response status of 406 Not Acceptable
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:686) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:507) ~[jersey-client-1.12.jar:1.12]
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:61) ~[MClient.class:na]
+	... 10 common frames omitted
+21:05:05.745 INFO  com.abiquo.api.tracer.impl.ApiTracer - Tracing event: DATACENTER_LIMIT - TIER_RESTRICT at level INFO for entity '/admin/datacenters/1/storage/tiers/4'
+21:05:05.756 INFO  c.a.m.listener.SQLTracerListener - Event: DATACENTER_LIMIT Action: TIER_RESTRICT Level: INFO 
+21:05:05.756 INFO  c.a.m.listener.SQLTracerListener - GET Uri: /admin/datacenters/1/storage/tiers/4  MT: application/vnd.abiquo.limit+xml
+21:05:05.767 ERROR c.a.m.listener.SQLTracerListener - It is not possible to retrieve DTO at: /admin/datacenters/1/storage/tiers/4 MT: application/vnd.abiquo.limit+xml
+java.lang.Exception: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/datacenters/1/storage/tiers/4 returned a response status of 406 Not Acceptable
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:65) ~[MClient.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.getDto(SQLTracerListener.java:192) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:85) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:43) [SQLTracerListener.class:na]
+	at com.abiquo.m.callback.processor.AMQPCallbackProcessor.run(AMQPCallbackProcessor.java:50) [AMQPCallbackProcessor.class:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_21]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+Caused by: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/datacenters/1/storage/tiers/4 returned a response status of 406 Not Acceptable
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:686) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:507) ~[jersey-client-1.12.jar:1.12]
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:61) ~[MClient.class:na]
+	... 10 common frames omitted
+
+
+Allow Tier access to all enterprises:
+-----------------------------------------------------
+21:05:38.359 INFO  com.abiquo.api.tracer.impl.ApiTracer - Tracing event: DATACENTER_LIMIT - TIER_ALLOW at level INFO for entity '/admin/datacenters/1/storage/tiers/4'
+21:05:38.370 INFO  c.a.m.listener.SQLTracerListener - Event: DATACENTER_LIMIT Action: TIER_ALLOW Level: INFO 
+21:05:38.370 INFO  c.a.m.listener.SQLTracerListener - GET Uri: /admin/datacenters/1/storage/tiers/4  MT: application/vnd.abiquo.limit+xml
+21:05:38.386 ERROR c.a.m.listener.SQLTracerListener - It is not possible to retrieve DTO at: /admin/datacenters/1/storage/tiers/4 MT: application/vnd.abiquo.limit+xml
+java.lang.Exception: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/datacenters/1/storage/tiers/4 returned a response status of 406 Not Acceptable
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:65) ~[MClient.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.getDto(SQLTracerListener.java:192) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:85) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:43) [SQLTracerListener.class:na]
+	at com.abiquo.m.callback.processor.AMQPCallbackProcessor.run(AMQPCallbackProcessor.java:50) [AMQPCallbackProcessor.class:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_21]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+Caused by: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/datacenters/1/storage/tiers/4 returned a response status of 406 Not Acceptable
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:686) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:507) ~[jersey-client-1.12.jar:1.12]
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:61) ~[MClient.class:na]
+	... 10 common frames omitted
+21:05:38.459 INFO  com.abiquo.api.tracer.impl.ApiTracer - Tracing event: DATACENTER_LIMIT - TIER_ALLOW at level INFO for entity '/admin/datacenters/1/storage/tiers/4'
+21:05:38.471 INFO  c.a.m.listener.SQLTracerListener - Event: DATACENTER_LIMIT Action: TIER_ALLOW Level: INFO 
+21:05:38.472 INFO  c.a.m.listener.SQLTracerListener - GET Uri: /admin/datacenters/1/storage/tiers/4  MT: application/vnd.abiquo.limit+xml
+21:05:38.485 ERROR c.a.m.listener.SQLTracerListener - It is not possible to retrieve DTO at: /admin/datacenters/1/storage/tiers/4 MT: application/vnd.abiquo.limit+xml
+java.lang.Exception: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/datacenters/1/storage/tiers/4 returned a response status of 406 Not Acceptable
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:65) ~[MClient.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.getDto(SQLTracerListener.java:192) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:85) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:43) [SQLTracerListener.class:na]
+	at com.abiquo.m.callback.processor.AMQPCallbackProcessor.run(AMQPCallbackProcessor.java:50) [AMQPCallbackProcessor.class:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_21]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+Caused by: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/datacenters/1/storage/tiers/4 returned a response status of 406 Not Acceptable
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:686) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:507) ~[jersey-client-1.12.jar:1.12]
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:61) ~[MClient.class:na]
+	... 10 common frames omitted
+
+
+
+Refresh the remote template repository
+-------------------------------------------------
+09:43:01.527 INFO  com.abiquo.api.tracer.impl.ApiTracer - Tracing event: TEMPLATE_DEFINITION - CREATE at level WARN for entity '/admin/enterprises/259/appslib/templateDefinitionLists/131'
+09:43:01.536 INFO  c.a.m.listener.SQLTracerListener - Event: TEMPLATE_DEFINITION Action: CREATE Level: WARN 
+09:43:01.537 INFO  c.a.m.listener.SQLTracerListener - GET Uri: /admin/enterprises/259/appslib/templateDefinitionLists/131  MT: application/vnd.abiquo.templatedefinition+xml
+09:43:01.549 ERROR c.a.m.listener.SQLTracerListener - It is not possible to retrieve DTO at: /admin/enterprises/259/appslib/templateDefinitionLists/131 MT: application/vnd.abiquo.templatedefinition+xml
+java.lang.Exception: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/enterprises/259/appslib/templateDefinitionLists/131 returned a response status of 406 Not Acceptable
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:65) ~[MClient.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.getDto(SQLTracerListener.java:192) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:85) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:43) [SQLTracerListener.class:na]
+	at com.abiquo.m.callback.processor.AMQPCallbackProcessor.run(AMQPCallbackProcessor.java:50) [AMQPCallbackProcessor.class:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_21]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+Caused by: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/enterprises/259/appslib/templateDefinitionLists/131 returned a response status of 406 Not Acceptable
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:686) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:507) ~[jersey-client-1.12.jar:1.12]
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:61) ~[MClient.class:na]
+	... 10 common frames omitted
+
+
+
+Create a user
+----------------------------------
+09:45:43.454 ERROR c.a.m.listener.SQLTracerListener - No message found for event: {"timestamp":1374565543445,"user":"/admin/enterprises/259/users/1","enterprise":"/admin/enterprises/259","severity":"INFO","source":"ABIQUO_SERVER","action":"CREATE","type":"USER","entityIdentifier":"/admin/enterprises/259/users/414","details":{}}
+
+
+
+
+Modify a remote service
+---------------------------------
+09:53:56.435 INFO  com.abiquo.api.tracer.impl.ApiTracer - Tracing event: REMOTE_SERVICE - MODIFY at level INFO for entity '/admin/datacenters/1'
+09:53:56.444 INFO  c.a.m.listener.SQLTracerListener - Event: REMOTE_SERVICE Action: MODIFY Level: INFO 
+09:53:56.444 INFO  c.a.m.listener.SQLTracerListener - GET Uri: /admin/datacenters/1  MT: application/vnd.abiquo.remoteservice+xml
+09:53:56.456 ERROR c.a.m.listener.SQLTracerListener - It is not possible to retrieve DTO at: /admin/datacenters/1 MT: application/vnd.abiquo.remoteservice+xml
+java.lang.Exception: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/datacenters/1 returned a response status of 406 Not Acceptable
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:65) ~[MClient.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.getDto(SQLTracerListener.java:192) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:85) [SQLTracerListener.class:na]
+	at com.abiquo.m.listener.SQLTracerListener.process(SQLTracerListener.java:43) [SQLTracerListener.class:na]
+	at com.abiquo.m.callback.processor.AMQPCallbackProcessor.run(AMQPCallbackProcessor.java:50) [AMQPCallbackProcessor.class:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [na:1.7.0_21]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_21]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+Caused by: com.sun.jersey.api.client.UniformInterfaceException: GET http://127.0.0.1/api/admin/datacenters/1 returned a response status of 406 Not Acceptable
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:686) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.12.jar:1.12]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:507) ~[jersey-client-1.12.jar:1.12]
+	at com.abiquo.m.client.MClient.getEntity(MClient.java:61) ~[MClient.class:na]
+	... 10 common frames omitted
+
+
+
+Generate conversions fail because of Amazon format (AMI) (see Jira ABICLOUDPREMIUM-5706)
+-----------------------------------------------------------------------------------------
+10:46:38.396 INFO  c.a.m.listener.SQLTracerListener - Event: VIRTUAL_MACHINE_TEMPLATE Action: CONVERSION_TASK_ENQUEUE Level: INFO 
+10:46:38.397 INFO  c.a.m.listener.SQLTracerListener - GET Uri: /admin/enterprises/2/datacenterrepositories/1/virtualmachinetemplates/94  MT: application/vnd.abiquo.virtualmachinetemplate+xml
+10:46:38.520 INFO  c.a.b.job.impl.ConversionsProcessor - Job: 5dee0343-b957-4981-9ed5-c23aa0b9e4fb
+10:46:38.520 INFO  c.a.b.job.impl.ConversionsProcessor - Type: DISK_CONVERSION
+10:46:38.520 INFO  c.a.b.job.impl.ConversionsProcessor - DiskPathDestination: 2/rs.bcn.abiquo.com/nostalgia/formats/394283aa-9df8-4fb8-b92c-e3f6b328707a-snapshot-Nostalgia-flat-AMI.vmdk
+10:46:38.520 INFO  c.a.b.job.impl.ConversionsProcessor - DiskPathSource: 2/rs.bcn.abiquo.com/nostalgia/394283aa-9df8-4fb8-b92c-e3f6b328707a-snapshot-Nostalgia-flat.vmdk
+10:46:38.521 INFO  c.a.b.job.impl.ConversionsProcessor - SourceFormat: VMDK_FLAT
+10:46:38.521 INFO  c.a.b.job.impl.ConversionsProcessor - DestinationFormat: AMI
+10:46:38.521 INFO  c.a.b.job.impl.ConversionsProcessor - MustDestroyOriginDisk: false
+10:46:38.612 INFO  com.abiquo.bpm.BPMManager - Process for job '5dee0343-b957-4981-9ed5-c23aa0b9e4fb' added to list of running processes
+10:46:38.685 INFO  com.abiquo.bpm.BPMManager - Process for job '5dee0343-b957-4981-9ed5-c23aa0b9e4fb' removed from list of running processes
+10:46:38.686 ERROR c.a.bpm.service.utils.ConverterUtils - ErrorCode:1 , Error:base64: invalid input
+base64: invalid input
+base64: invalid input
+, Output:[+] Format not supported
+
+10:46:38.686 INFO  c.a.b.job.impl.ConversionsProcessor - Status: FAILED
+10:46:38.720 INFO  com.abiquo.api.tracer.impl.ApiTracer - Tracing event: VIRTUAL_MACHINE_TEMPLATE - CONVERSION_FINISH at level ERROR for entity ''
+10:46:38.743 INFO  c.a.m.listener.SQLTracerListener - Event: VIRTUAL_MACHINE_TEMPLATE Action: CONVERSION_FINISH Level: ERROR 
+10:46:38.743 ERROR c.a.m.listener.SQLTracerListener - No message found for event: {"timestamp":1374569198720,"user":"/admin/enterprises/2/users/1","enterprise":"/admin/enterprises/2","severity":"ERROR","source":"ABIQUO_SERVER","action":"CONVERSION_FINISH","type":"VIRTUAL_MACHINE_TEMPLATE","entityIdentifier":"","details":{"CODE":"JOB-2","MESSAGE":"The job has failed","SCOPE":"DATACENTER","CONVERSION_SOURCE_TYPE":"VMDK_FLAT","CONVERSION_TARGET_TYPE":"AMI","VMT_MASTER_NAME":"394283aa-9df8-4fb8-b92c-e3f6b328707a-snapshot-Nostalgia-flat"}} 
 
 
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <template>
-<name>CoreBoboNewNew</name>
+<name>windows2008</name>
 <description>theDiskDescription</description>
 <categoryName>Test others</categoryName>
 <diskFileFormat>QCOW2_SPARSE</diskFileFormat>
 <requiredCpu>1</requiredCpu>
-<requiredRamInMB>512</requiredRamInMB>
-<requiredHDInMB>100</requiredHDInMB>
+<requiredRamInMB>1024</requiredRamInMB>
+<requiredHDInMB>4096</requiredHDInMB>
 <!-- optional attributes -->
 <iconUrl />
 <loginPassword />

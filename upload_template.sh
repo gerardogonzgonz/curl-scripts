@@ -1,3 +1,3 @@
 #!/bin/bash
 
-curl --verbose --insecure -u admin:xabiquo -X POST -F "diskInfo=@templateUpload.xml" -F "diskFile=@Core.qcow2" https://10.60.11.223:8009/am/erepos/1/templates
+curl --verbose -u admin:xabiquo -F "diskInfo=@templateUploadVeryLarge.xml" -F "diskFile=@w2008enterprise.qcow2" http://10.60.11.220:8009/am/erepos/1/templates

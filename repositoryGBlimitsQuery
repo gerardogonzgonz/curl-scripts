@@ -1,0 +1,1 @@
+select SUM(diskFileSize/(1024*1024*1024)) from virtualimage where idEnterprise=4 and idRepository is not null and stateful=0;

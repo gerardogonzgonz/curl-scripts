@@ -1,0 +1,34 @@
+#!/bin/bash
+
+curl --verbose -X POST 'http://10.60.11.20/api/admin/datacenters/73/network' \
+-H "Accept: application/vnd.abiquo.vlan+json" \
+-H "Content-type: application/vnd.abiquo.vlan+json" \
+-u admin:xabiquo \
+-d '{
+    "address": "80.80.80.0", 
+    "defaultNetwork": null, 
+    "dhcpOptions": {
+        "collection": [], 
+        "links": [], 
+        "totalSize": null
+    },
+    "links": [
+	{
+            "href": "http://10.60.11.20:80/api/admin/datacenters/73/networkservicetypes", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "networkservicetypes", 
+            "title": null, 
+            "type": "application/vnd.abiquo.vlan+json"
+        }
+],
+    "gateway": "80.80.80.1",
+    "mask": 24, 
+    "name": "Public_Network_test", 
+    "primaryDNS": null, 
+    "secondaryDNS": null, 
+    "sufixDNS": null, 
+    "tag": 55, 
+    "type": "PUBLIC", 
+    "unmanaged": null
+}' | jsonprint
