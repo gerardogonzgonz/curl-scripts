@@ -1,0 +1,5 @@
+curl --verbose -X HEAD http://10.60.11.220:80/am/files/1/rs.bcn.abiquo.com/ubuntu-server-karmic-x86_64/ubuntu-910-server-x86_64-vmdk5.vmdk -u admin:xabiquo -H "X-Auth-Abiquo:19341e9d2d92ec34a98c8a121134cd3c"
+
+el X-Auth-Abiquo header es el md5 del datacenter UUID --> autenticación de sistema
+
+la autenticación de usuario se hace mediante las cookies por el cliente, usando el user:xabiquo

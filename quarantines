@@ -1,0 +1,544 @@
+{
+    "collection": [
+        {
+            "available": true, 
+            "id": 18078, 
+            "ip": "80.80.80.1", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87", 
+                    "rel": "publicnetwork", 
+                    "title": "85edec69-89d", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18078", 
+                    "rel": "self", 
+                    "title": "80.80.80.1", 
+                    "type": "application/vnd.abiquo.publicip+json"
+                }
+            ], 
+            "networkName": "85edec69-89d", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 18079, 
+            "ip": "80.80.80.2", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87", 
+                    "rel": "publicnetwork", 
+                    "title": "85edec69-89d", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18079", 
+                    "rel": "self", 
+                    "title": "80.80.80.2", 
+                    "type": "application/vnd.abiquo.publicip+json"
+                }
+            ], 
+            "networkName": "85edec69-89d", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 18080, 
+            "ip": "80.80.80.3", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87", 
+                    "rel": "publicnetwork", 
+                    "title": "85edec69-89d", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18080", 
+                    "rel": "self", 
+                    "title": "80.80.80.3", 
+                    "type": "application/vnd.abiquo.publicip+json"
+                }
+            ], 
+            "networkName": "85edec69-89d", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 18081, 
+            "ip": "80.80.80.4", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87", 
+                    "rel": "publicnetwork", 
+                    "title": "85edec69-89d", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18081", 
+                    "rel": "self", 
+                    "title": "80.80.80.4", 
+                    "type": "application/vnd.abiquo.publicip+json"
+                }
+            ], 
+            "networkName": "85edec69-89d", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 18082, 
+            "ip": "80.80.80.5", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87", 
+                    "rel": "publicnetwork", 
+                    "title": "85edec69-89d", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18082", 
+                    "rel": "self", 
+                    "title": "80.80.80.5", 
+                    "type": "application/vnd.abiquo.publicip+json"
+                }
+            ], 
+            "networkName": "85edec69-89d", 
+            "quarantine": true
+        }, 
+        {
+            "available": true, 
+            "id": 18083, 
+            "ip": "80.80.80.6", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87", 
+                    "rel": "publicnetwork", 
+                    "title": "85edec69-89d", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18083", 
+                    "rel": "self", 
+                    "title": "80.80.80.6", 
+                    "type": "application/vnd.abiquo.publicip+json"
+                }
+            ], 
+            "networkName": "85edec69-89d", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 18084, 
+            "ip": "80.80.80.7", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87", 
+                    "rel": "publicnetwork", 
+                    "title": "85edec69-89d", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18084", 
+                    "rel": "self", 
+                    "title": "80.80.80.7", 
+                    "type": "application/vnd.abiquo.publicip+json"
+                }
+            ], 
+            "networkName": "85edec69-89d", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 18085, 
+            "ip": "80.80.80.8", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87", 
+                    "rel": "publicnetwork", 
+                    "title": "85edec69-89d", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18085", 
+                    "rel": "self", 
+                    "title": "80.80.80.8", 
+                    "type": "application/vnd.abiquo.publicip+json"
+                }
+            ], 
+            "networkName": "85edec69-89d", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 18086, 
+            "ip": "80.80.80.9", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87", 
+                    "rel": "publicnetwork", 
+                    "title": "85edec69-89d", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18086", 
+                    "rel": "self", 
+                    "title": "80.80.80.9", 
+                    "type": "application/vnd.abiquo.publicip+json"
+                }
+            ], 
+            "networkName": "85edec69-89d", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 18087, 
+            "ip": "80.80.80.10", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87", 
+                    "rel": "publicnetwork", 
+                    "title": "85edec69-89d", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18087", 
+                    "rel": "self", 
+                    "title": "80.80.80.10", 
+                    "type": "application/vnd.abiquo.publicip+json"
+                }
+            ], 
+            "networkName": "85edec69-89d", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 18088, 
+            "ip": "80.80.80.11", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87", 
+                    "rel": "publicnetwork", 
+                    "title": "85edec69-89d", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18088", 
+                    "rel": "self", 
+                    "title": "80.80.80.11", 
+                    "type": "application/vnd.abiquo.publicip+json"
+                }
+            ], 
+            "networkName": "85edec69-89d", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 18089, 
+            "ip": "80.80.80.12", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87", 
+                    "rel": "publicnetwork", 
+                    "title": "85edec69-89d", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18089", 
+                    "rel": "self", 
+                    "title": "80.80.80.12", 
+                    "type": "application/vnd.abiquo.publicip+json"
+                }
+            ], 
+            "networkName": "85edec69-89d", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 18090, 
+            "ip": "80.80.80.13", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87", 
+                    "rel": "publicnetwork", 
+                    "title": "85edec69-89d", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18090", 
+                    "rel": "self", 
+                    "title": "80.80.80.13", 
+                    "type": "application/vnd.abiquo.publicip+json"
+                }
+            ], 
+            "networkName": "85edec69-89d", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 18091, 
+            "ip": "80.80.80.14", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87", 
+                    "rel": "publicnetwork", 
+                    "title": "85edec69-89d", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18091", 
+                    "rel": "self", 
+                    "title": "80.80.80.14", 
+                    "type": "application/vnd.abiquo.publicip+json"
+                }
+            ], 
+            "networkName": "85edec69-89d", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 18092, 
+            "ip": "80.80.80.15", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87", 
+                    "rel": "publicnetwork", 
+                    "title": "85edec69-89d", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18092", 
+                    "rel": "self", 
+                    "title": "80.80.80.15", 
+                    "type": "application/vnd.abiquo.publicip+json"
+                }
+            ], 
+            "networkName": "85edec69-89d", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 18093, 
+            "ip": "80.80.80.16", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87", 
+                    "rel": "publicnetwork", 
+                    "title": "85edec69-89d", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18093", 
+                    "rel": "self", 
+                    "title": "80.80.80.16", 
+                    "type": "application/vnd.abiquo.publicip+json"
+                }
+            ], 
+            "networkName": "85edec69-89d", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 18094, 
+            "ip": "80.80.80.17", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87", 
+                    "rel": "publicnetwork", 
+                    "title": "85edec69-89d", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18094", 
+                    "rel": "self", 
+                    "title": "80.80.80.17", 
+                    "type": "application/vnd.abiquo.publicip+json"
+                }
+            ], 
+            "networkName": "85edec69-89d", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 18095, 
+            "ip": "80.80.80.18", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87", 
+                    "rel": "publicnetwork", 
+                    "title": "85edec69-89d", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18095", 
+                    "rel": "self", 
+                    "title": "80.80.80.18", 
+                    "type": "application/vnd.abiquo.publicip+json"
+                }
+            ], 
+            "networkName": "85edec69-89d", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 18096, 
+            "ip": "80.80.80.19", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87", 
+                    "rel": "publicnetwork", 
+                    "title": "85edec69-89d", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18096", 
+                    "rel": "self", 
+                    "title": "80.80.80.19", 
+                    "type": "application/vnd.abiquo.publicip+json"
+                }
+            ], 
+            "networkName": "85edec69-89d", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 18097, 
+            "ip": "80.80.80.20", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87", 
+                    "rel": "publicnetwork", 
+                    "title": "85edec69-89d", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18097", 
+                    "rel": "self", 
+                    "title": "80.80.80.20", 
+                    "type": "application/vnd.abiquo.publicip+json"
+                }
+            ], 
+            "networkName": "85edec69-89d", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 18098, 
+            "ip": "80.80.80.21", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87", 
+                    "rel": "publicnetwork", 
+                    "title": "85edec69-89d", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18098", 
+                    "rel": "self", 
+                    "title": "80.80.80.21", 
+                    "type": "application/vnd.abiquo.publicip+json"
+                }
+            ], 
+            "networkName": "85edec69-89d", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 18099, 
+            "ip": "80.80.80.22", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87", 
+                    "rel": "publicnetwork", 
+                    "title": "85edec69-89d", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18099", 
+                    "rel": "self", 
+                    "title": "80.80.80.22", 
+                    "type": "application/vnd.abiquo.publicip+json"
+                }
+            ], 
+            "networkName": "85edec69-89d", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 18100, 
+            "ip": "80.80.80.23", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87", 
+                    "rel": "publicnetwork", 
+                    "title": "85edec69-89d", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18100", 
+                    "rel": "self", 
+                    "title": "80.80.80.23", 
+                    "type": "application/vnd.abiquo.publicip+json"
+                }
+            ], 
+            "networkName": "85edec69-89d", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 18101, 
+            "ip": "80.80.80.24", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87", 
+                    "rel": "publicnetwork", 
+                    "title": "85edec69-89d", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18101", 
+                    "rel": "self", 
+                    "title": "80.80.80.24", 
+                    "type": "application/vnd.abiquo.publicip+json"
+                }
+            ], 
+            "networkName": "85edec69-89d", 
+            "quarantine": true
+        }, 
+        {
+            "available": true, 
+            "id": 18102, 
+            "ip": "80.80.80.25", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87", 
+                    "rel": "publicnetwork", 
+                    "title": "85edec69-89d", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18102", 
+                    "rel": "self", 
+                    "title": "80.80.80.25", 
+                    "type": "application/vnd.abiquo.publicip+json"
+                }
+            ], 
+            "networkName": "85edec69-89d", 
+            "quarantine": true
+        }
+    ], 
+    "links": [
+        {
+            "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips?limit=25&by=ip", 
+            "rel": "first"
+        }, 
+        {
+            "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips?startwith=25&limit=25&by=ip", 
+            "rel": "next"
+        }, 
+        {
+            "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips?startwith=229&limit=25&by=ip", 
+            "rel": "last"
+        }
+    ], 
+    "totalSize": 254
+}

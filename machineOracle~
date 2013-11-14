@@ -1,0 +1,150 @@
+{
+    "collection": [
+        {
+            "agentIp": null, 
+            "agentPassword": null, 
+            "agentPort": null, 
+            "agentUser": null, 
+            "datastores": {
+                "collection": [
+                    {
+                        "datastoreUUID": "0004fb00000300007faa6cb2c34a6509", 
+                        "directory": "", 
+                        "enabled": true, 
+                        "id": null, 
+                        "links": [], 
+                        "name": "oracleVM_storage_repo", 
+                        "rootPath": "oracleVM_storage_repo", 
+                        "size": 966687948800, 
+                        "usedSize": 389088247808
+                    }
+                ], 
+                "links": [], 
+                "totalSize": null
+            }, 
+            "description": "WIN-3BG6NPM288S.bcn.abiquo.com", 
+            "id": null, 
+            "initiatorIQN": "iqn.1988-12.com.oracle:c4c94a5dc5d7", 
+            "ip": "10.60.1.76", 
+            "ipService": null, 
+            "ipmiIP": null, 
+            "ipmiPassword": null, 
+            "ipmiPort": null, 
+            "ipmiUser": null, 
+            "links": [], 
+            "managerIp": "10.60.11.6", 
+            "managerPassword": null, 
+            "managerPort": null, 
+            "managerUser": null, 
+            "name": "WIN-3BG6NPM288S.bcn.abiquo.com", 
+            "networkInterfaces": {
+                "collection": [
+                    {
+                        "id": null, 
+                        "links": [], 
+                        "mac": "00:26:b9:7c:df:f7", 
+                        "name": "bond0", 
+                        "networkServiceTypeLink": null
+                    }, 
+                    {
+                        "id": null, 
+                        "links": [
+				{
+            			"href": "http://10.60.1.61:80/api/admin/datacenters/13/networkservicetypes/13", 
+            			"hreflang": null, 
+            			"length": null, 
+            			"rel": "networkservicetype", 
+            			"title": null, 
+            			"type": "application/vnd.abiquo.networkservicetype+json"
+        			}
+			], 
+                        "mac": "00:26:b9:7c:df:f8", 
+                        "name": "eth1", 
+                        "networkServiceTypeLink": null
+                    }
+                ], 
+                "links": [], 
+                "totalSize": null
+            }, 
+            "password": null, 
+            "port": null, 
+            "state": "MANAGED", 
+            "type": "ORACLE_VM", 
+            "user": null, 
+            "virtualCpuCores": 8, 
+            "virtualCpusUsed": 0, 
+            "virtualRamInMb": 4086, 
+            "virtualRamUsedInMb": 0
+        }, 
+        {
+            "agentIp": null, 
+            "agentPassword": null, 
+            "agentPort": null, 
+            "agentUser": null, 
+            "datastores": {
+                "collection": [
+                    {
+                        "datastoreUUID": "0004fb00000300007faa6cb2c34a6509", 
+                        "directory": "", 
+                        "enabled": false, 
+                        "id": null, 
+                        "links": [], 
+                        "name": "oracleVM_storage_repo", 
+                        "rootPath": "oracleVM_storage_repo", 
+                        "size": 966687948800, 
+                        "usedSize": 389088247808
+                    }
+                ], 
+                "links": [], 
+                "totalSize": null
+            }, 
+            "description": "WIN-7BRCRDF42RK.bcn.abiquo.com", 
+            "id": null, 
+            "initiatorIQN": "iqn.1988-12.com.oracle:9afe433e6392", 
+            "ip": "10.60.1.75", 
+            "ipService": null, 
+            "ipmiIP": null, 
+            "ipmiPassword": null, 
+            "ipmiPort": null, 
+            "ipmiUser": null, 
+            "links": [], 
+            "managerIp": "10.60.11.6", 
+            "managerPassword": null, 
+            "managerPort": null, 
+            "managerUser": null, 
+            "name": "WIN-7BRCRDF42RK.bcn.abiquo.com", 
+            "networkInterfaces": {
+                "collection": [
+                    {
+                        "id": null, 
+                        "links": [], 
+                        "mac": "00:26:b9:7c:df:e8", 
+                        "name": "bond0", 
+                        "networkServiceTypeLink": null
+                    }, 
+                    {
+                        "id": null, 
+                        "links": [], 
+                        "mac": "00:26:b9:7c:df:e9", 
+                        "name": "eth1", 
+                        "networkServiceTypeLink": null
+                    }
+                ], 
+                "links": [], 
+                "totalSize": null
+            }, 
+            "password": null, 
+            "port": null, 
+            "state": "MANAGED", 
+            "type": "ORACLE_VM", 
+            "user": null, 
+            "virtualCpuCores": 8, 
+            "virtualCpusUsed": 0, 
+            "virtualRamInMb": 4086, 
+            "virtualRamUsedInMb": 0
+        }
+    ], 
+    "errors": null, 
+    "links": [], 
+    "totalSize": null
+}

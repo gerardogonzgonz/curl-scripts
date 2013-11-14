@@ -1,0 +1,21 @@
+{
+    "available": true, 
+    "id": 18082, 
+    "ip": "80.80.80.5", 
+    "links": [
+        {
+            "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87", 
+            "rel": "publicnetwork", 
+            "title": "85edec69-89d", 
+            "type": "application/vnd.abiquo.vlan+json"
+        }, 
+        {
+            "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18082", 
+            "rel": "self", 
+            "title": "80.80.80.5", 
+            "type": "application/vnd.abiquo.publicip+json"
+        }
+    ], 
+    "networkName": "85edec69-89d", 
+    "quarantine": true
+}

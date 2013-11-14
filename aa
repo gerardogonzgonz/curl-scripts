@@ -1,0 +1,37 @@
+/////////////////////////
+{
+    "availableSizeInMb": 3903, 
+    "idStorage": "55e4fba5-58cf-4b04-8b02-c2c903faf0aa", 
+    "links": [
+        {
+            "href": "https://10.60.11.220:443/api/admin/datacenters/1/storage/devices/15/pools/55e4fba5-58cf-4b04-8b02-c2c903faf0aa", 
+            "rel": "edit", 
+            "title": "aggr1", 
+            "type": "application/vnd.abiquo.storagepool+json"
+        }, 
+        {
+            "href": "https://10.60.11.220:443/api/admin/datacenters/1/storage/tiers/4", 
+            "rel": "tier", 
+            "title": "Default Tier 4", 
+            "type": "application/vnd.abiquo.tier+json"
+        }, 
+        {
+            "href": "https://10.60.11.220:443/api/admin/datacenters/1/storage/devices/15", 
+            "rel": "device", 
+            "title": "netapp", 
+            "type": "application/vnd.abiquo.storagedevice+json"
+        }, 
+        {
+            "href": "https://10.60.11.220:443/api/admin/datacenters/1/storage/devices/15/pools/55e4fba5-58cf-4b04-8b02-c2c903faf0aa/action/volumes", 
+            "rel": "volumes", 
+            "title": "volumes", 
+            "type": "application/vnd.abiquo.volumes+xml; version=2.6"
+        }
+    ], 
+    "maxVolumes": 0, 
+    "name": "aggr1", 
+    "totalSizeInMb": 7695, 
+    "type": "ISCSI", 
+    "usablePercent": 50, 
+    "usedSizeInMb": 2236
+}

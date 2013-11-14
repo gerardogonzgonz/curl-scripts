@@ -1,0 +1,11 @@
+<storagePool>
+<link rel="tier" href="http://10.60.11.220:8009/api/admin/datacenters/1/storage/tiers/4"/>
+        <name>/opt/vm_repositoryTesting</name>
+        <type>NFS</type>
+        <totalSizeInMb>921906</totalSizeInMb>
+        <usedSizeInMb>517769</usedSizeInMb>
+        <availableSizeInMb>356552</availableSizeInMb>
+        <maxVolumes>0</maxVolumes>
+        <usablePercent>100</usablePercent>
+	<enabled>true</enabled>
+</storagePool>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<templateDefinition>
+    <link title="2b6ca08e-ede" rel="enterprise" type="application/vnd.abiquo.enterprise+xml" href="http://10.60.11.22:80/api/admin/enterprises/57"/>
+    <link title="Others" rel="category" type="application/vnd.abiquo.category+xml" href="http://10.60.11.22:80/api/config/categories/1"/>
+    <link title="myListB" rel="templateDefinitionList" type="application/vnd.abiquo.templatedefinitionlist+xml" href="http://10.60.11.22:80/api/admin/enterprises/57/appslib/templateDefinitionLists/26"/>
+    <link title="Core" rel="edit" type="application/vnd.abiquo.templatedefinition+xml" href="http://10.60.11.22:80/api/admin/enterprises/57/appslib/templateDefinitions/1315"/>
+    <id>1315</id>
+    <url>http://rs.bcn.abiquo.com:9000/ovf/305/desc.ovf</url>
+    <name>Core</name>
+    <description>root : abiquo</description>
+    <productName>Core</productName>
+    <iconUrl>http://rs.bcn.abiquo.com:9000/public/icons/tinycore.png</iconUrl>
+    <diskFormatType>QCOW2_SPARSE</diskFormatType>
+    <diskFileSize>12</diskFileSize>
+    <loginUser>user</loginUser>
+    <loginPassword>password</loginPassword>
+    <osType>UNRECOGNIZED</osType>
+    <osVersion></osVersion>
+    <ethernetDriverType>E1000</ethernetDriverType>
+    <diskControllerType>SCSI</diskControllerType>
+</templateDefinition>

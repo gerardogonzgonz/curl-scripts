@@ -1,0 +1,694 @@
+{
+    "collection": [
+        {
+            "available": true, 
+            "id": 17824, 
+            "ip": "10.0.0.1", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86", 
+                    "rel": "externalnetwork", 
+                    "title": "99b6333b-8d2", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/enterprises/1", 
+                    "rel": "enterprise", 
+                    "title": "Abiquo", 
+                    "type": "application/vnd.abiquo.enterprise+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips/17824", 
+                    "rel": "self", 
+                    "title": "10.0.0.1", 
+                    "type": "application/vnd.abiquo.externalip+json"
+                }
+            ], 
+            "networkName": "99b6333b-8d2", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 17825, 
+            "ip": "10.0.0.2", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86", 
+                    "rel": "externalnetwork", 
+                    "title": "99b6333b-8d2", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/enterprises/1", 
+                    "rel": "enterprise", 
+                    "title": "Abiquo", 
+                    "type": "application/vnd.abiquo.enterprise+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips/17825", 
+                    "rel": "self", 
+                    "title": "10.0.0.2", 
+                    "type": "application/vnd.abiquo.externalip+json"
+                }
+            ], 
+            "networkName": "99b6333b-8d2", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 17826, 
+            "ip": "10.0.0.3", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86", 
+                    "rel": "externalnetwork", 
+                    "title": "99b6333b-8d2", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/enterprises/1", 
+                    "rel": "enterprise", 
+                    "title": "Abiquo", 
+                    "type": "application/vnd.abiquo.enterprise+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips/17826", 
+                    "rel": "self", 
+                    "title": "10.0.0.3", 
+                    "type": "application/vnd.abiquo.externalip+json"
+                }
+            ], 
+            "networkName": "99b6333b-8d2", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 17827, 
+            "ip": "10.0.0.4", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86", 
+                    "rel": "externalnetwork", 
+                    "title": "99b6333b-8d2", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/enterprises/1", 
+                    "rel": "enterprise", 
+                    "title": "Abiquo", 
+                    "type": "application/vnd.abiquo.enterprise+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips/17827", 
+                    "rel": "self", 
+                    "title": "10.0.0.4", 
+                    "type": "application/vnd.abiquo.externalip+json"
+                }
+            ], 
+            "networkName": "99b6333b-8d2", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 17828, 
+            "ip": "10.0.0.5", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86", 
+                    "rel": "externalnetwork", 
+                    "title": "99b6333b-8d2", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/enterprises/1", 
+                    "rel": "enterprise", 
+                    "title": "Abiquo", 
+                    "type": "application/vnd.abiquo.enterprise+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips/17828", 
+                    "rel": "self", 
+                    "title": "10.0.0.5", 
+                    "type": "application/vnd.abiquo.externalip+json"
+                }
+            ], 
+            "networkName": "99b6333b-8d2", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 17829, 
+            "ip": "10.0.0.6", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86", 
+                    "rel": "externalnetwork", 
+                    "title": "99b6333b-8d2", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/enterprises/1", 
+                    "rel": "enterprise", 
+                    "title": "Abiquo", 
+                    "type": "application/vnd.abiquo.enterprise+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips/17829", 
+                    "rel": "self", 
+                    "title": "10.0.0.6", 
+                    "type": "application/vnd.abiquo.externalip+json"
+                }
+            ], 
+            "networkName": "99b6333b-8d2", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 17830, 
+            "ip": "10.0.0.7", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86", 
+                    "rel": "externalnetwork", 
+                    "title": "99b6333b-8d2", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/enterprises/1", 
+                    "rel": "enterprise", 
+                    "title": "Abiquo", 
+                    "type": "application/vnd.abiquo.enterprise+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips/17830", 
+                    "rel": "self", 
+                    "title": "10.0.0.7", 
+                    "type": "application/vnd.abiquo.externalip+json"
+                }
+            ], 
+            "networkName": "99b6333b-8d2", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 17831, 
+            "ip": "10.0.0.8", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86", 
+                    "rel": "externalnetwork", 
+                    "title": "99b6333b-8d2", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/enterprises/1", 
+                    "rel": "enterprise", 
+                    "title": "Abiquo", 
+                    "type": "application/vnd.abiquo.enterprise+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips/17831", 
+                    "rel": "self", 
+                    "title": "10.0.0.8", 
+                    "type": "application/vnd.abiquo.externalip+json"
+                }
+            ], 
+            "networkName": "99b6333b-8d2", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 17832, 
+            "ip": "10.0.0.9", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86", 
+                    "rel": "externalnetwork", 
+                    "title": "99b6333b-8d2", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/enterprises/1", 
+                    "rel": "enterprise", 
+                    "title": "Abiquo", 
+                    "type": "application/vnd.abiquo.enterprise+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips/17832", 
+                    "rel": "self", 
+                    "title": "10.0.0.9", 
+                    "type": "application/vnd.abiquo.externalip+json"
+                }
+            ], 
+            "networkName": "99b6333b-8d2", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 17833, 
+            "ip": "10.0.0.10", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86", 
+                    "rel": "externalnetwork", 
+                    "title": "99b6333b-8d2", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/enterprises/1", 
+                    "rel": "enterprise", 
+                    "title": "Abiquo", 
+                    "type": "application/vnd.abiquo.enterprise+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips/17833", 
+                    "rel": "self", 
+                    "title": "10.0.0.10", 
+                    "type": "application/vnd.abiquo.externalip+json"
+                }
+            ], 
+            "networkName": "99b6333b-8d2", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 17834, 
+            "ip": "10.0.0.11", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86", 
+                    "rel": "externalnetwork", 
+                    "title": "99b6333b-8d2", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/enterprises/1", 
+                    "rel": "enterprise", 
+                    "title": "Abiquo", 
+                    "type": "application/vnd.abiquo.enterprise+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips/17834", 
+                    "rel": "self", 
+                    "title": "10.0.0.11", 
+                    "type": "application/vnd.abiquo.externalip+json"
+                }
+            ], 
+            "networkName": "99b6333b-8d2", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 17835, 
+            "ip": "10.0.0.12", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86", 
+                    "rel": "externalnetwork", 
+                    "title": "99b6333b-8d2", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/enterprises/1", 
+                    "rel": "enterprise", 
+                    "title": "Abiquo", 
+                    "type": "application/vnd.abiquo.enterprise+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips/17835", 
+                    "rel": "self", 
+                    "title": "10.0.0.12", 
+                    "type": "application/vnd.abiquo.externalip+json"
+                }
+            ], 
+            "networkName": "99b6333b-8d2", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 17836, 
+            "ip": "10.0.0.13", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86", 
+                    "rel": "externalnetwork", 
+                    "title": "99b6333b-8d2", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/enterprises/1", 
+                    "rel": "enterprise", 
+                    "title": "Abiquo", 
+                    "type": "application/vnd.abiquo.enterprise+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips/17836", 
+                    "rel": "self", 
+                    "title": "10.0.0.13", 
+                    "type": "application/vnd.abiquo.externalip+json"
+                }
+            ], 
+            "networkName": "99b6333b-8d2", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 17837, 
+            "ip": "10.0.0.14", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86", 
+                    "rel": "externalnetwork", 
+                    "title": "99b6333b-8d2", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/enterprises/1", 
+                    "rel": "enterprise", 
+                    "title": "Abiquo", 
+                    "type": "application/vnd.abiquo.enterprise+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips/17837", 
+                    "rel": "self", 
+                    "title": "10.0.0.14", 
+                    "type": "application/vnd.abiquo.externalip+json"
+                }
+            ], 
+            "networkName": "99b6333b-8d2", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 17838, 
+            "ip": "10.0.0.15", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86", 
+                    "rel": "externalnetwork", 
+                    "title": "99b6333b-8d2", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/enterprises/1", 
+                    "rel": "enterprise", 
+                    "title": "Abiquo", 
+                    "type": "application/vnd.abiquo.enterprise+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips/17838", 
+                    "rel": "self", 
+                    "title": "10.0.0.15", 
+                    "type": "application/vnd.abiquo.externalip+json"
+                }
+            ], 
+            "networkName": "99b6333b-8d2", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 17839, 
+            "ip": "10.0.0.16", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86", 
+                    "rel": "externalnetwork", 
+                    "title": "99b6333b-8d2", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/enterprises/1", 
+                    "rel": "enterprise", 
+                    "title": "Abiquo", 
+                    "type": "application/vnd.abiquo.enterprise+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips/17839", 
+                    "rel": "self", 
+                    "title": "10.0.0.16", 
+                    "type": "application/vnd.abiquo.externalip+json"
+                }
+            ], 
+            "networkName": "99b6333b-8d2", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 17840, 
+            "ip": "10.0.0.17", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86", 
+                    "rel": "externalnetwork", 
+                    "title": "99b6333b-8d2", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/enterprises/1", 
+                    "rel": "enterprise", 
+                    "title": "Abiquo", 
+                    "type": "application/vnd.abiquo.enterprise+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips/17840", 
+                    "rel": "self", 
+                    "title": "10.0.0.17", 
+                    "type": "application/vnd.abiquo.externalip+json"
+                }
+            ], 
+            "networkName": "99b6333b-8d2", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 17841, 
+            "ip": "10.0.0.18", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86", 
+                    "rel": "externalnetwork", 
+                    "title": "99b6333b-8d2", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/enterprises/1", 
+                    "rel": "enterprise", 
+                    "title": "Abiquo", 
+                    "type": "application/vnd.abiquo.enterprise+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips/17841", 
+                    "rel": "self", 
+                    "title": "10.0.0.18", 
+                    "type": "application/vnd.abiquo.externalip+json"
+                }
+            ], 
+            "networkName": "99b6333b-8d2", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 17842, 
+            "ip": "10.0.0.19", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86", 
+                    "rel": "externalnetwork", 
+                    "title": "99b6333b-8d2", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/enterprises/1", 
+                    "rel": "enterprise", 
+                    "title": "Abiquo", 
+                    "type": "application/vnd.abiquo.enterprise+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips/17842", 
+                    "rel": "self", 
+                    "title": "10.0.0.19", 
+                    "type": "application/vnd.abiquo.externalip+json"
+                }
+            ], 
+            "networkName": "99b6333b-8d2", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 17843, 
+            "ip": "10.0.0.20", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86", 
+                    "rel": "externalnetwork", 
+                    "title": "99b6333b-8d2", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/enterprises/1", 
+                    "rel": "enterprise", 
+                    "title": "Abiquo", 
+                    "type": "application/vnd.abiquo.enterprise+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips/17843", 
+                    "rel": "self", 
+                    "title": "10.0.0.20", 
+                    "type": "application/vnd.abiquo.externalip+json"
+                }
+            ], 
+            "networkName": "99b6333b-8d2", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 17844, 
+            "ip": "10.0.0.21", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86", 
+                    "rel": "externalnetwork", 
+                    "title": "99b6333b-8d2", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/enterprises/1", 
+                    "rel": "enterprise", 
+                    "title": "Abiquo", 
+                    "type": "application/vnd.abiquo.enterprise+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips/17844", 
+                    "rel": "self", 
+                    "title": "10.0.0.21", 
+                    "type": "application/vnd.abiquo.externalip+json"
+                }
+            ], 
+            "networkName": "99b6333b-8d2", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 17845, 
+            "ip": "10.0.0.22", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86", 
+                    "rel": "externalnetwork", 
+                    "title": "99b6333b-8d2", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/enterprises/1", 
+                    "rel": "enterprise", 
+                    "title": "Abiquo", 
+                    "type": "application/vnd.abiquo.enterprise+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips/17845", 
+                    "rel": "self", 
+                    "title": "10.0.0.22", 
+                    "type": "application/vnd.abiquo.externalip+json"
+                }
+            ], 
+            "networkName": "99b6333b-8d2", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 17846, 
+            "ip": "10.0.0.23", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86", 
+                    "rel": "externalnetwork", 
+                    "title": "99b6333b-8d2", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/enterprises/1", 
+                    "rel": "enterprise", 
+                    "title": "Abiquo", 
+                    "type": "application/vnd.abiquo.enterprise+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips/17846", 
+                    "rel": "self", 
+                    "title": "10.0.0.23", 
+                    "type": "application/vnd.abiquo.externalip+json"
+                }
+            ], 
+            "networkName": "99b6333b-8d2", 
+            "quarantine": false
+        }, 
+        {
+            "available": true, 
+            "id": 17847, 
+            "ip": "10.0.0.24", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86", 
+                    "rel": "externalnetwork", 
+                    "title": "99b6333b-8d2", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/enterprises/1", 
+                    "rel": "enterprise", 
+                    "title": "Abiquo", 
+                    "type": "application/vnd.abiquo.enterprise+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips/17847", 
+                    "rel": "self", 
+                    "title": "10.0.0.24", 
+                    "type": "application/vnd.abiquo.externalip+json"
+                }
+            ], 
+            "networkName": "99b6333b-8d2", 
+            "quarantine": true
+        }, 
+        {
+            "available": true, 
+            "id": 17848, 
+            "ip": "10.0.0.25", 
+            "links": [
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86", 
+                    "rel": "externalnetwork", 
+                    "title": "99b6333b-8d2", 
+                    "type": "application/vnd.abiquo.vlan+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/enterprises/1", 
+                    "rel": "enterprise", 
+                    "title": "Abiquo", 
+                    "type": "application/vnd.abiquo.enterprise+json"
+                }, 
+                {
+                    "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips/17848", 
+                    "rel": "self", 
+                    "title": "10.0.0.25", 
+                    "type": "application/vnd.abiquo.externalip+json"
+                }
+            ], 
+            "networkName": "99b6333b-8d2", 
+            "quarantine": true
+        }
+    ], 
+    "links": [
+        {
+            "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips?limit=25&by=ip", 
+            "rel": "first"
+        }, 
+        {
+            "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips?startwith=25&limit=25&by=ip", 
+            "rel": "next"
+        }, 
+        {
+            "href": "http://10.60.11.35:80/api/admin/datacenters/3/network/86/ips?startwith=229&limit=25&by=ip", 
+            "rel": "last"
+        }
+    ], 
+    "totalSize": 254
+}

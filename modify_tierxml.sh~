@@ -1,0 +1,7 @@
+#!/bin/bash
+
+curl --verbose -X PUT "http://10.60.11.220:8009/api/admin/datacenters/1/tiers/1" \
+	  -H "Accept: application/vnd.abiquo.tier+xml" \
+	  -H "Content-type: application/vnd.abiquo.tier+xml" \
+	  -u Jose:Jose \
+	  -d @modifytierxml | xmlindent -nbe -f

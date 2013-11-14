@@ -1,0 +1,64 @@
+#!/bin/bash
+
+curl --verbose -X PUT "http://10.60.11.220:8009/api/admin/datacenters/1/storage/tiers/1" \
+	  -H "Accept: application/vnd.abiquo.tier+json" \
+	  -H "Content-Type: application/vnd.abiquo.tier+json" \
+	  -u Jose:Jose \
+	  -d '{
+    "defaultAllowed": true, 
+    "description": "Description of the default tier 1", 
+    "enabled": true, 
+    "id": 1, 
+    "links": [
+        {
+            "href": "http://10.60.11.220:8009/api/admin/datacenters/1/storage/tiers/1", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "edit", 
+            "title": null, 
+            "type": "application/vnd.abiquo.tier+json"
+        }, 
+        {
+            "href": "http://10.60.11.220:8009/api/admin/datacenters/1", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "datacenter", 
+            "title": null, 
+            "type": "application/vnd.abiquo.datacenter+json"
+        }, 
+        {
+            "href": "http://10.60.11.220:8009/api/admin/datacenters/1/storage/tiers/1/pools", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "pools", 
+            "title": null, 
+            "type": "application/vnd.abiquo.storagepools+json"
+        }, 
+        {
+            "href": "http://10.60.11.220:8009/api/admin/datacenters/1/storage/tiers/1/enterprises", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "enterprises", 
+            "title": null, 
+            "type": null
+        }, 
+        {
+            "href": "http://10.60.11.220:8009/api/admin/datacenters/1/storage/tiers/1/action/allowallenterprises", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "allowallenterprises", 
+            "title": null, 
+            "type": null
+        }, 
+        {
+            "href": "http://10.60.11.220:8009/api/admin/datacenters/1/storage/tiers/1/action/restrictallenterprises", 
+            "hreflang": null, 
+            "length": null, 
+            "rel": "restrictallenterprises", 
+            "title": null, 
+            "type": null
+        }
+    ], 
+    "name": "NFS_updateeee", 
+    "storageAllocationPolicy": "PERFORMANCE"
+}' | jsonprint

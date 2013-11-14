@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<enterprise>
+<link title="pricing template 1" rel="pricingtemplate" type="application/vnd.abiquo.pricingtemplate+xml" href="http://10.60.11.50:80/api/config/pricingtemplates/1"/>
+    <cpuHard>0</cpuHard>
+    <cpuSoft>0</cpuSoft>
+    <ramHard>0</ramHard>
+    <ramSoft>0</ramSoft>
+    <hdHard>0</hdHard>
+    <hdSoft>0</hdSoft>
+    <storageHard>0</storageHard>
+    <storageSoft>0</storageSoft>
+    <vlansHard>0</vlansHard>
+    <vlansSoft>0</vlansSoft>
+    <publicIpsHard>0</publicIpsHard>
+    <publicIpsSoft>0</publicIpsSoft>
+    <repositoryHard>0</repositoryHard>
+    <repositorySoft>0</repositorySoft>
+    <id>190</id>
+    <name>STEnterpriseTEst</name>
+    <isReservationRestricted>false</isReservationRestricted>
+</enterprise>

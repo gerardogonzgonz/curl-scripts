@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<virtualMachineTemplate>
+    <id>79</id>
+    <name>m0n0wall-1.3b18-i386.qcow2</name>
+    <description>m0n0wall-1.3b18-i386.qcow2</description>
+    <osType>UNRECOGNIZED</osType>
+    <osVersion></osVersion>
+    <path>5/rs.bcn.abiquo.com/abiport9000/ovf/314/m0n0wall-1.3b18-i386.qcow2</path>
+    <diskFormatType>QCOW2_FLAT</diskFormatType>
+    <diskFileSize>10223616</diskFileSize>
+    <cpuRequired>1</cpuRequired>
+    <ramRequired>256</ramRequired>
+    <hdRequired>27262976</hdRequired>
+    <shared>false</shared>
+    <state>DONE</state>
+    <creationDate>2013-10-29T17:17:36+01:00</creationDate>
+    <creationUser>SYSTEM</creationUser>
+    <chefEnabled>false</chefEnabled>
+    <iconUrl>http://rs.bcn.abiquo.com:9000/public/icons/q.png</iconUrl>
+    <loginUser>user</loginUser>
+    <loginPassword>password</loginPassword>
+    <ethernetDriverType>E1000</ethernetDriverType>
+    <diskControllerType>SCSI</diskControllerType>
+</virtualMachineTemplate>

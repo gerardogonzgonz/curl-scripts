@@ -1,0 +1,14 @@
+#!/bin/bash
+
+curl --verbose 'http://u.abiquo.com/api/cloud/virtualdatacenters/64/virtualappliances' \
+      -X "POST" \
+      -H 'Accept: application/vnd.abiquo.virtualappliance+json' \
+      -H 'Content-type: application/vnd.mv-virtualappliance+json' \
+      -u admin:xabiquo \
+      -d '{"links": [
+        {
+	"href": "http://u.abiquo.com:80/api/cloud/virtualdatacenters/65/virtualappliances/31", 
+        "rel": "source"
+        }
+    ]
+}'

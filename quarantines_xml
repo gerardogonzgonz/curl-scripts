@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<publicips>
+    <link rel="first" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips?limit=25&amp;by=ip"/>
+    <link rel="next" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips?startwith=25&amp;limit=25&amp;by=ip"/>
+    <link rel="last" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips?startwith=229&amp;limit=25&amp;by=ip"/>
+    <totalSize>254</totalSize>
+    <publicip>
+        <link title="85edec69-89d" rel="publicnetwork" type="application/vnd.abiquo.vlan+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87"/>
+        <link title="80.80.80.1" rel="self" type="application/vnd.abiquo.publicip+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18078"/>
+        <id>18078</id>
+        <ip>80.80.80.1</ip>
+        <networkName>85edec69-89d</networkName>
+        <available>true</available>
+        <quarantine>false</quarantine>
+    </publicip>
+    <publicip>
+        <link title="85edec69-89d" rel="publicnetwork" type="application/vnd.abiquo.vlan+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87"/>
+        <link title="80.80.80.2" rel="self" type="application/vnd.abiquo.publicip+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18079"/>
+        <id>18079</id>
+        <ip>80.80.80.2</ip>
+        <networkName>85edec69-89d</networkName>
+        <available>true</available>
+        <quarantine>false</quarantine>
+    </publicip>
+    <publicip>
+        <link title="85edec69-89d" rel="publicnetwork" type="application/vnd.abiquo.vlan+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87"/>
+        <link title="80.80.80.3" rel="self" type="application/vnd.abiquo.publicip+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18080"/>
+        <id>18080</id>
+        <ip>80.80.80.3</ip>
+        <networkName>85edec69-89d</networkName>
+        <available>true</available>
+        <quarantine>false</quarantine>
+    </publicip>
+    <publicip>
+        <link title="85edec69-89d" rel="publicnetwork" type="application/vnd.abiquo.vlan+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87"/>
+        <link title="80.80.80.4" rel="self" type="application/vnd.abiquo.publicip+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18081"/>
+        <id>18081</id>
+        <ip>80.80.80.4</ip>
+        <networkName>85edec69-89d</networkName>
+        <available>true</available>
+        <quarantine>false</quarantine>
+    </publicip>
+    <publicip>
+        <link title="85edec69-89d" rel="publicnetwork" type="application/vnd.abiquo.vlan+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87"/>
+        <link title="80.80.80.5" rel="self" type="application/vnd.abiquo.publicip+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18082"/>
+        <id>18082</id>
+        <ip>80.80.80.5</ip>
+        <networkName>85edec69-89d</networkName>
+        <available>true</available>
+        <quarantine>true</quarantine>
+    </publicip>
+    <publicip>
+        <link title="85edec69-89d" rel="publicnetwork" type="application/vnd.abiquo.vlan+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87"/>
+        <link title="80.80.80.6" rel="self" type="application/vnd.abiquo.publicip+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18083"/>
+        <id>18083</id>
+        <ip>80.80.80.6</ip>
+        <networkName>85edec69-89d</networkName>
+        <available>true</available>
+        <quarantine>false</quarantine>
+    </publicip>
+    <publicip>
+        <link title="85edec69-89d" rel="publicnetwork" type="application/vnd.abiquo.vlan+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87"/>
+        <link title="80.80.80.7" rel="self" type="application/vnd.abiquo.publicip+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18084"/>
+        <id>18084</id>
+        <ip>80.80.80.7</ip>
+        <networkName>85edec69-89d</networkName>
+        <available>true</available>
+        <quarantine>false</quarantine>
+    </publicip>
+    <publicip>
+        <link title="85edec69-89d" rel="publicnetwork" type="application/vnd.abiquo.vlan+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87"/>
+        <link title="80.80.80.8" rel="self" type="application/vnd.abiquo.publicip+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18085"/>
+        <id>18085</id>
+        <ip>80.80.80.8</ip>
+        <networkName>85edec69-89d</networkName>
+        <available>true</available>
+        <quarantine>false</quarantine>
+    </publicip>
+    <publicip>
+        <link title="85edec69-89d" rel="publicnetwork" type="application/vnd.abiquo.vlan+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87"/>
+        <link title="80.80.80.9" rel="self" type="application/vnd.abiquo.publicip+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18086"/>
+        <id>18086</id>
+        <ip>80.80.80.9</ip>
+        <networkName>85edec69-89d</networkName>
+        <available>true</available>
+        <quarantine>false</quarantine>
+    </publicip>
+    <publicip>
+        <link title="85edec69-89d" rel="publicnetwork" type="application/vnd.abiquo.vlan+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87"/>
+        <link title="80.80.80.10" rel="self" type="application/vnd.abiquo.publicip+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18087"/>
+        <id>18087</id>
+        <ip>80.80.80.10</ip>
+        <networkName>85edec69-89d</networkName>
+        <available>true</available>
+        <quarantine>false</quarantine>
+    </publicip>
+    <publicip>
+        <link title="85edec69-89d" rel="publicnetwork" type="application/vnd.abiquo.vlan+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87"/>
+        <link title="80.80.80.11" rel="self" type="application/vnd.abiquo.publicip+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18088"/>
+        <id>18088</id>
+        <ip>80.80.80.11</ip>
+        <networkName>85edec69-89d</networkName>
+        <available>true</available>
+        <quarantine>false</quarantine>
+    </publicip>
+    <publicip>
+        <link title="85edec69-89d" rel="publicnetwork" type="application/vnd.abiquo.vlan+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87"/>
+        <link title="80.80.80.12" rel="self" type="application/vnd.abiquo.publicip+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18089"/>
+        <id>18089</id>
+        <ip>80.80.80.12</ip>
+        <networkName>85edec69-89d</networkName>
+        <available>true</available>
+        <quarantine>false</quarantine>
+    </publicip>
+    <publicip>
+        <link title="85edec69-89d" rel="publicnetwork" type="application/vnd.abiquo.vlan+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87"/>
+        <link title="80.80.80.13" rel="self" type="application/vnd.abiquo.publicip+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18090"/>
+        <id>18090</id>
+        <ip>80.80.80.13</ip>
+        <networkName>85edec69-89d</networkName>
+        <available>true</available>
+        <quarantine>false</quarantine>
+    </publicip>
+    <publicip>
+        <link title="85edec69-89d" rel="publicnetwork" type="application/vnd.abiquo.vlan+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87"/>
+        <link title="80.80.80.14" rel="self" type="application/vnd.abiquo.publicip+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18091"/>
+        <id>18091</id>
+        <ip>80.80.80.14</ip>
+        <networkName>85edec69-89d</networkName>
+        <available>true</available>
+        <quarantine>false</quarantine>
+    </publicip>
+    <publicip>
+        <link title="85edec69-89d" rel="publicnetwork" type="application/vnd.abiquo.vlan+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87"/>
+        <link title="80.80.80.15" rel="self" type="application/vnd.abiquo.publicip+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18092"/>
+        <id>18092</id>
+        <ip>80.80.80.15</ip>
+        <networkName>85edec69-89d</networkName>
+        <available>true</available>
+        <quarantine>false</quarantine>
+    </publicip>
+    <publicip>
+        <link title="85edec69-89d" rel="publicnetwork" type="application/vnd.abiquo.vlan+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87"/>
+        <link title="80.80.80.16" rel="self" type="application/vnd.abiquo.publicip+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18093"/>
+        <id>18093</id>
+        <ip>80.80.80.16</ip>
+        <networkName>85edec69-89d</networkName>
+        <available>true</available>
+        <quarantine>false</quarantine>
+    </publicip>
+    <publicip>
+        <link title="85edec69-89d" rel="publicnetwork" type="application/vnd.abiquo.vlan+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87"/>
+        <link title="80.80.80.17" rel="self" type="application/vnd.abiquo.publicip+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18094"/>
+        <id>18094</id>
+        <ip>80.80.80.17</ip>
+        <networkName>85edec69-89d</networkName>
+        <available>true</available>
+        <quarantine>false</quarantine>
+    </publicip>
+    <publicip>
+        <link title="85edec69-89d" rel="publicnetwork" type="application/vnd.abiquo.vlan+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87"/>
+        <link title="80.80.80.18" rel="self" type="application/vnd.abiquo.publicip+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18095"/>
+        <id>18095</id>
+        <ip>80.80.80.18</ip>
+        <networkName>85edec69-89d</networkName>
+        <available>true</available>
+        <quarantine>false</quarantine>
+    </publicip>
+    <publicip>
+        <link title="85edec69-89d" rel="publicnetwork" type="application/vnd.abiquo.vlan+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87"/>
+        <link title="80.80.80.19" rel="self" type="application/vnd.abiquo.publicip+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18096"/>
+        <id>18096</id>
+        <ip>80.80.80.19</ip>
+        <networkName>85edec69-89d</networkName>
+        <available>true</available>
+        <quarantine>false</quarantine>
+    </publicip>
+    <publicip>
+        <link title="85edec69-89d" rel="publicnetwork" type="application/vnd.abiquo.vlan+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87"/>
+        <link title="80.80.80.20" rel="self" type="application/vnd.abiquo.publicip+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18097"/>
+        <id>18097</id>
+        <ip>80.80.80.20</ip>
+        <networkName>85edec69-89d</networkName>
+        <available>true</available>
+        <quarantine>false</quarantine>
+    </publicip>
+    <publicip>
+        <link title="85edec69-89d" rel="publicnetwork" type="application/vnd.abiquo.vlan+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87"/>
+        <link title="80.80.80.21" rel="self" type="application/vnd.abiquo.publicip+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18098"/>
+        <id>18098</id>
+        <ip>80.80.80.21</ip>
+        <networkName>85edec69-89d</networkName>
+        <available>true</available>
+        <quarantine>false</quarantine>
+    </publicip>
+    <publicip>
+        <link title="85edec69-89d" rel="publicnetwork" type="application/vnd.abiquo.vlan+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87"/>
+        <link title="80.80.80.22" rel="self" type="application/vnd.abiquo.publicip+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18099"/>
+        <id>18099</id>
+        <ip>80.80.80.22</ip>
+        <networkName>85edec69-89d</networkName>
+        <available>true</available>
+        <quarantine>false</quarantine>
+    </publicip>
+    <publicip>
+        <link title="85edec69-89d" rel="publicnetwork" type="application/vnd.abiquo.vlan+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87"/>
+        <link title="80.80.80.23" rel="self" type="application/vnd.abiquo.publicip+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18100"/>
+        <id>18100</id>
+        <ip>80.80.80.23</ip>
+        <networkName>85edec69-89d</networkName>
+        <available>true</available>
+        <quarantine>false</quarantine>
+    </publicip>
+    <publicip>
+        <link title="85edec69-89d" rel="publicnetwork" type="application/vnd.abiquo.vlan+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87"/>
+        <link title="80.80.80.24" rel="self" type="application/vnd.abiquo.publicip+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18101"/>
+        <id>18101</id>
+        <ip>80.80.80.24</ip>
+        <networkName>85edec69-89d</networkName>
+        <available>true</available>
+        <quarantine>true</quarantine>
+    </publicip>
+    <publicip>
+        <link title="85edec69-89d" rel="publicnetwork" type="application/vnd.abiquo.vlan+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87"/>
+        <link title="80.80.80.25" rel="self" type="application/vnd.abiquo.publicip+xml" href="http://10.60.11.35:80/api/admin/datacenters/3/network/87/ips/18102"/>
+        <id>18102</id>
+        <ip>80.80.80.25</ip>
+        <networkName>85edec69-89d</networkName>
+        <available>true</available>
+        <quarantine>true</quarantine>
+    </publicip>
+</publicips>

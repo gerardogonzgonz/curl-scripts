@@ -1,0 +1,43 @@
+#!/bin/bash
+
+curl --verbose 'http://10.60.11.50:80/api/admin/enterprises/61/datacenterrepositories/5/virtualmachinetemplates/158/action/deletefile' \
+        -X "DELETE" \
+        -u "admin:xabiquo" \
+        -H "Accept:application/vnd.abiquo.virtualmachinetemplate+json" \
+        -H "Content-type:application/vnd.abiquo.virtualmachinetemplate+json" \
+        -d '<virtualMachineTemplate>
+<link title="DC_Test" rel="datacenter" type="application/vnd.abiquo.datacenter+xml" href="http://10.60.11.50:80/api/admin/datacenters/5"/>
+<link title="STEnterprise" rel="enterprise" type="application/vnd.abiquo.enterprise+xml" href="http://10.60.11.50:80/api/admin/enterprises/61"/>
+<link title="Others" rel="category" type="application/vnd.abiquo.category+xml" href="http://10.60.11.50:80/api/config/categories/1"/>
+<link title="promoted_instance_from_shared" rel="edit" type="application/vnd.abiquo.virtualmachinetemplate+xml" href="http://10.60.11.50:80/api/admin/enterprises/61/datacenterrepositories/5/virtualmachinetemplates/158"/>
+<link title="tasks" rel="tasks" type="application/vnd.abiquo.tasks+xml" href="http://10.60.11.50:80/api/admin/enterprises/61/datacenterrepositories/5/virtualmachinetemplates/158/tasks"/>
+<link title="repository" rel="datacenterrepository" type="application/vnd.abiquo.datacenterrepository+xml" href="http://10.60.11.50:80/api/admin/enterprises/61/datacenterrepositories/5"/>
+<link title="conversions" rel="conversions" type="application/vnd.abiquo.conversions+xml" href="http://10.60.11.50:80/api/admin/enterprises/61/datacenterrepositories/5/virtualmachinetemplates/158/conversions"/>
+<link title="virtual machines" rel="virtualmachines" type="application/vnd.abiquo.virtualmachines+xml" href="http://10.60.11.50:80/api/admin/enterprises/61/datacenterrepositories/5/virtualmachinetemplates/158/action/virtualmachines"/>
+<link title="get instances" rel="instances" type="application/vnd.abiquo.virtualmachinetemplates+xml" href="http://10.60.11.50:80/api/admin/enterprises/61/datacenterrepositories/5/virtualmachinetemplates/158/action/instances"/>
+<link rel="template" href="http://10.60.11.50:80/am/erepos/61/templates/61/669017ad-9641-43fe-8cb3-de85ed674019-promoted_instance_from_shar/669017ad-9641-43fe-8cb3-de85ed674019-promoted_instance_from_shar.qcow2"/>
+<link rel="diskfile" href="http://10.60.11.50:80/am/files/61/669017ad-9641-43fe-8cb3-de85ed674019-promoted_instance_from_shar/669017ad-9641-43fe-8cb3-de85ed674019-promoted_instance_from_shar.qcow2"/>
+<link rel="templatedefinition" href="61/669017ad-9641-43fe-8cb3-de85ed674019-promoted_instance_from_shar/669017ad-9641-43fe-8cb3-de85ed674019-promoted_instance_from_shar.qcow2"/>
+<link rel="template" href="http://10.60.11.50:80/am/erepos/61/templates/61/669017ad-9641-43fe-8cb3-de85ed674019-promoted_instance_from_shar/669017ad-9641-43fe-8cb3-de85ed674019-promoted_instance_from_shar.qcow2"/>
+<link rel="diskfile" href="http://10.60.11.50:80/am/files/61/669017ad-9641-43fe-8cb3-de85ed674019-promoted_instance_from_shar/669017ad-9641-43fe-8cb3-de85ed674019-promoted_instance_from_shar.qcow2"/>
+    <id>158</id>
+    <name>promoted_instance_from_shared</name>
+    <osType>UNRECOGNIZED</osType>
+    <osVersion></osVersion>
+    <path>61/669017ad-9641-43fe-8cb3-de85ed674019-promoted_instance_from_shar/669017ad-9641-43fe-8cb3-de85ed674019-promoted_instance_from_shar.qcow2</path>
+    <diskFormatType>QCOW2_SPARSE</diskFormatType>
+    <diskFileSize>12976128</diskFileSize>
+    <cpuRequired>1</cpuRequired>
+    <ramRequired>64</ramRequired>
+    <hdRequired>104857600</hdRequired>
+    <shared>false</shared>
+    <state>DONE</state>
+    <creationDate>2013-09-24T17:36:41+02:00</creationDate>
+    <creationUser>87</creationUser>
+    <chefEnabled>false</chefEnabled>
+    <iconUrl>http://rs.bcn.abiquo.com:9000/public/icons/tinycore.png</iconUrl>
+    <loginUser>user</loginUser>
+    <loginPassword>password</loginPassword>
+    <ethernetDriverType>E1000</ethernetDriverType>
+    <diskControllerType>IDE</diskControllerType>
+</virtualMachineTemplate>' | jsonprint

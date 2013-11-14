@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tier>
+    <link rel="edit" type="application/vnd.abiquo.tier+xml" href="http://10.60.11.220:8009/api/admin/datacenters/1/storage/tiers/1"/>
+    <link rel="datacenter" type="application/vnd.abiquo.datacenter+xml" href="http://10.60.11.220:8009/api/admin/datacenters/1"/>
+    <link rel="pools" type="application/vnd.abiquo.storagepools+xml" href="http://10.60.11.220:8009/api/admin/datacenters/1/storage/tiers/1/pools"/>
+    <link rel="enterprises" href="http://10.60.11.220:8009/api/admin/datacenters/1/storage/tiers/1/enterprises"/>
+    <link rel="allowallenterprises" href="http://10.60.11.220:8009/api/admin/datacenters/1/storage/tiers/1/action/allowallenterprises"/>
+    <link rel="restrictallenterprises" href="http://10.60.11.220:8009/api/admin/datacenters/1/storage/tiers/1/action/restrictallenterprises"/>
+    <id>1</id>
+    <name>NFS_updateeee</name>
+    <description>Description of the default tier 1</description>
+    <enabled>true</enabled>
+    <defaultAllowed>true</defaultAllowed>
+    <storageAllocationPolicy>PERFORMANCE</storageAllocationPolicy>
+</tier>
