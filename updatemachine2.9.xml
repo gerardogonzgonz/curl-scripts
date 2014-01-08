@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<machine>
+    <link title="Rack_test" rel="rack" type="application/vnd.abiquo.rack+xml" href="http://10.60.11.30:80/api/admin/datacenters/5/racks/5"/>
+    <link title="localhost.localdomain" rel="edit" type="application/vnd.abiquo.machine+xml" href="http://10.60.11.30:80/api/admin/datacenters/5/racks/5/machines/6"/>
+    <link title="datastores" rel="datastores" type="application/vnd.abiquo.datastores+xml" href="http://10.60.11.30:80/api/admin/datacenters/5/racks/5/machines/6/datastores"/>
+    <link title="refresh" rel="refresh" href="http://10.60.11.30:80/api/admin/datacenters/5/racks/5/machines/6/datastores/action/refresh"/>
+    <link title="virtual machines" rel="virtualmachines" type="application/vnd.abiquo.virtualmachines+xml" href="http://10.60.11.30:80/api/admin/datacenters/5/racks/5/machines/6/virtualmachines"/>
+    <link title="check state localhost.localdomain" rel="checkstate" type="application/vnd.abiquo.machinestate+xml" href="http://10.60.11.30:80/api/admin/datacenters/5/racks/5/machines/6/action/checkstate"/>
+    <link title="reenable physical machine localhost.localdomain" rel="reenableafterha" type="application/vnd.abiquo.machine+xml" href="http://10.60.11.30:80/api/admin/datacenters/5/racks/5/machines/6/action/reenableafterha"/>
+    <link title="check ipmi state" rel="checkipmistate" type="application/vnd.abiquo.machineipmistate+xml" href="http://10.60.11.30:80/api/admin/datacenters/5/racks/5/machines/6/action/checkipmistate"/>
+    <link title="checkipmistate" rel="/action/checkipmistate" type="application/vnd.abiquo.machineipmistate+xml" href="http://10.60.11.30:80/api/admin/datacenters/5/racks/5/machines/6"/>
+    <link title="refresh nics" rel="refreshnics" type="application/vnd.abiquo.machine+xml" href="http://10.60.11.30:80/api/admin/datacenters/5/racks/5/machines/6/action/nics/refresh"/>
+    <link title="send mail" rel="sendmail" type="application/vnd.abiquo.mail+xml" href="http://10.60.11.30:80/api/admin/datacenters/5/racks/5/machines/6/action/sendmail"/>
+    <id>6</id>
+    <name>localhost.localdomain</name>
+    <description>localhost.localdomain</description>
+    <state>MANAGED</state>
+    <type>KVM</type>
+    <ip>10.60.1.79</ip>
+    <ipService>10.60.1.79</ipService>
+    <ram>996</ram>
+    <ramUsed>0</ramUsed>
+    <cpu>1</cpu>
+    <cpuUsed>0</cpuUsed>
+    <initiatorIQN>iqn.1994-05.com.redhat:6a5f59367c4e</initiatorIQN>
+    <datastores>
+        <datastore>
+            <id>10</id>
+            <name>/dev/mapper/VolGroup-lv_root</name>
+            <rootPath>/</rootPath>
+            <directory></directory>
+            <size>6382571520</size>
+            <usedSize>3466924032</usedSize>
+            <enabled>true</enabled>
+            <datastoreUUID>e9ceeb33-d7bc-4f6a-8b7d-4a6be02c94a5</datastoreUUID>
+        </datastore>
+        <datastore>
+            <id>11</id>
+            <name>10.60.1.72:/opt/vm_repository29</name>
+            <rootPath>/opt/vm_repository</rootPath>
+            <directory></directory>
+            <size>966687948800</size>
+            <usedSize>585527132160</usedSize>
+            <enabled>false</enabled>
+            <datastoreUUID>6f2edec0-b14e-4460-a6ee-1e54abf8879e</datastoreUUID>
+        </datastore>
+    </datastores>
+    <networkInterfaces>
+        <networkinterface>
+            <link title="eth0" rel="networkservicetype" type="application/vnd.abiquo.networkservicetype+xml" href="http://10.60.11.30:80/api/admin/datacenters/5/networkservicetypes/7"/>
+            <name>eth0</name>
+            <mac>52:54:00:03:35:e1</mac>
+        </networkinterface>
+    </networkInterfaces>
+</machine>

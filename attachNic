@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<virtualMachine>
+    <link title="ABQ_08a8f6a9-73ff-43e2-841f-307e84e3a2ca" rel="edit" type="application/vnd.abiquo.virtualmachine+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/512/virtualappliances/330/virtualmachines/630"/>
+    <link title="50b624a8-537" rel="enterprise" type="application/vnd.abiquo.enterprise+xml" href="http://10.60.11.30:80/api/admin/enterprises/236"/>
+    <link title="Cloud" rel="user" type="application/vnd.abiquo.user+xml" href="http://10.60.11.30:80/api/admin/enterprises/236/users/1"/>
+    <link title="KVM" rel="virtualdatacenter" type="application/vnd.abiquo.virtualdatacenter+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/512"/>
+    <link title="48eb4bbd-548" rel="virtualappliance" type="application/vnd.abiquo.virtualappliance+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/512/virtualappliances/330"/>
+    <link title="vlan network configurations" rel="configurations" type="application/vnd.abiquo.virtualmachinenetworkconfigurations+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/512/virtualappliances/330/virtualmachines/630/network/configurations"/>
+    <link title="nics" rel="nics" type="application/vnd.abiquo.nics+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/512/virtualappliances/330/virtualmachines/630/network/nics"/>
+    <link title="disks" rel="harddisks" type="application/vnd.abiquo.harddisks+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/512/virtualappliances/330/virtualmachines/630/storage/disks"/>
+    <link title="NOT_ALLOCATED" rel="state" type="application/vnd.abiquo.virtualmachinestate+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/512/virtualappliances/330/virtualmachines/630/state"/>
+    <link title="virtual machine undeploy" rel="undeploy" type="application/vnd.abiquo.acceptedrequest+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/512/virtualappliances/330/virtualmachines/630/action/undeploy"/>
+    <link title="virtual machine deploy" rel="deploy" type="application/vnd.abiquo.acceptedrequest+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/512/virtualappliances/330/virtualmachines/630/action/deploy"/>
+    <link title="virtual machine reset" rel="reset" type="application/vnd.abiquo.acceptedrequest+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/512/virtualappliances/330/virtualmachines/630/action/reset"/>
+    <link title="virtual machine reset" rel="instance" type="application/vnd.abiquo.acceptedrequest+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/512/virtualappliances/330/virtualmachines/630/action/instance"/>
+    <link title="remote access" rel="rdpaccess" type="application/vnd.abiquo.remoteaccess+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/512/virtualappliances/330/virtualmachines/630/config/rdpaccess"/>
+    <link title="tasks" rel="tasks" type="application/vnd.abiquo.tasks+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/512/virtualappliances/330/virtualmachines/630/tasks"/>
+    <link title="volumes" rel="volumes" type="application/vnd.abiquo.volumes+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/512/virtualappliances/330/virtualmachines/630/storage/volumes"/>
+    <link rel="disk0" type="application/vnd.abiquo.harddisk+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/512/disks/273740"/>
+    <link title="Core" rel="virtualmachinetemplate" type="application/vnd.abiquo.virtualmachinetemplate+xml" href="http://10.60.11.30:80/api/admin/enterprises/236/datacenterrepositories/115/virtualmachinetemplates/3819"/>
+    <link rel="nic0" type="application/vnd.abiquo.externalip+xml" href="http://10.60.11.30:80/api/admin/enterprises/236/limits/387/externalnetworks/1269/ips/273232"/>
+    <id>630</id>
+    <uuid>08a8f6a9-73ff-43e2-841f-307e84e3a2ca</uuid>
+    <name>ABQ_08a8f6a9-73ff-43e2-841f-307e84e3a2ca</name>
+    <cpu>1</cpu>
+    <ram>64</ram>
+    <hdInBytes>104857600</hdInBytes>
+    <vdrpEnabled>false</vdrpEnabled>
+    <vdrpPort>0</vdrpPort>
+    <idState>1</idState>
+    <state>NOT_ALLOCATED</state>
+    <idType>0</idType>
+    <type>MANAGED</type>
+    <highDisponibility>0</highDisponibility>
+    <password>ixMw6mPx</password>
+</virtualMachine>

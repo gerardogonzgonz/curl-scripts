@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cloudusage>
+    <numEnterprisesCreated>36</numEnterprisesCreated>
+    <numUsersCreated>38</numUsersCreated>
+    <numVdcCreated>79</numVdcCreated>
+    <publicIPsReserved>0</publicIPsReserved>
+    <publicIPsTotal>1016</publicIPsTotal>
+    <publicIPsUsed>3</publicIPsUsed>
+    <serversRunning>1</serversRunning>
+    <serversTotal>1</serversTotal>
+    <storageReserved>0</storageReserved>
+    <storageTotal>2874</storageTotal>
+    <storageUsed>1300</storageUsed>
+    <virtualCpuReserved>0</virtualCpuReserved>
+    <virtualCpuTotal>400</virtualCpuTotal>
+    <virtualCpuUsed>23</virtualCpuUsed>
+    <virtualMachinesRunning>11</virtualMachinesRunning>
+    <virtualMachinesTotal>22</virtualMachinesTotal>
+    <virtualMemoryReserved>0</virtualMemoryReserved>
+    <virtualMemoryTotal>408600</virtualMemoryTotal>
+    <virtualMemoryUsed>2368</virtualMemoryUsed>
+    <virtualStorageReserved>0</virtualStorageReserved>
+    <virtualStorageTotal>494726545408</virtualStorageTotal>
+    <virtualStorageUsed>7100956672</virtualStorageUsed>
+    <vlanUsed>91</vlanUsed>
+    <repositoryUsed>10408624128</repositoryUsed>
+    <repositoryReserved>0</repositoryReserved>
+</cloudusage>

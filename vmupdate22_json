@@ -1,0 +1,134 @@
+{
+  "cpu": 1, 
+  "hdInBytes": 104857600, 
+  "id": 41, 
+  "idState": 1, 
+  "links": [
+    {
+      "href": "http://10.60.11.30:80/api/cloud/virtualdatacenters/35/virtualappliances/35/virtualmachines/41", 
+      "rel": "edit", 
+      "title": "ABQ_da7a5462-a4c6-46cf-9523-a41d05d1e43c", 
+      "type": "application/vnd.abiquo.virtualmachine+json"
+    }, 
+    {
+      "href": "http://10.60.11.30:80/api/admin/enterprises/34", 
+      "rel": "enterprise", 
+      "title": "4059beaa-371BB", 
+      "type": "application/vnd.abiquo.enterprise+json"
+    }, 
+    {
+      "href": "http://10.60.11.30:80/api/admin/enterprises/34/users/1", 
+      "rel": "user", 
+      "title": "Cloud", 
+      "type": "application/vnd.abiquo.user+json"
+    }, 
+    {
+      "href": "http://10.60.11.30:80/api/cloud/virtualdatacenters/35", 
+      "rel": "virtualdatacenter", 
+      "title": "VMX_04", 
+      "type": "application/vnd.abiquo.virtualdatacenter+json"
+    }, 
+    {
+      "href": "http://10.60.11.30:80/api/cloud/virtualdatacenters/35/virtualappliances/35", 
+      "rel": "virtualappliance", 
+      "title": "5e233348-c71", 
+      "type": "application/vnd.abiquo.virtualappliance+json"
+    }, 
+    {
+      "href": "http://10.60.11.30:80/api/cloud/virtualdatacenters/35/virtualappliances/35/virtualmachines/41/network/configurations", 
+      "rel": "configurations", 
+      "title": "vlan network configurations", 
+      "type": "application/vnd.abiquo.virtualmachinenetworkconfigurations+json"
+    }, 
+    {
+      "href": "http://10.60.11.30:80/api/cloud/virtualdatacenters/35/virtualappliances/35/virtualmachines/41/network/nics", 
+      "rel": "nics", 
+      "title": "nics", 
+      "type": "application/vnd.abiquo.nics+json"
+    }, 
+    {
+      "href": "http://10.60.11.30:80/api/cloud/virtualdatacenters/35/virtualappliances/35/virtualmachines/41/storage/disks", 
+      "rel": "harddisks", 
+      "title": "disks", 
+      "type": "application/vnd.abiquo.harddisks+json"
+    }, 
+    {
+      "href": "http://10.60.11.30:80/api/cloud/virtualdatacenters/35/virtualappliances/35/virtualmachines/41/state", 
+      "rel": "state", 
+      "title": "NOT_ALLOCATED", 
+      "type": "application/vnd.abiquo.virtualmachinestate+json"
+    }, 
+    {
+      "href": "http://10.60.11.30:80/api/cloud/virtualdatacenters/35/virtualappliances/35/virtualmachines/41/action/undeploy", 
+      "rel": "undeploy", 
+      "title": "virtual machine undeploy", 
+      "type": "application/vnd.abiquo.acceptedrequest+json"
+    }, 
+    {
+      "href": "http://10.60.11.30:80/api/cloud/virtualdatacenters/35/virtualappliances/35/virtualmachines/41/action/deploy", 
+      "rel": "deploy", 
+      "title": "virtual machine deploy", 
+      "type": "application/vnd.abiquo.acceptedrequest+json"
+    }, 
+    {
+      "href": "http://10.60.11.30:80/api/cloud/virtualdatacenters/35/virtualappliances/35/virtualmachines/41/action/reset", 
+      "rel": "reset", 
+      "title": "virtual machine reset", 
+      "type": "application/vnd.abiquo.acceptedrequest+json"
+    }, 
+    {
+      "href": "http://10.60.11.30:80/api/cloud/virtualdatacenters/35/virtualappliances/35/virtualmachines/41/action/instance", 
+      "rel": "instance", 
+      "title": "virtual machine reset", 
+      "type": "application/vnd.abiquo.acceptedrequest+json"
+    }, 
+    {
+      "href": "http://10.60.11.30:80/api/cloud/virtualdatacenters/35/virtualappliances/35/virtualmachines/41/config/rdpaccess", 
+      "rel": "rdpaccess", 
+      "title": "remote access", 
+      "type": "application/vnd.abiquo.remoteaccess+json"
+    }, 
+    {
+      "href": "http://10.60.11.30:80/api/cloud/virtualdatacenters/35/virtualappliances/35/virtualmachines/41/tasks", 
+      "rel": "tasks", 
+      "title": "tasks", 
+      "type": "application/vnd.abiquo.tasks+json"
+    }, 
+    {
+      "href": "http://10.60.11.30:80/api/cloud/virtualdatacenters/35/virtualappliances/35/virtualmachines/41/storage/volumes", 
+      "rel": "volumes", 
+      "title": "volumes", 
+      "type": "application/vnd.abiquo.volumes+json"
+    }, 
+    {
+      "href": "http://10.60.11.30:80/api/cloud/virtualdatacenters/35/disks/28999", 
+      "rel": "disk0", 
+      "type": "application/vnd.abiquo.harddisk+json"
+    }, 
+    {
+      "href": "http://10.60.11.30:80/api/admin/enterprises/1/limits/46/externalnetworks/136/ips/27221", 
+      "rel": "nic0", 
+      "title": "10.0.0.2", 
+      "type": "application/vnd.abiquo.externalip+json"
+    },
+    {
+      "href": "http://10.60.11.30:80/api/admin/enterprises/34/datacenterrepositories/15/virtualmachinetemplates/1414", 
+      "rel": "virtualmachinetemplate", 
+      "title": "Core", 
+      "type": "application/vnd.abiquo.virtualmachinetemplate+json"
+    }, 
+    {
+      "href": "http://10.60.11.30:80/api/admin/enterprises/1/datacenterrepositories/15/virtualmachinetemplates/1414/conversions/VMDK_FLAT", 
+      "rel": "conversion", 
+      "title": "FINISHED", 
+      "type": "application/vnd.abiquo.conversion+json"
+    }
+  ], 
+  "name": "ABQ_da7a5462-a4c6-46cf-9523-a41d05d1e43c", 
+  "password": "8RWe1b8h", 
+  "ram": 64, 
+  "state": "NOT_ALLOCATED", 
+  "type": "MANAGED", 
+  "uuid": "da7a5462-a4c6-46cf-9523-a41d05d1e43c", 
+  "vdrpEnabled": false
+}

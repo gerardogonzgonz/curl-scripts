@@ -1,0 +1,26 @@
+{
+  "available": false, 
+  "id": 212219, 
+  "ip": "10.0.0.1", 
+  "links": [
+    {
+      "href": "http://10.60.11.30:80/api/admin/enterprises/199/limits/313/externalnetworks/955", 
+      "rel": "externalnetwork", 
+      "title": "1877c6ff-dfb5221", 
+      "type": "application/vnd.abiquo.vlan+json"
+    }, 
+    {
+      "href": "http://10.60.11.30:80/api/admin/enterprises/199/limits/313/externalnetworks/955/ips", 
+      "rel": "ips", 
+      "title": "ips", 
+      "type": "application/vnd.abiquo.externalips+json"
+    }, 
+    {
+      "href": "http://10.60.11.30:80/api/admin/enterprises/199/limits/313/externalnetworks/955/ips/212219", 
+      "rel": "self", 
+      "title": "10.0.0.1", 
+      "type": "application/vnd.abiquo.externalip+json"
+    }
+  ], 
+  "networkName": "1877c6ff-dfb5221"
+}
