@@ -1,0 +1,147 @@
+{
+  "cpu": 1, 
+  "hdInBytes": 52428800, 
+  "highDisponibility": 0, 
+  "id": 1, 
+  "idState": 1, 
+  "idType": 0, 
+  "keymap": "us", 
+  "label": "CoreAutoTesting", 
+  "links": [
+    {
+      "href": "http://servermaster:8009/api/cloud/virtualdatacenters/1/virtualappliances/1/virtualmachines/1", 
+      "rel": "edit", 
+      "title": "ABQ_21fa493e-8538-4c9c-88c6-71592500df14", 
+      "type": "application/vnd.abiquo.virtualmachine+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/admin/enterprises/1", 
+      "rel": "enterprise", 
+      "title": "Abiquo", 
+      "type": "application/vnd.abiquo.enterprise+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/admin/enterprises/1/users/1", 
+      "rel": "user", 
+      "title": "Cloud", 
+      "type": "application/vnd.abiquo.user+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/cloud/virtualdatacenters/1", 
+      "rel": "virtualdatacenter", 
+      "title": "KVM", 
+      "type": "application/vnd.abiquo.virtualdatacenter+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/cloud/virtualdatacenters/1/virtualappliances/1", 
+      "rel": "virtualappliance", 
+      "title": "vappKVM", 
+      "type": "application/vnd.abiquo.virtualappliance+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/cloud/virtualdatacenters/1/virtualappliances/1/virtualmachines/1/network/configurations", 
+      "rel": "configurations", 
+      "title": "vlan network configurations", 
+      "type": "application/vnd.abiquo.virtualmachinenetworkconfigurations+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/cloud/virtualdatacenters/1/virtualappliances/1/virtualmachines/1/network/nics", 
+      "rel": "nics", 
+      "title": "nics", 
+      "type": "application/vnd.abiquo.nics+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/cloud/virtualdatacenters/1/virtualappliances/1/virtualmachines/1/storage/disks", 
+      "rel": "harddisks", 
+      "title": "disks", 
+      "type": "application/vnd.abiquo.harddisks+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/cloud/virtualdatacenters/1/virtualappliances/1/virtualmachines/1/state", 
+      "rel": "state", 
+      "title": "NOT_ALLOCATED", 
+      "type": "application/vnd.abiquo.virtualmachinestate+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/cloud/virtualdatacenters/1/virtualappliances/1/virtualmachines/1/action/undeploy", 
+      "rel": "undeploy", 
+      "title": "virtual machine undeploy", 
+      "type": "application/vnd.abiquo.acceptedrequest+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/cloud/virtualdatacenters/1/virtualappliances/1/virtualmachines/1/action/deploy", 
+      "rel": "deploy", 
+      "title": "virtual machine deploy", 
+      "type": "application/vnd.abiquo.acceptedrequest+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/cloud/virtualdatacenters/1/virtualappliances/1/virtualmachines/1/action/reset", 
+      "rel": "reset", 
+      "title": "virtual machine reset", 
+      "type": "application/vnd.abiquo.acceptedrequest+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/cloud/virtualdatacenters/1/virtualappliances/1/virtualmachines/1/action/instance", 
+      "rel": "instance", 
+      "title": "virtual machine snapshot", 
+      "type": "application/vnd.abiquo.acceptedrequest+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/cloud/virtualdatacenters/1/virtualappliances/1/virtualmachines/1/config/rdpaccess", 
+      "rel": "rdpaccess", 
+      "title": "remote access", 
+      "type": "text/plain"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/cloud/virtualdatacenters/1/virtualappliances/1/virtualmachines/1/tasks", 
+      "rel": "tasks", 
+      "title": "tasks", 
+      "type": "application/vnd.abiquo.tasks+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/cloud/virtualdatacenters/1/virtualappliances/1/virtualmachines/1/firewalls", 
+      "rel": "firewalls", 
+      "title": "firewalls", 
+      "type": "application/vnd.abiquo.links+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/cloud/virtualdatacenters/1/virtualappliances/1/virtualmachines/1/storage/volumes", 
+      "rel": "volumes", 
+      "title": "volumes", 
+      "type": "application/vnd.abiquo.volumes+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/cloud/virtualdatacenters/1/disks/509", 
+      "length": "50", 
+      "rel": "disk0", 
+      "title": "dc1f2c3a-ef60-44d6-a86d-bbd5916588e6", 
+      "type": "application/vnd.abiquo.harddisk+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/cloud/virtualdatacenters/1/publicips/purchased/257", 
+      "rel": "nic0", 
+      "title": "70.70.70.3", 
+      "type": "application/vnd.abiquo.publicip+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/admin/enterprises/1/datacenterrepositories/1/virtualmachinetemplates/1", 
+      "rel": "virtualmachinetemplate", 
+      "title": "CoreAutoTesting", 
+      "type": "application/vnd.abiquo.virtualmachinetemplate+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/config/categories/1", 
+      "rel": "category", 
+      "title": "Others", 
+      "type": "application/vnd.abiquo.category+json"
+    }
+  ], 
+  "name": "ABQ_21fa493e-8538-4c9c-88c6-71592500df14", 
+  "password": "sRmR1Hpc", 
+  "ram": 64, 
+  "state": "NOT_ALLOCATED", 
+  "type": "MANAGED", 
+  "uuid": "21fa493e-8538-4c9c-88c6-71592500df14", 
+  "vdrpEnabled": false, 
+  "vdrpPort": 0
+}

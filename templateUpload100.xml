@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<template>
+<name>testtemplate</name>
+<description>theDiskDescription</description>
+<categoryName>Test others</categoryName>
+<diskFileFormat>RAW</diskFileFormat>
+<requiredCpu>1</requiredCpu>
+<requiredRamInMB>512</requiredRamInMB>
+<requiredHDInMB>102400</requiredHDInMB>
+<!-- optional attributes -->
+<iconUrl />
+<loginPassword />
+<loginUser />
+<diskControllerType />
+<ethernetDriverType />
+<osType />
+<osVersion />
+</template>

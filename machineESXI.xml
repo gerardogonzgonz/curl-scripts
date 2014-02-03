@@ -14,7 +14,7 @@
                 <macAddress>00:26:b9:7c:6a:48</macAddress>
             </networkInterfaces>
             <networkInterfaces>
-                <deviceName>dvSwitchQA</deviceName>
+                <deviceName>dvSwitch</deviceName>
                 <macAddress>00:26:b9:7c:6a:49</macAddress>
             </networkInterfaces>
             <datastores>

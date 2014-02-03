@@ -1,0 +1,22 @@
+{
+   "collection":[
+      {
+         "links":[
+            {
+               "title":"Default Tier 1",
+               "rel":"tier",
+               "type":"application/vnd.abiquo.tier+json",
+               "href":"http://10.60.11.30:80/api/admin/datacenters/1/storage/tiers/1"
+            }
+         ],
+         "name":"iscsi_pool",
+         "totalSizeInMb":9223372036854775807,
+         "usedSizeInMb":0,
+         "availableSizeInMb":9223372036854775807,
+         "enabled":false,
+         "type":"ISCSI",
+         "maxVolumes":0,
+         "usablePercent":100
+      }
+   ]
+}

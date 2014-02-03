@@ -1,0 +1,129 @@
+{
+  "datastores": {
+    "collection": [
+      {
+        "datastoreUUID": "10c5a856-f390-4a52-89cb-fdd0c2ccf5ee", 
+        "directory": "", 
+        "enabled": true, 
+        "id": 8, 
+        "links": [], 
+        "name": "/dev/mapper/VolGroup00-LogVol00", 
+        "rootPath": "/", 
+        "size": 241896792064, 
+        "usedSize": 16614653952
+      }, 
+      {
+        "datastoreUUID": "62e0c494-343c-406b-8752-098f71af030c", 
+        "directory": "", 
+        "enabled": false, 
+        "id": 9, 
+        "links": [], 
+        "name": "10.60.1.72:/opt/vm_repositorymaster", 
+        "rootPath": "/opt/vm_repository", 
+        "size": 966687948800, 
+        "usedSize": 727971889152
+      }
+    ], 
+    "links": []
+  }, 
+  "description": "win-772jmeu63gt.bcn.abiquo.com", 
+  "id": 2, 
+  "initiatorIQN": "iqn.1994-05.com.redhat:6663d050cb8b", 
+  "ip": "10.60.1.79", 
+  "ipService": "10.60.1.79", 
+  "links": [
+    {
+      "href": "http://servermaster:8009/api/admin/datacenters/1/racks/1", 
+      "rel": "rack", 
+      "title": "rack", 
+      "type": "application/vnd.abiquo.rack+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/admin/datacenters/1/racks/1/machines/2", 
+      "rel": "edit", 
+      "title": "win-772jmeu63gt.bcn.abiquo.com", 
+      "type": "application/vnd.abiquo.machine+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/admin/datacenters/1/racks/1/machines/2/datastores", 
+      "rel": "datastores", 
+      "title": "datastores", 
+      "type": "application/vnd.abiquo.datastores+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/admin/datacenters/1/racks/1/machines/2/datastores/action/refresh", 
+      "rel": "refresh", 
+      "title": "refresh"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/admin/datacenters/1/racks/1/machines/2/virtualmachines", 
+      "rel": "virtualmachines", 
+      "title": "virtual machines", 
+      "type": "application/vnd.abiquo.virtualmachines+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/admin/datacenters/1/racks/1/machines/2/action/checkstate", 
+      "rel": "checkstate", 
+      "title": "check state win-772jmeu63gt.bcn.abiquo.com", 
+      "type": "application/vnd.abiquo.machinestate+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/admin/datacenters/1/racks/1/machines/2/action/reenableafterha", 
+      "rel": "reenableafterha", 
+      "title": "reenable physical machine win-772jmeu63gt.bcn.abiquo.com", 
+      "type": "application/vnd.abiquo.machine+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/admin/datacenters/1/racks/1/machines/2/action/checkipmistate", 
+      "rel": "checkipmistate", 
+      "title": "check ipmi state", 
+      "type": "application/vnd.abiquo.machineipmistate+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/admin/datacenters/1/racks/1/machines/2", 
+      "rel": "/action/checkipmistate", 
+      "title": "checkipmistate", 
+      "type": "application/vnd.abiquo.machineipmistate+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/admin/datacenters/1/racks/1/machines/2/action/nics/refresh", 
+      "rel": "refreshnics", 
+      "title": "refresh nics", 
+      "type": "application/vnd.abiquo.machine+json"
+    }, 
+    {
+      "href": "http://servermaster:8009/api/admin/datacenters/1/racks/1/machines/2/action/sendmail", 
+      "rel": "sendmail", 
+      "title": "send mail", 
+      "type": "application/vnd.abiquo.mail+json"
+    }
+  ], 
+  "name": "win-772jmeu63gt.bcn.abiquo.com", 
+  "networkInterfaces": {
+    "collection": [
+      {
+        "links": [
+          {
+            "href": "http://servermaster:8009/api/admin/datacenters/1/networkservicetypes/1",  
+            "title": "em1", 
+            "type": "application/vnd.abiquo.networkservicetype+json"
+          }
+        ], 
+        "mac": "b8:ac:6f:80:52:ed", 
+        "name": "em1"
+      }, 
+      {
+        "links": [], 
+        "mac": "b8:ac:6f:80:52:ee", 
+        "name": "em2"
+      }
+    ], 
+    "links": []
+  }, 
+  "state": "MANAGED", 
+  "type": "KVM", 
+  "virtualCpuCores": 4, 
+  "virtualCpusUsed": 0, 
+  "virtualRamInMb": 3819, 
+  "virtualRamUsedInMb": 0
+}
