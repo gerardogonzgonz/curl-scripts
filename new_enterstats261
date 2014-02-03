@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<enterpriseresources>
+    <extStorageReserved>0</extStorageReserved>
+    <extStorageUsed>2874</extStorageUsed>
+    <localStorageReserved>0</localStorageReserved>
+    <localStorageUsed>7100956672</localStorageUsed>
+    <memoryReserved>0</memoryReserved>
+    <memoryUsed>2368</memoryUsed>
+    <publicIPsLimit>0</publicIPsLimit>
+    <publicIPsReserved>6</publicIPsReserved>
+    <publicIPsUsed>3</publicIPsUsed>
+    <repositoryReserved>0</repositoryReserved>
+    <repositoryUsed>10408624128</repositoryUsed>
+    <virtualCpuReserved>0</virtualCpuReserved>
+    <virtualCpuUsed>23</virtualCpuUsed>
+    <vlanReserved>0</vlanReserved>
+    <vlanUsed>79</vlanUsed>
+</enterpriseresources>

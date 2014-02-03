@@ -1,83 +1,63 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <machine>
-    <link rel="checkipmi" href="http://10.60.11.25:80/api/admin/datacenters/2/racks/2/machines/4/action/checkipmi"/>
-    <link rel="checkipmistate" type="application/vnd.abiquo.machineipmistate+xml" href="http://10.60.11.25:80/api/admin/datacenters/2/racks/2/machines/4/action/checkipmistate"/>
-    <link rel="checkstate" type="application/vnd.abiquo.machinestate+xml" href="http://10.60.11.25:80/api/admin/datacenters/2/racks/2/machines/4/action/checkstate"/>
-    <link rel="datastores" type="application/vnd.abiquo.datastores+xml" href="http://10.60.11.25:80/api/admin/datacenters/2/racks/2/machines/4/datastores"/>
-    <link rel="edit" type="application/vnd.abiquo.machine+xml" href="http://10.60.11.25:80/api/admin/datacenters/2/racks/2/machines/4"/>
-    <link rel="rack" type="application/vnd.abiquo.rack+xml" href="http://10.60.11.25:80/api/admin/datacenters/2/racks/2"/>
-    <link rel="reenableafterha" type="application/vnd.abiquo.machine+xml" href="http://10.60.11.25:80/api/admin/datacenters/2/racks/2/machines/4/action/reenableafterha"/>
-    <link rel="refresh" type="application/vnd.abiquo.datastores+xml" href="http://10.60.11.25:80/api/admin/datacenters/2/racks/2/machines/4/datastores/action/refresh"/>
-    <link rel="refreshnics" type="application/vnd.abiquo.machine+xml" href="http://10.60.11.25:80/api/admin/datacenters/2/racks/2/machines/4/action/nics/refresh"/>
-    <link rel="sendmail" type="application/vnd.abiquo.mail+xml" href="http://10.60.11.25:80/api/admin/datacenters/2/racks/2/machines/4/action/sendmail"/>
-    <link rel="virtualmachines" type="application/vnd.abiquo.virtualmachines+xml" href="http://10.60.11.25:80/api/admin/datacenters/2/racks/2/machines/4/virtualmachines"/>
-    <id>4</id>
-    <name>localhost.bcn.abiquo.com.</name>
-    <description>localhost.bcn.abiquo.com.</description>
+    <link title="Rack_test" rel="rack" type="application/vnd.abiquo.rack+xml" href="http://10.60.11.22:8009/api/admin/datacenters/4/racks/10"/>
+    <link title="win-772jmeu63gt.bcn.abiquo.com" rel="edit" type="application/vnd.abiquo.machine+xml" href="http://10.60.11.22:8009/api/admin/datacenters/4/racks/10/machines/17"/>
+    <link title="datastores" rel="datastores" type="application/vnd.abiquo.datastores+xml" href="http://10.60.11.22:8009/api/admin/datacenters/4/racks/10/machines/17/datastores"/>
+    <link title="refresh" rel="refresh" href="http://10.60.11.22:8009/api/admin/datacenters/4/racks/10/machines/17/datastores/action/refresh"/>
+    <link title="virtual machines" rel="virtualmachines" type="application/vnd.abiquo.virtualmachines+xml" href="http://10.60.11.22:8009/api/admin/datacenters/4/racks/10/machines/17/virtualmachines"/>
+    <link title="check state win-772jmeu63gt.bcn.abiquo.com" rel="checkstate" type="application/vnd.abiquo.machinestate+xml" href="http://10.60.11.22:8009/api/admin/datacenters/4/racks/10/machines/17/action/checkstate"/>
+    <link title="reenable physical machine win-772jmeu63gt.bcn.abiquo.com" rel="reenableafterha" type="application/vnd.abiquo.machine+xml" href="http://10.60.11.22:8009/api/admin/datacenters/4/racks/10/machines/17/action/reenableafterha"/>
+    <link title="check ipmi state" rel="checkipmistate" type="application/vnd.abiquo.machineipmistate+xml" href="http://10.60.11.22:8009/api/admin/datacenters/4/racks/10/machines/17/action/checkipmistate"/>
+    <link title="checkipmistate" rel="/action/checkipmistate" type="application/vnd.abiquo.machineipmistate+xml" href="http://10.60.11.22:8009/api/admin/datacenters/4/racks/10/machines/17"/>
+    <link title="refresh nics" rel="refreshnics" type="application/vnd.abiquo.machine+xml" href="http://10.60.11.22:8009/api/admin/datacenters/4/racks/10/machines/17/action/nics/refresh"/>
+    <link title="send mail" rel="sendmail" type="application/vnd.abiquo.mail+xml" href="http://10.60.11.22:8009/api/admin/datacenters/4/racks/10/machines/17/action/sendmail"/>
+    <id>17</id>
+    <name>win-772jmeu63gt.bcn.abiquo.com</name>
+    <description>win-772jmeu63gt.bcn.abiquo.com</description>
     <state>MANAGED</state>
-    <type>VMX_04</type>
-    <ip>10.60.1.96</ip>
-    <ipService></ipService>
-    <ram>2999</ram>
+    <type>KVM</type>
+    <ip>10.60.11.23</ip>
+    <ipService>10.60.11.23</ipService>
+    <ram>3819</ram>
     <ramUsed>0</ramUsed>
-    <cpu>2</cpu>
+    <cpu>4</cpu>
     <cpuUsed>0</cpuUsed>
-    <initiatorIQN>iqn.1998-01.com.vmware:localhost-4c339c66</initiatorIQN>
+    <initiatorIQN>iqn.1994-05.com.redhat:6663d050cb8b</initiatorIQN>
     <ipmiIP></ipmiIP>
     <ipmiPort>0</ipmiPort>
     <ipmiUser></ipmiUser>
     <ipmiPassword></ipmiPassword>
     <datastores>
         <datastore>
-            <id>14</id>
-            <name>shared1</name>
-            <rootPath>shared1</rootPath>
+            <id>85</id>
+            <name>10.60.1.72:/opt/vm_repository29</name>
+            <rootPath>/opt/vm_repository</rootPath>
             <directory></directory>
-            <size>53418655744</size>
-            <usedSize>30335303680</usedSize>
+            <size>966687948800</size>
+            <usedSize>585527099392</usedSize>
             <enabled>false</enabled>
-            <datastoreUUID>1f1a2e90-09b0-4a18-add1-ce0d0af8ba00</datastoreUUID>
+            <datastoreUUID>6f2edec0-b14e-4460-a6ee-1e54abf8879e</datastoreUUID>
         </datastore>
         <datastore>
-            <id>15</id>
-            <name>datastore1</name>
-            <rootPath>datastore1</rootPath>
+            <id>86</id>
+            <name>/dev/mapper/VolGroup00-LogVol00</name>
+            <rootPath>/</rootPath>
             <directory></directory>
-            <size>15569256448</size>
-            <usedSize>1842348032</usedSize>
+            <size>241896792064</size>
+            <usedSize>13659045888</usedSize>
             <enabled>true</enabled>
-            <datastoreUUID>be6397f9-58e4-4a92-860e-49bd7c6d73b7</datastoreUUID>
-        </datastore>
-        <datastore>
-            <id>16</id>
-            <name>ABQ_d32b3e45-c363-4291-af4f-be5a88391639</name>
-            <rootPath>ABQ_d32b3e45-c363-4291-af4f-be5a88391639</rootPath>
-            <directory></directory>
-            <size>488099569664</size>
-            <usedSize>192669958144</usedSize>
-            <enabled>false</enabled>
-            <datastoreUUID>a6a10608-9e16-4b52-b660-217008f6c22a</datastoreUUID>
-        </datastore>
-        <datastore>
-            <id>17</id>
-            <name>ABQ_30474853-c85a-43f6-ad33-78cbc4aa8f2f</name>
-            <rootPath>ABQ_30474853-c85a-43f6-ad33-78cbc4aa8f2f</rootPath>
-            <directory></directory>
-            <size>966687932416</size>
-            <usedSize>287884054528</usedSize>
-            <enabled>false</enabled>
-            <datastoreUUID>662c2be9-ab47-4879-9f8a-63b367869cf9</datastoreUUID>
+            <datastoreUUID>10c5a856-f390-4a52-89cb-fdd0c2ccf5ee</datastoreUUID>
         </datastore>
     </datastores>
     <networkInterfaces>
         <networkinterface>
-            <name>vSwitch1</name>
-            <mac>00:0c:29:4e:02:91</mac>
+            <name>em1</name>
+            <mac>b8:ac:6f:80:52:ed</mac>
         </networkinterface>
         <networkinterface>
-            <link rel="networkservicetype" type="application/vnd.abiquo.networkservicetype+xml" href="http://10.60.11.25:80/api/admin/datacenters/2/networkservicetypes/2"/>
-            <name>vSwitch0</name>
-            <mac>00:0c:29:4e:02:87</mac>
+            <link title="em2" rel="networkservicetype" type="application/vnd.abiquo.networkservicetype+xml" href="http://10.60.11.22:8009/api/admin/datacenters/4/networkservicetypes/16"/>
+            <name>em2</name>
+            <mac>b8:ac:6f:80:52:ee</mac>
         </networkinterface>
     </networkInterfaces>
 </machine>
