@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<virtualMachine>
+  <link title="ABQ_7c0c7669-39c1-455a-93e6-429043711628" rel="edit" type="application/vnd.abiquo.virtualmachine+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/23/virtualappliances/17/virtualmachines/36"/>
+  <link title="STEnterprise" rel="enterprise" type="application/vnd.abiquo.enterprise+xml" href="http://10.60.11.30:80/api/admin/enterprises/12"/>
+  <link title="stuser" rel="user" type="application/vnd.abiquo.user+xml" href="http://10.60.11.30:80/api/admin/enterprises/12/users/61"/>
+  <link title="VMX_04" rel="virtualdatacenter" type="application/vnd.abiquo.virtualdatacenter+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/23"/>
+  <link title="vapp_user" rel="virtualappliance" type="application/vnd.abiquo.virtualappliance+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/23/virtualappliances/17"/>
+  <link title="vlan network configurations" rel="configurations" type="application/vnd.abiquo.virtualmachinenetworkconfigurations+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/23/virtualappliances/17/virtualmachines/36/network/configurations"/>
+  <link title="nics" rel="nics" type="application/vnd.abiquo.nics+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/23/virtualappliances/17/virtualmachines/36/network/nics"/>
+  <link title="disks" rel="harddisks" type="application/vnd.abiquo.harddisks+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/23/virtualappliances/17/virtualmachines/36/storage/disks"/>
+  <link title="NOT_ALLOCATED" rel="state" type="application/vnd.abiquo.virtualmachinestate+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/23/virtualappliances/17/virtualmachines/36/state"/>
+  <link title="virtual machine undeploy" rel="undeploy" type="application/vnd.abiquo.acceptedrequest+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/23/virtualappliances/17/virtualmachines/36/action/undeploy"/>
+  <link title="virtual machine deploy" rel="deploy" type="application/vnd.abiquo.acceptedrequest+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/23/virtualappliances/17/virtualmachines/36/action/deploy"/>
+  <link title="virtual machine reset" rel="reset" type="application/vnd.abiquo.acceptedrequest+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/23/virtualappliances/17/virtualmachines/36/action/reset"/>
+  <link title="virtual machine snapshot" rel="instance" type="application/vnd.abiquo.acceptedrequest+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/23/virtualappliances/17/virtualmachines/36/action/instance"/>
+  <link title="remote access" rel="rdpaccess" type="text/plain" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/23/virtualappliances/17/virtualmachines/36/config/rdpaccess"/>
+  <link title="tasks" rel="tasks" type="application/vnd.abiquo.tasks+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/23/virtualappliances/17/virtualmachines/36/tasks"/>
+  <link title="volumes" rel="volumes" type="application/vnd.abiquo.volumes+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/23/virtualappliances/17/virtualmachines/36/storage/volumes"/>
+  <link title="4b8a35d1-2a47-4d8b-9041-108843af3daf" rel="disk0" type="application/vnd.abiquo.harddisk+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/23/disks/17566"/>
+  <link title="10.0.0.1" rel="nic1" type="application/vnd.abiquo.externalip+xml" href="http://10.60.11.30:80/api/admin/enterprises/12/limits/27/externalnetworks/81/ips/16534"/>
+  <link title="192.168.0.1" rel="nic0" type="application/vnd.abiquo.privateip+xml" href="http://10.60.11.30:80/api/cloud/virtualdatacenters/23/privatenetworks/83/ips/17042"/>
+  <link title="CoreAutoTesting" rel="virtualmachinetemplate" type="application/vnd.abiquo.virtualmachinetemplate+xml" href="http://10.60.11.30:80/api/admin/enterprises/12/datacenterrepositories/17/virtualmachinetemplates/23"/>
+  <link title="FINISHED" rel="conversion" type="application/vnd.abiquo.conversion+xml" href="http://10.60.11.30:80/api/admin/enterprises/12/datacenterrepositories/17/virtualmachinetemplates/23/conversions/VMDK_FLAT"/>
+  <id>36</id>
+  <uuid>7c0c7669-39c1-455a-93e6-429043711628</uuid>
+  <name>ABQ_7c0c7669-39c1-455a-93e6-429043711628</name>
+  <cpu>1</cpu>
+  <ram>128</ram>
+  <hdInBytes>52428800</hdInBytes>
+  <vdrpEnabled>false</vdrpEnabled>
+  <vdrpPort>0</vdrpPort>
+  <idState>1</idState>
+  <state>NOT_ALLOCATED</state>
+  <idType>0</idType>
+  <type>MANAGED</type>
+  <highDisponibility>0</highDisponibility>
+  <password>eHtxGFAz</password>
+</virtualMachine>
