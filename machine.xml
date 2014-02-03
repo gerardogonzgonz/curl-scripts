@@ -52,9 +52,9 @@
     </datastores>
     <networkInterfaces>
         <networkinterface>
-            <link rel="networkservicetype" type="application/vnd.abiquo.networkservicetype+xml" href="http://10.60.11.20:80/api/admin/datacenters/3/networkservicetypes/3"/>
-            <name>vSwitch1</name>
-            <mac>00:26:b9:7c:6a:49</mac>
+            <link rel="networkservicetype" type="application/vnd.abiquo.networkservicetype+xml"/>
+            <name>dvSwitch</name>
+            <mac>00:26:b9:7c:6a:48</mac>
         </networkinterface>
         <networkinterface>
             <name>vSwitch0</name>
